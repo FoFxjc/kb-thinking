@@ -5,7 +5,8 @@ Checks
   1. Every concept has scheme, zh/en pref labels and definitions.
   2. Labels reference existing concepts; exactly one pref label per (concept, lang).
   3. Relations use the fixed relation set; endpoints exist; no self-loops;
-     polarity only on 'affects'; no duplicate symmetric pairs.
+     polarity only on 'affects'; no duplicate symmetric pairs; is_a stays
+     within one scheme; no suitable_for in the base layer.
   4. 'is_a' and 'part_of' hierarchies are acyclic.
   5. Evidence targets exist; every concept and relation has authoring evidence.
   6. Reports labels shared by several concepts (ambiguity the tagger must resolve).
@@ -19,11 +20,11 @@ import sys
 from collections import defaultdict
 
 SCHEMES = {"asset_class", "instrument", "risk", "metric", "strategy",
-           "macro", "market", "suitability", "behavioral"}
-RELS = {"is_a", "part_of", "measures", "affects", "mitigates",
+           "macro", "market", "suitability", "behavioral", "terms"}
+RELS = {"is_a", "part_of", "input_of", "belongs_to", "measures", "affects", "mitigates",
         "exposed_to", "suitable_for", "opposite_of", "related"}
 SYMMETRIC = {"opposite_of", "related"}
-HIERARCHICAL = {"is_a", "part_of"}
+HIERARCHICAL = {"is_a", "part_of", "input_of"}
 
 
 def load(seed, name):
@@ -103,6 +104,12 @@ def main():
                 errors.append(f"{r['relation_id']}: unknown {end} {r[end]}")
         if r["src"] == r["dst"]:
             errors.append(f"{r['relation_id']}: self-loop")
+        if r["rel"] == "suitable_for" and r["layer"] == "base":
+            errors.append(f"{r['relation_id']}: suitable_for is not allowed in the base layer")
+        if r["rel"] == "is_a":
+            sc = {c["concept_id"]: c["scheme"] for c in concepts}
+            if sc.get(r["src"]) != sc.get(r["dst"]):
+                errors.append(f"{r['relation_id']}: is_a across schemes {sc.get(r['src'])} -> {sc.get(r['dst'])}")
         if r["polarity"] and r["rel"] != "affects":
             errors.append(f"{r['relation_id']}: polarity on {r['rel']}")
         if r["rel"] in SYMMETRIC:

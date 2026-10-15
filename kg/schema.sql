@@ -23,7 +23,7 @@ CREATE TABLE kg.concept (
   concept_id     text PRIMARY KEY,               -- e.g. 'risk.interest_rate'
   scheme         text NOT NULL CHECK (scheme IN (
                    'asset_class','instrument','risk','metric','strategy',
-                   'macro','market','suitability','behavioral')),
+                   'macro','market','suitability','behavioral','terms')),
   pref_zh        text NOT NULL,
   pref_en        text NOT NULL,
   definition_zh  text NOT NULL,
@@ -66,13 +66,15 @@ CREATE TABLE kg.relation (
   relation_id  text PRIMARY KEY,                 -- e.g. 'rl-000045'
   src          text NOT NULL REFERENCES kg.concept,
   rel          text NOT NULL CHECK (rel IN (
-                 'is_a',          -- src is a kind of dst (SKOS broader)
-                 'part_of',       -- src is a component of dst
+                 'is_a',          -- src is a kind of dst (SKOS broader); same scheme only
+                 'part_of',       -- src is a structural component of dst (not a phase, not a formula input)
+                 'input_of',      -- src is an input to the calculation of metric dst
+                 'belongs_to',    -- instrument src belongs to asset class / allocation bucket dst
                  'measures',      -- metric src quantifies dst
                  'affects',       -- driver src moves dst; see polarity
                  'mitigates',     -- strategy/instrument src reduces risk dst
                  'exposed_to',    -- asset/instrument src carries risk dst
-                 'suitable_for',  -- product src indicatively fits investor type dst
+                 'suitable_for',  -- RESERVED for the rule layer; must not appear in the base layer
                  'opposite_of',   -- symmetric contrast
                  'related')),     -- symmetric weak association
   dst          text NOT NULL REFERENCES kg.concept,
@@ -83,6 +85,7 @@ CREATE TABLE kg.relation (
   status       text NOT NULL DEFAULT 'draft'
                  CHECK (status IN ('draft','confirmed','pending','rejected')),
   CHECK (src <> dst),
+  CHECK (NOT (rel = 'suitable_for' AND layer = 'base')),
   CHECK (polarity IS NULL OR rel = 'affects'),
   UNIQUE (src, rel, dst)
 );
