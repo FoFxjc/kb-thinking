@@ -1,0 +1,670 @@
+label_id,concept_id,text,lang,kind,normalized,layer,status
+lb-000001,asset.equity,权益类资产,zh,pref,权益类资产,base,draft
+lb-000002,asset.equity,Equity,en,pref,equity,base,draft
+lb-000003,asset.equity,股权类资产,zh,alt,股权类资产,base,draft
+lb-000004,asset.equity,股票类资产,zh,alt,股票类资产,base,draft
+lb-000005,asset.equity,Equities,en,alt,equities,base,draft
+lb-000006,asset.fixed_income,固定收益,zh,pref,固定收益,base,draft
+lb-000007,asset.fixed_income,Fixed income,en,pref,fixed income,base,draft
+lb-000008,asset.fixed_income,固收,zh,alt,固收,base,draft
+lb-000009,asset.fixed_income,债券类资产,zh,alt,债券类资产,base,draft
+lb-000010,asset.cash,现金及现金等价物,zh,pref,现金及现金等价物,base,draft
+lb-000011,asset.cash,Cash and cash equivalents,en,pref,cash and cash equivalents,base,draft
+lb-000012,asset.cash,现金类资产,zh,alt,现金类资产,base,draft
+lb-000013,asset.cash,货币类资产,zh,alt,货币类资产,base,draft
+lb-000014,asset.cash,Cash,en,hidden,cash,base,draft
+lb-000015,asset.alternative,另类资产,zh,pref,另类资产,base,draft
+lb-000016,asset.alternative,Alternative assets,en,pref,alternative assets,base,draft
+lb-000017,asset.alternative,另类投资,zh,alt,另类投资,base,draft
+lb-000018,asset.alternative,Alternatives,en,alt,alternatives,base,draft
+lb-000019,asset.alternative,Alternative investments,en,alt,alternative investments,base,draft
+lb-000020,asset.real_estate,房地产,zh,pref,房地产,base,draft
+lb-000021,asset.real_estate,Real estate,en,pref,real estate,base,draft
+lb-000022,asset.real_estate,不动产,zh,alt,不动产,base,draft
+lb-000023,asset.real_estate,Property,en,hidden,property,base,draft
+lb-000024,asset.commodity,大宗商品,zh,pref,大宗商品,base,draft
+lb-000025,asset.commodity,Commodities,en,pref,commodities,base,draft
+lb-000026,asset.commodity,Commodity,en,hidden,commodity,base,draft
+lb-000027,asset.commodity,商品,zh,hidden,商品,base,draft
+lb-000028,asset.gold,黄金,zh,pref,黄金,base,draft
+lb-000029,asset.gold,Gold,en,pref,gold,base,draft
+lb-000030,asset.gold,Gold bullion,en,alt,gold bullion,base,draft
+lb-000042,strat.multi_asset,多资产,zh,pref,多资产,base,draft
+lb-000043,strat.multi_asset,Multi-asset,en,pref,multi asset,base,draft
+lb-000044,strat.multi_asset,多元资产,zh,alt,多元资产,base,draft
+lb-000045,inst.financial_instrument,金融工具,zh,pref,金融工具,base,draft
+lb-000046,inst.financial_instrument,Financial instrument,en,pref,financial instrument,base,draft
+lb-000047,inst.financial_instrument,金融产品,zh,alt,金融产品,base,draft
+lb-000048,inst.financial_instrument,Financial product,en,alt,financial product,base,draft
+lb-000049,inst.security,证券,zh,pref,证券,base,draft
+lb-000050,inst.security,Security,en,pref,security,base,draft
+lb-000051,inst.security,有价证券,zh,alt,有价证券,base,draft
+lb-000052,inst.security,Securities,en,alt,securities,base,draft
+lb-000053,inst.stock,股票,zh,pref,股票,base,draft
+lb-000054,inst.stock,Stock,en,pref,stock,base,draft
+lb-000055,inst.stock,Share,en,hidden,share,base,draft
+lb-000056,inst.stock,Shares,en,alt,shares,base,draft
+lb-000057,inst.stock,股份,zh,hidden,股份,base,draft
+lb-000058,inst.common_stock,普通股,zh,pref,普通股,base,draft
+lb-000059,inst.common_stock,Common stock,en,pref,common stock,base,draft
+lb-000060,inst.common_stock,Ordinary share,en,alt,ordinary share,base,draft
+lb-000065,inst.bond,债券,zh,pref,债券,base,draft
+lb-000066,inst.bond,Bond,en,pref,bond,base,draft
+lb-000067,inst.bond,Bonds,en,alt,bonds,base,draft
+lb-000068,inst.government_bond,国债,zh,pref,国债,base,draft
+lb-000069,inst.government_bond,Government bond,en,pref,government bond,base,draft
+lb-000070,inst.government_bond,政府债券,zh,alt,政府债券,base,draft
+lb-000071,inst.government_bond,Sovereign bond,en,alt,sovereign bond,base,draft
+lb-000072,inst.government_bond,Treasury,en,hidden,treasury,base,draft
+lb-000073,inst.credit_bond,信用债,zh,pref,信用债,base,draft
+lb-000074,inst.credit_bond,Credit bond,en,pref,credit bond,base,draft
+lb-000075,inst.credit_bond,信用债券,zh,alt,信用债券,base,draft
+lb-000076,inst.corporate_bond,公司债,zh,pref,公司债,base,draft
+lb-000077,inst.corporate_bond,Corporate bond,en,pref,corporate bond,base,draft
+lb-000078,inst.corporate_bond,Corporate bonds,en,alt,corporate bonds,base,draft
+lb-000079,inst.high_yield_bond,高收益债,zh,pref,高收益债,base,draft
+lb-000080,inst.high_yield_bond,High-yield bond,en,pref,high yield bond,base,draft
+lb-000081,inst.high_yield_bond,垃圾债,zh,alt,垃圾债,base,draft
+lb-000082,inst.high_yield_bond,Junk bond,en,alt,junk bond,base,draft
+lb-000083,inst.high_yield_bond,HY bond,en,alt,hy bond,base,draft
+lb-000084,inst.convertible_bond,可转换债券,zh,pref,可转换债券,base,draft
+lb-000085,inst.convertible_bond,Convertible bond,en,pref,convertible bond,base,draft
+lb-000086,inst.convertible_bond,可转债,zh,alt,可转债,base,draft
+lb-000087,inst.convertible_bond,Convertible,en,hidden,convertible,base,draft
+lb-000099,inst.deposit,存款,zh,pref,存款,base,draft
+lb-000100,inst.deposit,Deposit,en,pref,deposit,base,draft
+lb-000101,inst.deposit,银行存款,zh,alt,银行存款,base,draft
+lb-000102,inst.deposit,定期存款,zh,alt,定期存款,base,draft
+lb-000103,inst.deposit,Bank deposit,en,alt,bank deposit,base,draft
+lb-000104,inst.fund,投资基金,zh,pref,投资基金,base,draft
+lb-000105,inst.fund,Investment fund,en,pref,investment fund,base,draft
+lb-000106,inst.fund,基金,zh,hidden,基金,base,draft
+lb-000107,inst.fund,集合投资计划,zh,alt,集合投资计划,base,draft
+lb-000108,inst.fund,Fund,en,hidden,fund,base,draft
+lb-000109,inst.fund,Collective investment scheme,en,alt,collective investment scheme,base,draft
+lb-000110,inst.mutual_fund,公募基金,zh,pref,公募基金,base,draft
+lb-000111,inst.mutual_fund,Mutual fund,en,pref,mutual fund,base,draft
+lb-000112,inst.mutual_fund,共同基金,zh,alt,共同基金,base,draft
+lb-000113,inst.mutual_fund,Publicly offered fund,en,alt,publicly offered fund,base,draft
+lb-000114,inst.mutual_fund,公募,zh,alt,公募,base,draft
+lb-000115,inst.etf,交易所交易基金,zh,pref,交易所交易基金,base,draft
+lb-000116,inst.etf,Exchange-traded fund,en,pref,exchange traded fund,base,draft
+lb-000117,inst.etf,ETF,en,abbr,etf,base,draft
+lb-000118,inst.etf,交易型开放式指数基金,zh,alt,交易型开放式指数基金,base,draft
+lb-000119,inst.index_fund,指数基金,zh,pref,指数基金,base,draft
+lb-000120,inst.index_fund,Index fund,en,pref,index fund,base,draft
+lb-000121,inst.index_fund,指数型基金,zh,alt,指数型基金,base,draft
+lb-000122,inst.money_market_fund,货币市场基金,zh,pref,货币市场基金,base,draft
+lb-000123,inst.money_market_fund,Money market fund,en,pref,money market fund,base,draft
+lb-000124,inst.money_market_fund,货币基金,zh,alt,货币基金,base,draft
+lb-000125,inst.money_market_fund,货基,zh,alt,货基,base,draft
+lb-000126,inst.money_market_fund,MMF,en,abbr,mmf,base,draft
+lb-000127,inst.bond_fund,债券基金,zh,pref,债券基金,base,draft
+lb-000128,inst.bond_fund,Bond fund,en,pref,bond fund,base,draft
+lb-000129,inst.bond_fund,债券型基金,zh,alt,债券型基金,base,draft
+lb-000130,inst.bond_fund,债基,zh,alt,债基,base,draft
+lb-000131,inst.equity_fund,股票型基金,zh,pref,股票型基金,base,draft
+lb-000132,inst.equity_fund,Equity fund,en,pref,equity fund,base,draft
+lb-000133,inst.equity_fund,股票基金,zh,alt,股票基金,base,draft
+lb-000134,inst.balanced_fund,混合型基金,zh,pref,混合型基金,base,draft
+lb-000135,inst.balanced_fund,Balanced fund,en,pref,balanced fund,base,draft
+lb-000136,inst.balanced_fund,混合基金,zh,alt,混合基金,base,draft
+lb-000137,inst.balanced_fund,平衡型基金,zh,alt,平衡型基金,base,draft
+lb-000138,inst.balanced_fund,Hybrid fund,en,alt,hybrid fund,base,draft
+lb-000142,inst.target_date_fund,目标日期基金,zh,pref,目标日期基金,base,draft
+lb-000143,inst.target_date_fund,Target-date fund,en,pref,target date fund,base,draft
+lb-000144,inst.target_date_fund,养老目标日期基金,zh,alt,养老目标日期基金,base,draft
+lb-000145,inst.target_date_fund,Lifecycle fund,en,alt,lifecycle fund,base,draft
+lb-000153,inst.reit,房地产投资信托,zh,pref,房地产投资信托,base,draft
+lb-000154,inst.reit,Real estate investment trust,en,pref,real estate investment trust,base,draft
+lb-000155,inst.reit,REIT,en,abbr,reit,base,draft
+lb-000156,inst.reit,REITs,en,alt,reits,base,draft
+lb-000157,inst.reit,不动产投资信托,zh,alt,不动产投资信托,base,draft
+lb-000158,inst.derivative,衍生品,zh,pref,衍生品,base,draft
+lb-000159,inst.derivative,Derivative,en,pref,derivative,base,draft
+lb-000160,inst.derivative,金融衍生品,zh,alt,金融衍生品,base,draft
+lb-000161,inst.derivative,衍生工具,zh,alt,衍生工具,base,draft
+lb-000162,inst.derivative,Derivatives,en,alt,derivatives,base,draft
+lb-000191,inst.structured_product,结构化产品,zh,pref,结构化产品,base,draft
+lb-000192,inst.structured_product,Structured product,en,pref,structured product,base,draft
+lb-000193,inst.structured_product,结构性产品,zh,alt,结构性产品,base,draft
+lb-000194,inst.structured_product,Structured note,en,alt,structured note,base,draft
+lb-000195,inst.structured_deposit,结构性存款,zh,pref,结构性存款,base,draft
+lb-000196,inst.structured_deposit,Structured deposit,en,pref,structured deposit,base,draft
+lb-000197,inst.structured_deposit,结构存款,zh,alt,结构存款,base,draft
+lb-000198,inst.wealth_management_product,理财产品,zh,pref,理财产品,base,draft
+lb-000199,inst.wealth_management_product,Wealth management product,en,pref,wealth management product,base,draft
+lb-000200,inst.wealth_management_product,银行理财,zh,alt,银行理财,base,draft
+lb-000201,inst.wealth_management_product,WMP,en,abbr,wmp,base,draft
+lb-000202,risk.investment_risk,投资风险,zh,pref,投资风险,base,draft
+lb-000203,risk.investment_risk,Investment risk,en,pref,investment risk,base,draft
+lb-000204,risk.systematic,系统性风险,zh,pref,系统性风险,base,draft
+lb-000205,risk.systematic,Systematic risk,en,pref,systematic risk,base,draft
+lb-000206,risk.systematic,不可分散风险,zh,alt,不可分散风险,base,draft
+lb-000207,risk.systematic,Undiversifiable risk,en,alt,undiversifiable risk,base,draft
+lb-000208,risk.unsystematic,非系统性风险,zh,pref,非系统性风险,base,draft
+lb-000209,risk.unsystematic,Unsystematic risk,en,pref,unsystematic risk,base,draft
+lb-000210,risk.unsystematic,特有风险,zh,alt,特有风险,base,draft
+lb-000211,risk.unsystematic,可分散风险,zh,alt,可分散风险,base,draft
+lb-000212,risk.unsystematic,Idiosyncratic risk,en,alt,idiosyncratic risk,base,draft
+lb-000213,risk.unsystematic,Specific risk,en,alt,specific risk,base,draft
+lb-000214,risk.market,市场风险,zh,pref,市场风险,base,draft
+lb-000215,risk.market,Market risk,en,pref,market risk,base,draft
+lb-000216,risk.market,价格风险,zh,alt,价格风险,base,draft
+lb-000217,risk.equity_price,股价风险,zh,pref,股价风险,base,draft
+lb-000218,risk.equity_price,Equity price risk,en,pref,equity price risk,base,draft
+lb-000219,risk.equity_price,股票价格风险,zh,alt,股票价格风险,base,draft
+lb-000220,risk.equity_price,Equity risk,en,alt,equity risk,base,draft
+lb-000221,risk.interest_rate,利率风险,zh,pref,利率风险,base,draft
+lb-000222,risk.interest_rate,Interest rate risk,en,pref,interest rate risk,base,draft
+lb-000223,risk.fx,汇率风险,zh,pref,汇率风险,base,draft
+lb-000224,risk.fx,Currency risk,en,pref,currency risk,base,draft
+lb-000225,risk.fx,外汇风险,zh,alt,外汇风险,base,draft
+lb-000226,risk.fx,货币风险,zh,alt,货币风险,base,draft
+lb-000227,risk.fx,FX risk,en,alt,fx risk,base,draft
+lb-000228,risk.fx,Exchange rate risk,en,alt,exchange rate risk,base,draft
+lb-000231,risk.credit,信用风险,zh,pref,信用风险,base,draft
+lb-000232,risk.credit,Credit risk,en,pref,credit risk,base,draft
+lb-000233,risk.credit,信贷风险,zh,alt,信贷风险,base,draft
+lb-000234,risk.default,违约风险,zh,pref,违约风险,base,draft
+lb-000235,risk.default,Default risk,en,pref,default risk,base,draft
+lb-000240,risk.liquidity,流动性风险,zh,pref,流动性风险,base,draft
+lb-000241,risk.liquidity,Liquidity risk,en,pref,liquidity risk,base,draft
+lb-000242,risk.liquidity,变现风险,zh,alt,变现风险,base,draft
+lb-000243,risk.inflation,通胀风险,zh,pref,通胀风险,base,draft
+lb-000244,risk.inflation,Inflation risk,en,pref,inflation risk,base,draft
+lb-000245,risk.inflation,购买力风险,zh,alt,购买力风险,base,draft
+lb-000246,risk.inflation,Purchasing power risk,en,alt,purchasing power risk,base,draft
+lb-000247,risk.reinvestment,再投资风险,zh,pref,再投资风险,base,draft
+lb-000248,risk.reinvestment,Reinvestment risk,en,pref,reinvestment risk,base,draft
+lb-000249,risk.concentration,集中度风险,zh,pref,集中度风险,base,draft
+lb-000250,risk.concentration,Concentration risk,en,pref,concentration risk,base,draft
+lb-000251,risk.concentration,集中风险,zh,alt,集中风险,base,draft
+lb-000260,risk.regulatory,政策与监管风险,zh,pref,政策与监管风险,base,draft
+lb-000261,risk.regulatory,Regulatory risk,en,pref,regulatory risk,base,draft
+lb-000262,risk.regulatory,政策风险,zh,alt,政策风险,base,draft
+lb-000263,risk.regulatory,监管风险,zh,alt,监管风险,base,draft
+lb-000267,metric.return,投资回报率,zh,pref,投资回报率,base,draft
+lb-000268,metric.return,Return,en,pref,return,base,draft
+lb-000269,metric.return,投资回报,zh,alt,投资回报,base,draft
+lb-000270,metric.return,回报率,zh,alt,回报率,base,draft
+lb-000271,metric.return,投资收益率,zh,alt,投资收益率,base,draft
+lb-000272,metric.total_return,总回报,zh,pref,总回报,base,draft
+lb-000273,metric.total_return,Total return,en,pref,total return,base,draft
+lb-000274,metric.total_return,总收益,zh,alt,总收益,base,draft
+lb-000275,metric.annualized_return,年化收益率,zh,pref,年化收益率,base,draft
+lb-000276,metric.annualized_return,Annualized return,en,pref,annualized return,base,draft
+lb-000277,metric.annualized_return,年化回报,zh,alt,年化回报,base,draft
+lb-000278,metric.annualized_return,年化,zh,alt,年化,base,draft
+lb-000279,metric.real_return,实际收益率,zh,pref,实际收益率,base,draft
+lb-000280,metric.real_return,Real return,en,pref,real return,base,draft
+lb-000281,metric.real_return,真实收益率,zh,alt,真实收益率,base,draft
+lb-000282,metric.excess_return,超额收益,zh,pref,超额收益,base,draft
+lb-000283,metric.excess_return,Excess return,en,pref,excess return,base,draft
+lb-000284,metric.excess_return,超额回报,zh,alt,超额回报,base,draft
+lb-000285,metric.excess_return,超额收益率,zh,alt,超额收益率,base,draft
+lb-000286,metric.risk_adjusted_return,风险调整后收益,zh,pref,风险调整后收益,base,draft
+lb-000287,metric.risk_adjusted_return,Risk-adjusted return,en,pref,risk adjusted return,base,draft
+lb-000288,metric.risk_adjusted_return,风险调整收益,zh,alt,风险调整收益,base,draft
+lb-000289,metric.sharpe,夏普比率,zh,pref,夏普比率,base,draft
+lb-000290,metric.sharpe,Sharpe ratio,en,pref,sharpe ratio,base,draft
+lb-000291,metric.sharpe,夏普,zh,hidden,夏普,base,draft
+lb-000292,metric.sharpe,Sharpe,en,alt,sharpe,base,draft
+lb-000298,metric.alpha,阿尔法,zh,pref,阿尔法,base,draft
+lb-000299,metric.alpha,Alpha,en,pref,alpha,base,draft
+lb-000300,metric.alpha,α,en,hidden,α,base,draft
+lb-000301,metric.alpha,Alpha收益,zh,alt,alpha收益,base,draft
+lb-000302,metric.alpha,Jensen's alpha,en,alt,jensen's alpha,base,draft
+lb-000303,metric.beta,贝塔系数,zh,pref,贝塔系数,base,draft
+lb-000304,metric.beta,Beta,en,pref,beta,base,draft
+lb-000305,metric.beta,贝塔,zh,hidden,贝塔,base,draft
+lb-000306,metric.beta,β,en,hidden,β,base,draft
+lb-000307,metric.volatility,波动率,zh,pref,波动率,base,draft
+lb-000308,metric.volatility,Volatility,en,pref,volatility,base,draft
+lb-000309,metric.volatility,波动性,zh,alt,波动性,base,draft
+lb-000310,metric.standard_deviation,标准差,zh,pref,标准差,base,draft
+lb-000311,metric.standard_deviation,Standard deviation,en,pref,standard deviation,base,draft
+lb-000312,metric.standard_deviation,Std dev,en,alt,std dev,base,draft
+lb-000313,metric.max_drawdown,最大回撤,zh,pref,最大回撤,base,draft
+lb-000314,metric.max_drawdown,Maximum drawdown,en,pref,maximum drawdown,base,draft
+lb-000315,metric.max_drawdown,MDD,en,abbr,mdd,base,draft
+lb-000316,metric.max_drawdown,Max drawdown,en,alt,max drawdown,base,draft
+lb-000323,metric.correlation,相关系数,zh,pref,相关系数,base,draft
+lb-000324,metric.correlation,Correlation,en,pref,correlation,base,draft
+lb-000325,metric.correlation,相关性,zh,alt,相关性,base,draft
+lb-000326,metric.duration,久期,zh,pref,久期,base,draft
+lb-000327,metric.duration,Duration,en,pref,duration,base,draft
+lb-000328,metric.duration,Bond duration,en,alt,bond duration,base,draft
+lb-000338,metric.ytm,到期收益率,zh,pref,到期收益率,base,draft
+lb-000339,metric.ytm,Yield to maturity,en,pref,yield to maturity,base,draft
+lb-000340,metric.ytm,YTM,en,abbr,ytm,base,draft
+lb-000341,metric.coupon_rate,票面利率,zh,pref,票面利率,base,draft
+lb-000342,metric.coupon_rate,Coupon rate,en,pref,coupon rate,base,draft
+lb-000343,metric.coupon_rate,息票率,zh,alt,息票率,base,draft
+lb-000344,metric.credit_spread,信用利差,zh,pref,信用利差,base,draft
+lb-000345,metric.credit_spread,Credit spread,en,pref,credit spread,base,draft
+lb-000346,metric.credit_rating,信用评级,zh,pref,信用评级,base,draft
+lb-000347,metric.credit_rating,Credit rating,en,pref,credit rating,base,draft
+lb-000348,metric.credit_rating,评级,zh,hidden,评级,base,draft
+lb-000349,metric.dividend_yield,股息率,zh,pref,股息率,base,draft
+lb-000350,metric.dividend_yield,Dividend yield,en,pref,dividend yield,base,draft
+lb-000351,metric.dividend_yield,股息收益率,zh,alt,股息收益率,base,draft
+lb-000352,metric.valuation_multiple,估值倍数,zh,pref,估值倍数,base,draft
+lb-000353,metric.valuation_multiple,Valuation multiple,en,pref,valuation multiple,base,draft
+lb-000354,metric.valuation_multiple,估值指标,zh,alt,估值指标,base,draft
+lb-000355,metric.pe,市盈率,zh,pref,市盈率,base,draft
+lb-000356,metric.pe,Price-to-earnings ratio,en,pref,price to earnings ratio,base,draft
+lb-000357,metric.pe,PE,en,hidden,pe,base,draft
+lb-000358,metric.pe,P/E,en,hidden,p/e,base,draft
+lb-000359,metric.pb,市净率,zh,pref,市净率,base,draft
+lb-000360,metric.pb,Price-to-book ratio,en,pref,price to book ratio,base,draft
+lb-000361,metric.pb,PB,en,hidden,pb,base,draft
+lb-000362,metric.pb,P/B,en,hidden,p/b,base,draft
+lb-000366,metric.eps,每股收益,zh,pref,每股收益,base,draft
+lb-000367,metric.eps,Earnings per share,en,pref,earnings per share,base,draft
+lb-000368,metric.eps,EPS,en,abbr,eps,base,draft
+lb-000372,metric.market_cap,市值,zh,pref,市值,base,draft
+lb-000373,metric.market_cap,Market capitalization,en,pref,market capitalization,base,draft
+lb-000374,metric.market_cap,总市值,zh,alt,总市值,base,draft
+lb-000375,metric.market_cap,Market cap,en,alt,market cap,base,draft
+lb-000376,metric.expense_ratio,费用率,zh,pref,费用率,base,draft
+lb-000377,metric.expense_ratio,Expense ratio,en,pref,expense ratio,base,draft
+lb-000378,metric.expense_ratio,总费用率,zh,alt,总费用率,base,draft
+lb-000379,metric.expense_ratio,TER,en,abbr,ter,base,draft
+lb-000380,metric.expense_ratio,Total expense ratio,en,alt,total expense ratio,base,draft
+lb-000381,metric.nav,基金净值,zh,pref,基金净值,base,draft
+lb-000382,metric.nav,Net asset value,en,pref,net asset value,base,draft
+lb-000383,metric.nav,单位净值,zh,alt,单位净值,base,draft
+lb-000384,metric.nav,NAV,en,abbr,nav,base,draft
+lb-000385,metric.nav,净值,zh,alt,净值,base,draft
+lb-000397,strat.asset_allocation,资产配置,zh,pref,资产配置,base,draft
+lb-000398,strat.asset_allocation,Asset allocation,en,pref,asset allocation,base,draft
+lb-000399,strat.asset_allocation,大类资产配置,zh,alt,大类资产配置,base,draft
+lb-000408,strat.core_satellite,核心-卫星策略,zh,pref,核心 卫星策略,base,draft
+lb-000409,strat.core_satellite,Core-satellite strategy,en,pref,core satellite strategy,base,draft
+lb-000410,strat.core_satellite,核心卫星策略,zh,alt,核心卫星策略,base,draft
+lb-000411,strat.core_satellite,Core-satellite,en,alt,core satellite,base,draft
+lb-000412,strat.diversification,分散化投资,zh,pref,分散化投资,base,draft
+lb-000413,strat.diversification,Diversification,en,pref,diversification,base,draft
+lb-000414,strat.diversification,分散投资,zh,alt,分散投资,base,draft
+lb-000415,strat.diversification,分散化,zh,alt,分散化,base,draft
+lb-000416,strat.rebalancing,再平衡,zh,pref,再平衡,base,draft
+lb-000417,strat.rebalancing,Rebalancing,en,pref,rebalancing,base,draft
+lb-000418,strat.rebalancing,组合再平衡,zh,alt,组合再平衡,base,draft
+lb-000419,strat.dca,定期定额投资,zh,pref,定期定额投资,base,draft
+lb-000420,strat.dca,Dollar-cost averaging,en,pref,dollar cost averaging,base,draft
+lb-000421,strat.dca,定投,zh,alt,定投,base,draft
+lb-000422,strat.dca,DCA,en,abbr,dca,base,draft
+lb-000423,strat.buy_and_hold,买入并持有,zh,pref,买入并持有,base,draft
+lb-000424,strat.buy_and_hold,Buy and hold,en,pref,buy and hold,base,draft
+lb-000425,strat.buy_and_hold,长期持有,zh,alt,长期持有,base,draft
+lb-000429,strat.passive,被动投资,zh,pref,被动投资,base,draft
+lb-000430,strat.passive,Passive investing,en,pref,passive investing,base,draft
+lb-000431,strat.passive,指数化投资,zh,alt,指数化投资,base,draft
+lb-000432,strat.passive,被动管理,zh,alt,被动管理,base,draft
+lb-000433,strat.passive,Passive management,en,alt,passive management,base,draft
+lb-000434,strat.active,主动投资,zh,pref,主动投资,base,draft
+lb-000435,strat.active,Active management,en,pref,active management,base,draft
+lb-000436,strat.active,主动管理,zh,alt,主动管理,base,draft
+lb-000437,strat.active,Active investing,en,alt,active investing,base,draft
+lb-000438,strat.value,价值投资,zh,pref,价值投资,base,draft
+lb-000439,strat.value,Value investing,en,pref,value investing,base,draft
+lb-000440,strat.value,价值风格,zh,alt,价值风格,base,draft
+lb-000441,strat.growth,成长投资,zh,pref,成长投资,base,draft
+lb-000442,strat.growth,Growth investing,en,pref,growth investing,base,draft
+lb-000443,strat.growth,成长风格,zh,alt,成长风格,base,draft
+lb-000448,strat.hedging,对冲,zh,pref,对冲,base,draft
+lb-000449,strat.hedging,Hedging,en,pref,hedging,base,draft
+lb-000450,strat.hedging,风险对冲,zh,alt,风险对冲,base,draft
+lb-000451,strat.hedging,Hedge,en,hidden,hedge,base,draft
+lb-000463,strat.income,收益型投资,zh,pref,收益型投资,base,draft
+lb-000464,strat.income,Income investing,en,pref,income investing,base,draft
+lb-000465,strat.income,收入型投资,zh,alt,收入型投资,base,draft
+lb-000476,strat.stop_loss,止损,zh,pref,止损,base,draft
+lb-000477,strat.stop_loss,Stop-loss,en,pref,stop loss,base,draft
+lb-000478,strat.stop_loss,止损策略,zh,alt,止损策略,base,draft
+lb-000483,macro.interest_rate,利率,zh,pref,利率,base,draft
+lb-000484,macro.interest_rate,Interest rate,en,pref,interest rate,base,draft
+lb-000485,macro.interest_rate,利息率,zh,alt,利息率,base,draft
+lb-000486,macro.policy_rate,政策利率,zh,pref,政策利率,base,draft
+lb-000487,macro.policy_rate,Policy rate,en,pref,policy rate,base,draft
+lb-000488,macro.policy_rate,基准利率,zh,alt,基准利率,base,draft
+lb-000489,macro.rate_hike,加息,zh,pref,加息,base,draft
+lb-000490,macro.rate_hike,Rate hike,en,pref,rate hike,base,draft
+lb-000491,macro.rate_hike,升息,zh,hidden,升息,base,draft
+lb-000492,macro.rate_hike,Rate increase,en,alt,rate increase,base,draft
+lb-000493,macro.rate_cut,降息,zh,pref,降息,base,draft
+lb-000494,macro.rate_cut,Rate cut,en,pref,rate cut,base,draft
+lb-000495,macro.rate_cut,减息,zh,hidden,减息,base,draft
+lb-000496,macro.rate_cut,Rate reduction,en,alt,rate reduction,base,draft
+lb-000497,macro.monetary_policy,货币政策,zh,pref,货币政策,base,draft
+lb-000498,macro.monetary_policy,Monetary policy,en,pref,monetary policy,base,draft
+lb-000502,macro.fiscal_policy,财政政策,zh,pref,财政政策,base,draft
+lb-000503,macro.fiscal_policy,Fiscal policy,en,pref,fiscal policy,base,draft
+lb-000504,macro.inflation,通货膨胀,zh,pref,通货膨胀,base,draft
+lb-000505,macro.inflation,Inflation,en,pref,inflation,base,draft
+lb-000506,macro.inflation,通胀,zh,alt,通胀,base,draft
+lb-000510,macro.cpi,消费者价格指数,zh,pref,消费者价格指数,base,draft
+lb-000511,macro.cpi,Consumer price index,en,pref,consumer price index,base,draft
+lb-000512,macro.cpi,CPI,en,abbr,cpi,base,draft
+lb-000513,macro.economic_growth,经济增长,zh,pref,经济增长,base,draft
+lb-000514,macro.economic_growth,Economic growth,en,pref,economic growth,base,draft
+lb-000515,macro.gdp,国内生产总值,zh,pref,国内生产总值,base,draft
+lb-000516,macro.gdp,Gross domestic product,en,pref,gross domestic product,base,draft
+lb-000517,macro.gdp,GDP,en,abbr,gdp,base,draft
+lb-000518,macro.business_cycle,经济周期,zh,pref,经济周期,base,draft
+lb-000519,macro.business_cycle,Business cycle,en,pref,business cycle,base,draft
+lb-000520,macro.business_cycle,景气周期,zh,alt,景气周期,base,draft
+lb-000521,macro.business_cycle,Economic cycle,en,alt,economic cycle,base,draft
+lb-000522,macro.recession,经济衰退,zh,pref,经济衰退,base,draft
+lb-000523,macro.recession,Recession,en,pref,recession,base,draft
+lb-000524,macro.recession,衰退,zh,hidden,衰退,base,draft
+lb-000525,macro.unemployment,失业率,zh,pref,失业率,base,draft
+lb-000526,macro.unemployment,Unemployment rate,en,pref,unemployment rate,base,draft
+lb-000527,macro.yield_curve,收益率曲线,zh,pref,收益率曲线,base,draft
+lb-000528,macro.yield_curve,Yield curve,en,pref,yield curve,base,draft
+lb-000529,macro.yield_curve,利率期限结构,zh,alt,利率期限结构,base,draft
+lb-000530,macro.yield_curve,Term structure,en,alt,term structure,base,draft
+lb-000535,macro.exchange_rate,汇率,zh,pref,汇率,base,draft
+lb-000536,macro.exchange_rate,Exchange rate,en,pref,exchange rate,base,draft
+lb-000537,macro.exchange_rate,外汇汇率,zh,alt,外汇汇率,base,draft
+lb-000538,macro.exchange_rate,FX rate,en,alt,fx rate,base,draft
+lb-000541,market.bond_price,债券价格,zh,pref,债券价格,base,draft
+lb-000542,market.bond_price,Bond price,en,pref,bond price,base,draft
+lb-000543,market.bond_price,债价,zh,hidden,债价,base,draft
+lb-000544,market.index,市场指数,zh,pref,市场指数,base,draft
+lb-000545,market.index,Market index,en,pref,market index,base,draft
+lb-000546,market.index,指数,zh,hidden,指数,base,draft
+lb-000547,market.index,Index,en,hidden,index,base,draft
+lb-000548,market.benchmark,业绩比较基准,zh,pref,业绩比较基准,base,draft
+lb-000549,market.benchmark,Benchmark,en,pref,benchmark,base,draft
+lb-000550,market.benchmark,比较基准,zh,alt,比较基准,base,draft
+lb-000551,market.benchmark,基准,zh,hidden,基准,base,draft
+lb-000552,market.liquidity,市场流动性,zh,pref,市场流动性,base,draft
+lb-000553,market.liquidity,Market liquidity,en,pref,market liquidity,base,draft
+lb-000554,market.liquidity,流动性,zh,hidden,流动性,base,draft
+lb-000555,market.bull_market,牛市,zh,pref,牛市,base,draft
+lb-000556,market.bull_market,Bull market,en,pref,bull market,base,draft
+lb-000557,market.bull_market,Bull,en,hidden,bull,base,draft
+lb-000558,market.bear_market,熊市,zh,pref,熊市,base,draft
+lb-000559,market.bear_market,Bear market,en,pref,bear market,base,draft
+lb-000560,market.bear_market,Bear,en,hidden,bear,base,draft
+lb-000564,market.secondary_market,二级市场,zh,pref,二级市场,base,draft
+lb-000565,market.secondary_market,Secondary market,en,pref,secondary market,base,draft
+lb-000566,market.secondary_market,交易市场,zh,alt,交易市场,base,draft
+lb-000570,market.dividend,股息,zh,pref,股息,base,draft
+lb-000571,market.dividend,Dividend,en,pref,dividend,base,draft
+lb-000572,market.dividend,分红,zh,alt,分红,base,draft
+lb-000573,market.dividend,派息,zh,alt,派息,base,draft
+lb-000574,market.coupon,票息,zh,pref,票息,base,draft
+lb-000575,market.coupon,Coupon payment,en,pref,coupon payment,base,draft
+lb-000576,market.coupon,债券利息,zh,alt,债券利息,base,draft
+lb-000577,market.coupon,Coupon,en,hidden,coupon,base,draft
+lb-000578,market.maturity,到期日,zh,pref,到期日,base,draft
+lb-000579,market.maturity,Maturity,en,pref,maturity,base,draft
+lb-000580,market.maturity,Maturity date,en,alt,maturity date,base,draft
+lb-000581,market.fees,投资费用,zh,pref,投资费用,base,draft
+lb-000582,market.fees,Investment fees,en,pref,investment fees,base,draft
+lb-000583,market.fees,费用,zh,hidden,费用,base,draft
+lb-000584,market.fees,交易成本,zh,hidden,交易成本,base,draft
+lb-000585,market.fees,Fees,en,hidden,fees,base,draft
+lb-000593,market.risk_premium,风险溢价,zh,pref,风险溢价,base,draft
+lb-000594,market.risk_premium,Risk premium,en,pref,risk premium,base,draft
+lb-000595,market.risk_premium,Equity risk premium,en,alt,equity risk premium,base,draft
+lb-000596,market.risk_free_rate,无风险利率,zh,pref,无风险利率,base,draft
+lb-000597,market.risk_free_rate,Risk-free rate,en,pref,risk free rate,base,draft
+lb-000598,market.risk_free_rate,Rf,en,hidden,rf,base,draft
+lb-000599,suit.suitability,投资者适当性,zh,pref,投资者适当性,base,draft
+lb-000600,suit.suitability,Suitability,en,pref,suitability,base,draft
+lb-000601,suit.suitability,适当性管理,zh,alt,适当性管理,base,draft
+lb-000602,suit.suitability,适当性,zh,alt,适当性,base,draft
+lb-000603,suit.kyc,了解你的客户,zh,pref,了解你的客户,base,draft
+lb-000604,suit.kyc,Know your customer,en,pref,know your customer,base,draft
+lb-000605,suit.kyc,KYC,en,abbr,kyc,base,draft
+lb-000606,suit.investor_profile,投资者画像,zh,pref,投资者画像,base,draft
+lb-000607,suit.investor_profile,Investor profile,en,pref,investor profile,base,draft
+lb-000608,suit.investor_profile,客户画像,zh,alt,客户画像,base,draft
+lb-000609,suit.investor_profile,Client profile,en,alt,client profile,base,draft
+lb-000610,suit.risk_tolerance,风险承受能力,zh,pref,风险承受能力,base,draft
+lb-000611,suit.risk_tolerance,Risk tolerance,en,pref,risk tolerance,base,draft
+lb-000612,suit.risk_tolerance,风险承受度,zh,alt,风险承受度,base,draft
+lb-000613,suit.risk_tolerance,风险承受等级,zh,alt,风险承受等级,base,draft
+lb-000614,suit.risk_appetite,风险偏好,zh,pref,风险偏好,base,draft
+lb-000615,suit.risk_appetite,Risk appetite,en,pref,risk appetite,base,draft
+lb-000616,suit.risk_appetite,风险态度,zh,alt,风险态度,base,draft
+lb-000617,suit.risk_appetite,Risk attitude,en,alt,risk attitude,base,draft
+lb-000618,suit.investment_horizon,投资期限,zh,pref,投资期限,base,draft
+lb-000619,suit.investment_horizon,Investment horizon,en,pref,investment horizon,base,draft
+lb-000620,suit.investment_horizon,持有期限,zh,alt,持有期限,base,draft
+lb-000621,suit.investment_horizon,Time horizon,en,alt,time horizon,base,draft
+lb-000622,suit.liquidity_needs,流动性需求,zh,pref,流动性需求,base,draft
+lb-000623,suit.liquidity_needs,Liquidity needs,en,pref,liquidity needs,base,draft
+lb-000624,suit.liquidity_needs,资金流动性需求,zh,alt,资金流动性需求,base,draft
+lb-000625,suit.investment_objective,投资目标,zh,pref,投资目标,base,draft
+lb-000626,suit.investment_objective,Investment objective,en,pref,investment objective,base,draft
+lb-000627,suit.investment_objective,理财目标,zh,alt,理财目标,base,draft
+lb-000628,suit.investment_objective,Investment goal,en,alt,investment goal,base,draft
+lb-000629,suit.investor_risk_category,投资者风险类型,zh,pref,投资者风险类型,base,draft
+lb-000630,suit.investor_risk_category,Investor risk category,en,pref,investor risk category,base,draft
+lb-000631,suit.conservative,保守型投资者,zh,pref,保守型投资者,base,draft
+lb-000632,suit.conservative,Conservative investor,en,pref,conservative investor,base,draft
+lb-000633,suit.conservative,Conservative,en,hidden,conservative,base,draft
+lb-000634,suit.balanced,平衡型投资者,zh,pref,平衡型投资者,base,draft
+lb-000635,suit.balanced,Balanced investor,en,pref,balanced investor,base,draft
+lb-000636,suit.balanced,平衡型,zh,alt,平衡型,base,draft
+lb-000637,suit.balanced,Moderate investor,en,alt,moderate investor,base,draft
+lb-000638,suit.aggressive,进取型投资者,zh,pref,进取型投资者,base,draft
+lb-000639,suit.aggressive,Aggressive investor,en,pref,aggressive investor,base,draft
+lb-000640,suit.aggressive,进取型,zh,alt,进取型,base,draft
+lb-000641,suit.aggressive,激进型,zh,alt,激进型,base,draft
+lb-000642,suit.aggressive,Aggressive,en,hidden,aggressive,base,draft
+lb-000643,suit.aggressive,激进型投资者,zh,alt,激进型投资者,base,draft
+lb-000644,suit.product_risk_rating,产品风险等级,zh,pref,产品风险等级,base,draft
+lb-000645,suit.product_risk_rating,Product risk rating,en,pref,product risk rating,base,draft
+lb-000646,suit.product_risk_rating,产品风险评级,zh,alt,产品风险评级,base,draft
+lb-000649,suit.risk_disclosure,风险揭示,zh,pref,风险揭示,base,draft
+lb-000650,suit.risk_disclosure,Risk disclosure,en,pref,risk disclosure,base,draft
+lb-000651,suit.risk_disclosure,风险提示,zh,alt,风险提示,base,draft
+lb-000652,suit.risk_disclosure,风险揭示书,zh,alt,风险揭示书,base,draft
+lb-000653,suit.retirement_planning,退休规划,zh,pref,退休规划,base,draft
+lb-000654,suit.retirement_planning,Retirement planning,en,pref,retirement planning,base,draft
+lb-000655,suit.retirement_planning,养老规划,zh,alt,养老规划,base,draft
+lb-000656,suit.emergency_fund,应急资金,zh,pref,应急资金,base,draft
+lb-000657,suit.emergency_fund,Emergency fund,en,pref,emergency fund,base,draft
+lb-000658,suit.emergency_fund,应急储备金,zh,alt,应急储备金,base,draft
+lb-000659,suit.emergency_fund,紧急备用金,zh,alt,紧急备用金,base,draft
+lb-000660,behav.behavioral_bias,行为偏差,zh,pref,行为偏差,base,draft
+lb-000661,behav.behavioral_bias,Behavioral bias,en,pref,behavioral bias,base,draft
+lb-000662,behav.behavioral_bias,认知偏差,zh,alt,认知偏差,base,draft
+lb-000663,behav.behavioral_bias,Cognitive bias,en,alt,cognitive bias,base,draft
+lb-000664,behav.loss_aversion,损失厌恶,zh,pref,损失厌恶,base,draft
+lb-000665,behav.loss_aversion,Loss aversion,en,pref,loss aversion,base,draft
+lb-000666,behav.herding,羊群效应,zh,pref,羊群效应,base,draft
+lb-000667,behav.herding,Herding,en,pref,herding,base,draft
+lb-000668,behav.herding,从众心理,zh,alt,从众心理,base,draft
+lb-000669,behav.herding,Herd behavior,en,alt,herd behavior,base,draft
+lb-000670,behav.overconfidence,过度自信,zh,pref,过度自信,base,draft
+lb-000671,behav.overconfidence,Overconfidence,en,pref,overconfidence,base,draft
+lb-000672,behav.anchoring,锚定效应,zh,pref,锚定效应,base,draft
+lb-000673,behav.anchoring,Anchoring,en,pref,anchoring,base,draft
+lb-000674,behav.anchoring,锚定偏差,zh,alt,锚定偏差,base,draft
+lb-000675,behav.anchoring,Anchoring bias,en,alt,anchoring bias,base,draft
+lb-000676,behav.disposition_effect,处置效应,zh,pref,处置效应,base,draft
+lb-000677,behav.disposition_effect,Disposition effect,en,pref,disposition effect,base,draft
+lb-000678,behav.recency_bias,近因偏差,zh,pref,近因偏差,base,draft
+lb-000679,behav.recency_bias,Recency bias,en,pref,recency bias,base,draft
+lb-000680,behav.recency_bias,近期偏差,zh,alt,近期偏差,base,draft
+lb-000690,behav.fomo,错失恐惧,zh,pref,错失恐惧,base,draft
+lb-000691,behav.fomo,Fear of missing out,en,pref,fear of missing out,base,draft
+lb-000692,behav.fomo,FOMO,en,abbr,fomo,base,draft
+lb-000693,behav.fomo,怕错过,zh,alt,怕错过,base,draft
+lb-000694,metric.yield,收益率,zh,pref,收益率,base,draft
+lb-000695,metric.yield,Yield,en,pref,yield,base,draft
+lb-000696,metric.yield,Yields,en,hidden,yields,base,draft
+lb-000707,metric.capital_gain,资本利得,zh,pref,资本利得,base,draft
+lb-000708,metric.capital_gain,Capital gain,en,pref,capital gain,base,draft
+lb-000709,metric.capital_gain,资本增值,zh,alt,资本增值,base,draft
+lb-000710,metric.capital_gain,价差收益,zh,alt,价差收益,base,draft
+lb-000711,term.compounding,复利,zh,pref,复利,base,draft
+lb-000712,term.compounding,Compounding,en,pref,compounding,base,draft
+lb-000713,term.compounding,复合增长,zh,alt,复合增长,base,draft
+lb-000714,term.compounding,Compound growth,en,alt,compound growth,base,draft
+lb-000723,term.fee_structure,费用结构,zh,pref,费用结构,base,draft
+lb-000724,term.fee_structure,Fee structure,en,pref,fee structure,base,draft
+lb-000725,term.fee_structure,收费结构,zh,alt,收费结构,base,draft
+lb-000726,term.management_fee,管理费,zh,pref,管理费,base,draft
+lb-000727,term.management_fee,Management fee,en,pref,management fee,base,draft
+lb-000730,term.subscription_redemption_fee,申购赎回费,zh,pref,申购赎回费,base,draft
+lb-000731,term.subscription_redemption_fee,Subscription and redemption fees,en,pref,subscription and redemption fees,base,draft
+lb-000732,term.subscription_redemption_fee,申购费,zh,alt,申购费,base,draft
+lb-000733,term.subscription_redemption_fee,赎回费,zh,alt,赎回费,base,draft
+lb-000738,term.redemption_terms,赎回条款,zh,pref,赎回条款,base,draft
+lb-000739,term.redemption_terms,Redemption terms,en,pref,redemption terms,base,draft
+lb-000740,term.redemption_terms,流动性条款,zh,alt,流动性条款,base,draft
+lb-000741,term.redemption_terms,Liquidity terms,en,alt,liquidity terms,base,draft
+lb-000742,term.open_end,开放式基金,zh,pref,开放式基金,base,draft
+lb-000743,term.open_end,Open-ended fund,en,pref,open ended fund,base,draft
+lb-000744,term.open_end,开放式,zh,alt,开放式,base,draft
+lb-000745,term.open_end,Open-end fund,en,alt,open end fund,base,draft
+lb-000746,term.closed_end,封闭式基金,zh,pref,封闭式基金,base,draft
+lb-000747,term.closed_end,Closed-ended fund,en,pref,closed ended fund,base,draft
+lb-000748,term.closed_end,封闭式,zh,alt,封闭式,base,draft
+lb-000749,term.closed_end,Closed-end fund,en,alt,closed end fund,base,draft
+lb-000750,term.lock_up,锁定期,zh,pref,锁定期,base,draft
+lb-000751,term.lock_up,Lock-up period,en,pref,lock up period,base,draft
+lb-000752,term.lock_up,封闭期,zh,alt,封闭期,base,draft
+lb-000753,term.lock_up,最短持有期,zh,alt,最短持有期,base,draft
+lb-000754,term.lock_up,Lock-up,en,alt,lock up,base,draft
+lb-000755,term.principal_protection,本金保障,zh,pref,本金保障,base,draft
+lb-000756,term.principal_protection,Principal protection,en,pref,principal protection,base,draft
+lb-000757,term.principal_protection,保本,zh,alt,保本,base,draft
+lb-000758,term.principal_protection,Capital guarantee,en,alt,capital guarantee,base,draft
+lb-000759,term.nav_based,净值化,zh,pref,净值化,base,draft
+lb-000760,term.nav_based,Net-asset-value based,en,pref,net asset value based,base,draft
+lb-000761,term.nav_based,净值型,zh,alt,净值型,base,draft
+lb-000762,term.nav_based,非保本浮动收益,zh,alt,非保本浮动收益,base,draft
+lb-000767,term.past_performance,过往业绩,zh,pref,过往业绩,base,draft
+lb-000768,term.past_performance,Past performance,en,pref,past performance,base,draft
+lb-000769,term.past_performance,历史业绩,zh,alt,历史业绩,base,draft
+lb-000770,term.past_performance,历史表现,zh,alt,历史表现,base,draft
+lb-000771,term.past_performance,Track record,en,alt,track record,base,draft
+lb-000782,inst.annuity,年金保险,zh,pref,年金保险,base,draft
+lb-000783,inst.annuity,Annuity,en,pref,annuity,base,draft
+lb-000784,inst.annuity,年金,zh,alt,年金,base,draft
+lb-000785,inst.annuity,养老年金,zh,alt,养老年金,base,draft
+lb-000786,inst.insurance_product,保险类理财产品,zh,pref,保险类理财产品,base,draft
+lb-000787,inst.insurance_product,Insurance-based investment product,en,pref,insurance based investment product,base,draft
+lb-000788,inst.insurance_product,投资型保险,zh,alt,投资型保险,base,draft
+lb-000789,inst.insurance_product,储蓄型保险,zh,alt,储蓄型保险,base,draft
+lb-000790,inst.insurance_product,分红险,zh,alt,分红险,base,draft
+lb-000791,inst.insurance_product,投连险,zh,alt,投连险,base,draft
+lb-000792,term.tax,投资税收,zh,pref,投资税收,base,draft
+lb-000793,term.tax,Investment taxation,en,pref,investment taxation,base,draft
+lb-000794,term.tax,税收,zh,hidden,税收,base,draft
+lb-000795,term.tax,税务,zh,hidden,税务,base,draft
+lb-000796,term.tax,税优账户,zh,alt,税优账户,base,draft
+lb-000797,term.tax,Capital gains tax,en,alt,capital gains tax,base,draft
+lb-000805,suit.retail_investor,零售投资者,zh,pref,零售投资者,base,draft
+lb-000806,suit.retail_investor,Retail investor,en,pref,retail investor,base,draft
+lb-000807,suit.retail_investor,个人投资者,zh,alt,个人投资者,base,draft
+lb-000808,suit.retail_investor,普通投资者,zh,alt,普通投资者,base,draft
+lb-000809,suit.retail_investor,Retail client,en,alt,retail client,base,draft
+lb-000823,macro.rates_rising,利率上行,zh,pref,利率上行,base,draft
+lb-000824,macro.rates_rising,Rising interest rates,en,pref,rising interest rates,base,draft
+lb-000825,macro.rates_rising,利率上升,zh,alt,利率上升,base,draft
+lb-000826,macro.rates_rising,收益率上行,zh,alt,收益率上行,base,draft
+lb-000827,macro.rates_rising,Rising rates,en,alt,rising rates,base,draft
+lb-000828,macro.rates_falling,利率下行,zh,pref,利率下行,base,draft
+lb-000829,macro.rates_falling,Falling interest rates,en,pref,falling interest rates,base,draft
+lb-000830,macro.rates_falling,利率下降,zh,alt,利率下降,base,draft
+lb-000831,macro.rates_falling,收益率下行,zh,alt,收益率下行,base,draft
+lb-000832,macro.rates_falling,Falling rates,en,alt,falling rates,base,draft
+lb-000835,term.fund_structure,基金运作方式,zh,pref,基金运作方式,base,draft
+lb-000836,term.fund_structure,Fund dealing structure,en,pref,fund dealing structure,base,draft
+lb-000837,inst.asset_management_product,资管产品,zh,pref,资管产品,base,draft
+lb-000838,inst.asset_management_product,Asset management product,en,pref,asset management product,base,draft
+lb-000839,inst.asset_management_product,资产管理产品,zh,alt,资产管理产品,base,draft
+lb-000883,suit.investor_qualification,投资者资格分类,zh,pref,投资者资格分类,base,draft
+lb-000884,suit.investor_qualification,Investor qualification,en,pref,investor qualification,base,draft
+lb-000885,suit.investor_qualification,投资者分类,zh,alt,投资者分类,base,draft
+lb-000886,suit.accredited_investor,认可投资者,zh,pref,认可投资者,base,draft
+lb-000887,suit.accredited_investor,Accredited investor,en,pref,accredited investor,base,draft
+lb-000888,suit.accredited_investor,AI,en,hidden,ai,base,draft
+lb-000889,suit.accredited_investor,合格投资者（新加坡）,zh,alt,合格投资者(新加坡),base,draft
+lb-000897,local.mas,新加坡金融管理局,zh,pref,新加坡金融管理局,base,draft
+lb-000898,local.mas,Monetary Authority of Singapore,en,pref,monetary authority of singapore,base,draft
+lb-000899,local.mas,MAS,en,abbr,mas,base,draft
+lb-000900,local.mas,金管局,zh,alt,金管局,base,draft
+lb-000910,local.sip,特定投资产品,zh,pref,特定投资产品,base,draft
+lb-000911,local.sip,Specified Investment Product,en,pref,specified investment product,base,draft
+lb-000912,local.sip,SIP,en,abbr,sip,base,draft
+lb-000913,local.sip,复杂产品,zh,alt,复杂产品,base,draft
+lb-000914,local.eip,除外投资产品,zh,pref,除外投资产品,base,draft
+lb-000915,local.eip,Excluded Investment Product,en,pref,excluded investment product,base,draft
+lb-000916,local.eip,EIP,en,abbr,eip,base,draft
+lb-000917,local.cka,客户知识评估,zh,pref,客户知识评估,base,draft
+lb-000918,local.cka,Customer Knowledge Assessment,en,pref,customer knowledge assessment,base,draft
+lb-000919,local.cka,CKA,en,abbr,cka,base,draft
+lb-000920,local.car,客户账户审查,zh,pref,客户账户审查,base,draft
+lb-000921,local.car,Customer Account Review,en,pref,customer account review,base,draft
+lb-000922,local.car,CAR,en,abbr,car,base,draft
+lb-000923,local.cpf,中央公积金,zh,pref,中央公积金,base,draft
+lb-000924,local.cpf,Central Provident Fund,en,pref,central provident fund,base,draft
+lb-000925,local.cpf,CPF,en,abbr,cpf,base,draft
+lb-000926,local.cpf,公积金,zh,alt,公积金,base,draft
+lb-000927,local.cpf_oa,公积金普通账户,zh,pref,公积金普通账户,base,draft
+lb-000928,local.cpf_oa,CPF Ordinary Account,en,pref,cpf ordinary account,base,draft
+lb-000929,local.cpf_oa,OA,en,hidden,oa,base,draft
+lb-000930,local.cpf_oa,普通账户,zh,alt,普通账户,base,draft
+lb-000931,local.cpf_sa,公积金特别账户,zh,pref,公积金特别账户,base,draft
+lb-000932,local.cpf_sa,CPF Special Account,en,pref,cpf special account,base,draft
+lb-000933,local.cpf_sa,SA,en,hidden,sa,base,draft
+lb-000934,local.cpf_sa,特别账户,zh,alt,特别账户,base,draft
+lb-000935,local.cpfis,公积金投资计划,zh,pref,公积金投资计划,base,draft
+lb-000936,local.cpfis,CPF Investment Scheme,en,pref,cpf investment scheme,base,draft
+lb-000937,local.cpfis,CPFIS,en,abbr,cpfis,base,draft
+lb-000938,local.cpf_life,公积金终身入息计划,zh,pref,公积金终身入息计划,base,draft
+lb-000939,local.cpf_life,CPF LIFE,en,pref,cpf life,base,draft
+lb-000940,local.cpf_life,终身入息,zh,alt,终身入息,base,draft
+lb-000941,local.srs,退休辅助计划,zh,pref,退休辅助计划,base,draft
+lb-000942,local.srs,Supplementary Retirement Scheme,en,pref,supplementary retirement scheme,base,draft
+lb-000943,local.srs,SRS,en,abbr,srs,base,draft
+lb-000944,inst.ssb,新加坡储蓄债券,zh,pref,新加坡储蓄债券,base,draft
+lb-000945,inst.ssb,Singapore Savings Bond,en,pref,singapore savings bond,base,draft
+lb-000946,inst.ssb,SSB,en,abbr,ssb,base,draft
+lb-000947,inst.ssb,储蓄债券,zh,alt,储蓄债券,base,draft
+lb-000948,inst.sgs,新加坡政府债券,zh,pref,新加坡政府债券,base,draft
+lb-000949,inst.sgs,Singapore Government Securities,en,pref,singapore government securities,base,draft
+lb-000950,inst.sgs,SGS,en,abbr,sgs,base,draft
+lb-000951,inst.t_bill,短期国库券,zh,pref,短期国库券,base,draft
+lb-000952,inst.t_bill,Treasury bill,en,pref,treasury bill,base,draft
+lb-000953,inst.t_bill,T-bill,en,alt,t bill,base,draft
+lb-000954,inst.t_bill,T-bills,en,alt,t bills,base,draft
+lb-000955,inst.t_bill,国库券,zh,alt,国库券,base,draft
+lb-000956,inst.unit_trust,单位信托,zh,pref,单位信托,base,draft
+lb-000957,inst.unit_trust,Unit trust,en,pref,unit trust,base,draft
+lb-000958,inst.unit_trust,Unit trusts,en,alt,unit trusts,base,draft
+lb-000959,inst.ilp,投资联结保单,zh,pref,投资联结保单,base,draft
+lb-000960,inst.ilp,Investment-linked policy,en,pref,investment linked policy,base,draft
+lb-000961,inst.ilp,ILP,en,abbr,ilp,base,draft
+lb-000962,inst.ilp,投连险（新加坡）,zh,alt,投连险(新加坡),base,draft
+lb-000963,inst.endowment_plan,储蓄保险,zh,pref,储蓄保险,base,draft
+lb-000964,inst.endowment_plan,Endowment plan,en,pref,endowment plan,base,draft
+lb-000965,inst.endowment_plan,储蓄计划,zh,alt,储蓄计划,base,draft
+lb-000966,inst.endowment_plan,Endowment,en,alt,endowment,base,draft
+lb-000967,inst.s_reit,新加坡房地产投资信托,zh,pref,新加坡房地产投资信托,base,draft
+lb-000968,inst.s_reit,Singapore REIT,en,pref,singapore reit,base,draft
+lb-000969,inst.s_reit,S-REIT,en,abbr,s reit,base,draft
+lb-000970,inst.s_reit,S-REITs,en,alt,s reits,base,draft
+lb-000974,market.sgx,新加坡交易所,zh,pref,新加坡交易所,base,draft
+lb-000975,market.sgx,Singapore Exchange,en,pref,singapore exchange,base,draft
+lb-000976,market.sgx,SGX,en,abbr,sgx,base,draft
+lb-000977,market.sgx,新交所,zh,alt,新交所,base,draft
+lb-000978,market.sti,海峡时报指数,zh,pref,海峡时报指数,base,draft
+lb-000979,market.sti,Straits Times Index,en,pref,straits times index,base,draft
+lb-000980,market.sti,STI,en,abbr,sti,base,draft
+lb-000984,term.no_capital_gains_tax,无资本利得税,zh,pref,无资本利得税,base,draft
+lb-000985,term.no_capital_gains_tax,No capital gains tax,en,pref,no capital gains tax,base,draft
+lb-000986,strat.robo_advisor,智能投顾,zh,pref,智能投顾,base,draft
+lb-000987,strat.robo_advisor,Robo-advisor,en,pref,robo advisor,base,draft
+lb-000988,strat.robo_advisor,机器人投顾,zh,alt,机器人投顾,base,draft

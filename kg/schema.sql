@@ -23,12 +23,14 @@ CREATE TABLE kg.concept (
   concept_id     text PRIMARY KEY,               -- e.g. 'risk.interest_rate'
   scheme         text NOT NULL CHECK (scheme IN (
                    'asset_class','instrument','risk','metric','strategy',
-                   'macro','market','suitability','behavioral','terms')),
+                   'macro','market','suitability','behavioral','terms','scheme_local')),
   pref_zh        text NOT NULL,
   pref_en        text NOT NULL,
   definition_zh  text NOT NULL,
   definition_en  text NOT NULL,
-  scope_note     text,                           -- usage notes, caveats
+  scope_note     text,                           -- usage notes, caveats; regulatory figures live here, marked 'verify'
+  jurisdiction   text NOT NULL DEFAULT 'global' CHECK (jurisdiction IN ('global','SG','CN')),
+  tier           smallint NOT NULL DEFAULT 2 CHECK (tier IN (1,2,3)),   -- 1 basic, 2 advanced, 3 full
   layer          text NOT NULL DEFAULT 'base'
                    CHECK (layer IN ('base','doc')),
   status         text NOT NULL DEFAULT 'draft'

@@ -32,11 +32,13 @@ flowchart LR
 | 05 | [MVP 计划](docs/05-mvp-plan.md) | 范围取舍、分阶段计划、成功指标、待决问题、风险 |
 | 06 | [架构决策记录](docs/06-decisions.md) | 已定的关键决策及理由 |
 | 07 | [远期目标架构](docs/07-target-architecture.md) | Iceberg + Ozone 底座、Starburst、ES vs Doris 等长期方向（非 MVP） |
-| 08 | [概念图谱：调研与种子 v0.1](docs/08-concept-graph-seed.md) | 调研结论、五张表、197 个概念的种子数据与验证结果 |
+| 08 | [概念图谱：调研与种子](docs/08-concept-graph-seed.md) | 调研结论、五张表、初版数据与验证结果 |
+| 09 | [概念图谱建模规则](docs/09-kg-rules.md) | 关系语义、标签分级、置信度、合规措辞（校验器强制） |
+| 10 | [概念图谱评审日志](docs/10-kg-review-log.md) | 三轮独立评审的发现与处理 |
 
 ## 概念图谱数据
 
-[`kg/`](kg/) 目录包含 PostgreSQL DDL、种子 CSV（197 个概念 · 692 个标签 · 265 条关系 · 659 条证据）、参考查询和校验脚本。种子为 `draft`，需专家审核。
+[`kg/`](kg/) 目录包含 PostgreSQL DDL、种子 CSV（v0.3：278 个概念 · 988 个标签 · 450 条关系，分基础 / 进阶 / 完整三个层级，新加坡本地化、中英双语）、参考查询、校验脚本和生成脚本。种子为 `draft`，需专家审核。
 
 ## 现有环境（前提）
 

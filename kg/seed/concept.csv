@@ -1,230 +1,279 @@
-concept_id,scheme,pref_zh,pref_en,definition_zh,definition_en,scope_note,layer,status,version
-asset.equity,asset_class,权益类资产,Equity,代表对企业所有权的资产，收益来自分红和价格上涨，波动通常高于固定收益。,"Assets representing ownership in companies, earning returns through dividends and price appreciation, typically more volatile than fixed income.",,base,draft,1
-asset.fixed_income,asset_class,固定收益,Fixed income,按约定支付利息并到期还本的债务类资产，收益相对稳定，主要受利率和信用影响。,Debt assets that pay contractual interest and return principal at maturity; returns are relatively stable and driven mainly by interest rates and credit.,,base,draft,1
-asset.cash,asset_class,现金及现金等价物,Cash and cash equivalents,流动性极高、价格波动极小的资产，如活期存款和短期货币市场工具。,"Highly liquid assets with minimal price fluctuation, such as demand deposits and short-term money market instruments.",,base,draft,1
-asset.alternative,asset_class,另类资产,Alternative assets,股票、债券和现金之外的资产类别，通常流动性较低、估值较复杂。,"Asset classes outside stocks, bonds and cash, usually less liquid and harder to value.",,base,draft,1
-asset.real_estate,asset_class,房地产,Real estate,以土地和建筑物为基础的资产，收益来自租金和资产增值。,"Assets based on land and buildings, earning returns from rent and capital appreciation.",,base,draft,1
-asset.commodity,asset_class,大宗商品,Commodities,能源、金属、农产品等可标准化交易的实物商品。,"Standardised, tradable physical goods such as energy, metals and agricultural products.",,base,draft,1
-asset.gold,asset_class,黄金,Gold,常被视为避险和价值储藏手段的贵金属；价格波动较大，并不保证保值。,A precious metal often regarded as a safe haven and store of value; its price is volatile and value preservation is not guaranteed.,,base,draft,1
-asset.private_equity,asset_class,私募股权,Private equity,投资于未公开上市企业股权的资产类别，持有期长、流动性低。,"Investment in equity of companies that are not publicly listed, with long holding periods and low liquidity.",Abbreviation 'PE' is shared with the P/E ratio (metric.pe); disambiguate by context.,base,draft,1
-asset.private_credit,asset_class,私募信贷,Private credit,由非银行机构直接向企业提供、不在公开市场交易的贷款类资产。,Loans provided directly to companies by non-bank lenders and not traded on public markets.,,base,draft,1
-asset.infrastructure,asset_class,基础设施,Infrastructure,投资于交通、能源、公用事业等长期基础设施项目的资产类别。,"An asset class investing in long-lived projects such as transport, energy and utilities.",,base,draft,1
-strat.multi_asset,strategy,多资产,Multi-asset,在同一组合中同时配置多种资产类别的投资方式。,An approach that combines several asset classes within one portfolio.,,base,draft,1
-inst.financial_instrument,instrument,金融工具,Financial instrument,具有货币价值、可交易或可转让的合约或凭证的统称。,A general term for contracts or certificates with monetary value that can be traded or transferred.,,base,draft,1
-inst.security,instrument,证券,Security,代表所有权或债权、可在市场上交易的金融工具，如股票和债券。,"A tradable financial instrument representing ownership or a creditor claim, such as stocks and bonds.",,base,draft,1
-inst.stock,instrument,股票,Stock,代表持有者对公司部分所有权的证券。,A security representing partial ownership of a company.,,base,draft,1
-inst.common_stock,instrument,普通股,Common stock,享有投票权和剩余收益分配权、清偿顺序最后的股票。,"Stock carrying voting rights and a residual claim on earnings, ranking last in liquidation.",,base,draft,1
-inst.preferred_stock,instrument,优先股,Preferred stock,在股息分配和清偿顺序上优先于普通股、通常无投票权的股票。,"Stock with priority over common stock for dividends and liquidation, usually without voting rights.",,base,draft,1
-inst.bond,instrument,债券,Bond,发行人向投资者借款并承诺按期付息、到期还本的债务证券。,A debt security in which the issuer borrows from investors and promises periodic interest and repayment of principal at maturity.,,base,draft,1
-inst.government_bond,instrument,国债,Government bond,由中央政府发行的债券，通常被视为本币信用风险最低的债券，但仍承担利率风险和价格波动。,"A bond issued by a national government, usually seen as carrying the lowest credit risk in its currency, while still subject to interest rate risk and price fluctuation.",Typical product risk rating R1-R2 depending on duration; long-dated bonds carry significant interest rate risk.,base,draft,1
-inst.credit_bond,instrument,信用债,Credit bond,由非政府主体发行、需承担发行人信用风险的债券。,"A bond issued by a non-government entity, exposing investors to the issuer's credit risk.",,base,draft,1
-inst.corporate_bond,instrument,公司债,Corporate bond,由企业发行、用于融资的债券。,A bond issued by a company to raise financing.,In mainland China 公司债 (CSRC) and 企业债 (NDRC) are distinct instruments.,base,draft,1
-inst.high_yield_bond,instrument,高收益债,High-yield bond,信用评级低于投资级、以较高收益补偿较高违约风险的债券。,A bond rated below investment grade that offers higher yield to compensate for higher default risk.,,base,draft,1
-inst.convertible_bond,instrument,可转换债券,Convertible bond,持有人可在约定条件下转换为发行人股票的债券。,A bond that the holder can convert into the issuer's shares under specified terms.,,base,draft,1
-inst.zero_coupon_bond,instrument,零息债券,Zero-coupon bond,不支付票息、以折价发行并到期按面值兑付的债券。,"A bond that pays no coupon, is issued at a discount and redeems at face value at maturity.",,base,draft,1
-inst.inflation_linked_bond,instrument,通胀挂钩债券,Inflation-linked bond,本金或利息随通胀指数调整的债券。,A bond whose principal or interest is adjusted in line with an inflation index.,TIPS are the US variant; other markets have their own linkers.,base,draft,1
-inst.money_market_instrument,instrument,货币市场工具,Money market instrument,期限通常在一年以内、流动性高的短期债务工具，如短期票据和回购。,"Short-term, highly liquid debt instruments, typically under one year, such as commercial paper and repos.",,base,draft,1
-inst.deposit,instrument,存款,Deposit,存放在银行等存款机构、按约定计息的资金。,Funds placed with a bank or deposit-taking institution that earn agreed interest.,,base,draft,1
-inst.fund,instrument,投资基金,Investment fund,汇集多名投资者资金、由专业管理人统一投资的集合投资工具。,A collective investment vehicle pooling money from many investors and managed by a professional manager.,,base,draft,1
-inst.mutual_fund,instrument,公募基金,Mutual fund,向公众公开募集、受严格监管的投资基金。,An investment fund offered to the public and subject to strict regulation.,,base,draft,1
-inst.etf,instrument,交易所交易基金,Exchange-traded fund,在交易所上市、可像股票一样买卖的基金，多数跟踪指数。,"A fund listed on an exchange and traded like a stock, most tracking an index.",,base,draft,1
-inst.index_fund,instrument,指数基金,Index fund,以复制特定市场指数表现为目标的基金。,A fund that aims to replicate the performance of a specific market index.,,base,draft,1
-inst.money_market_fund,instrument,货币市场基金,Money market fund,主要投资于货币市场工具、追求较低波动和高流动性的基金；不保证本金不受损失。,"A fund investing mainly in money market instruments, seeking low volatility and high liquidity; principal is not guaranteed.",Typical product risk rating R1 (lowest); principal not guaranteed. Matching to investors is done by the suitability rule layer.,base,draft,1
-inst.bond_fund,instrument,债券基金,Bond fund,主要投资于债券的基金。,A fund that invests mainly in bonds.,Typical product risk rating R2-R3.,base,draft,1
-inst.equity_fund,instrument,股票型基金,Equity fund,主要投资于股票的基金。,A fund that invests mainly in stocks.,Typical product risk rating R4.,base,draft,1
-inst.balanced_fund,instrument,混合型基金,Balanced fund,同时投资股票和债券、在两者之间灵活配置的基金。,"A fund that invests in both stocks and bonds, allocating flexibly between them.",Typical product risk rating R3-R4.,base,draft,1
-inst.fund_of_funds,instrument,基金中的基金,Fund of funds,以其他基金为主要投资对象的基金。,A fund whose main holdings are other funds.,,base,draft,1
-inst.target_date_fund,instrument,目标日期基金,Target-date fund,按预设目标日期逐步降低风险资产比例的基金，常用于养老规划。,"A fund that gradually reduces risky assets as a preset target date approaches, often used for retirement.",,base,draft,1
-inst.private_fund,instrument,私募基金,Private fund,仅向合格投资者非公开募集的投资基金。,An investment fund raised privately and only from qualified investors.,Typical product risk rating R4-R5; qualified investors only.,base,draft,1
-inst.hedge_fund,instrument,对冲基金,Hedge fund,运用杠杆、做空和衍生品等多种策略追求绝对收益的私募基金。,"A private fund using strategies such as leverage, short selling and derivatives to pursue absolute returns.",,base,draft,1
-inst.reit,instrument,房地产投资信托,Real estate investment trust,持有并经营收益性房地产、将大部分收益分配给投资者的可交易工具。,A tradable vehicle that owns and operates income-producing real estate and distributes most income to investors.,,base,draft,1
-inst.derivative,instrument,衍生品,Derivative,价值取决于股票、利率、汇率、商品等基础资产的金融合约。,"A financial contract whose value depends on an underlying asset such as stocks, rates, currencies or commodities.","Retail access is subject to jurisdiction-specific suitability tests (e.g. SIP CKA/CAR in Singapore, exchange-set thresholds in mainland China).",base,draft,1
-inst.option,instrument,期权,Option,赋予买方在约定期限内以约定价格买入或卖出基础资产权利的合约。,"A contract giving the buyer the right, but not the obligation, to buy or sell an underlying asset at a set price within a set period.",,base,draft,1
-inst.call_option,instrument,看涨期权,Call option,赋予买方以约定价格买入基础资产权利的期权。,An option giving the buyer the right to buy the underlying asset at the strike price.,,base,draft,1
-inst.put_option,instrument,看跌期权,Put option,赋予买方以约定价格卖出基础资产权利的期权。,An option giving the buyer the right to sell the underlying asset at the strike price.,,base,draft,1
-inst.future,instrument,期货,Futures contract,在交易所交易、约定未来以确定价格交割标准化资产的合约。,An exchange-traded contract to deliver a standardised asset at a set price on a future date.,,base,draft,1
-inst.forward,instrument,远期合约,Forward contract,双方私下约定未来以确定价格买卖资产的非标准化合约。,"A privately negotiated, non-standardised contract to buy or sell an asset at a set price in the future.",,base,draft,1
-inst.swap,instrument,互换,Swap,双方约定在一段时间内交换现金流的衍生品合约。,A derivative contract in which two parties exchange cash flows over a period of time.,,base,draft,1
-inst.interest_rate_swap,instrument,利率互换,Interest rate swap,双方交换固定利率与浮动利率利息支付的互换。,A swap in which parties exchange fixed-rate and floating-rate interest payments.,,base,draft,1
-inst.cds,instrument,信用违约互换,Credit default swap,买方定期付费、在参考实体违约时获得补偿的信用衍生品。,A credit derivative in which the buyer pays a periodic fee and is compensated if a reference entity defaults.,Classified here as a swap (ISDA); commonly referred to as a credit derivative.,base,draft,1
-inst.structured_product,instrument,结构化产品,Structured product,将固定收益工具与衍生品组合、收益与特定标的挂钩的产品。,A product combining fixed income with derivatives so that returns are linked to a specified underlying.,,base,draft,1
-inst.structured_deposit,instrument,结构性存款,Structured deposit,在存款基础上嵌入衍生品的产品，本金按存款保障，收益与利率、汇率或指数等挂钩而浮动。,"A deposit with an embedded derivative: principal is protected as a deposit while the return floats with rates, currencies or indices.","Classified as a deposit in mainland China (on balance sheet, deposit insurance); return is not guaranteed.",base,draft,1
-inst.wealth_management_product,instrument,理财产品,Wealth management product,由银行或理财子公司等发行、代客投资管理的集合投资产品；实行净值化管理，不保证本金和收益。,"A pooled investment product issued by banks or their wealth management subsidiaries; net-asset-value based, with neither principal nor return guaranteed.","Post-2018 mainland rules: NAV-based, no guarantee of principal or return; broader term 资管产品 covers funds, trusts and WMPs.",base,draft,1
-risk.investment_risk,risk,投资风险,Investment risk,实际投资结果偏离预期、包括可能发生损失的不确定性。,"The uncertainty that actual investment outcomes differ from expectations, including the possibility of loss.",,base,draft,1
-risk.systematic,risk,系统性风险,Systematic risk,影响整个市场、无法通过分散化消除的风险。,Risk affecting the whole market that cannot be eliminated through diversification.,,base,draft,1
-risk.unsystematic,risk,非系统性风险,Unsystematic risk,仅影响个别公司或行业、可通过分散化降低的风险。,Risk specific to individual companies or sectors that can be reduced through diversification.,,base,draft,1
-risk.market,risk,市场风险,Market risk,因市场价格（股价、利率、汇率、商品价格）变动导致损失的风险。,"The risk of loss from movements in market prices such as equity prices, interest rates, exchange rates and commodity prices.",,base,draft,1
-risk.equity_price,risk,股价风险,Equity price risk,因股票价格下跌导致损失的风险。,The risk of loss from falling stock prices.,,base,draft,1
-risk.interest_rate,risk,利率风险,Interest rate risk,因利率变动导致资产价值变化的风险，利率上升时债券价格通常下跌。,The risk that changes in interest rates alter asset values; bond prices usually fall when rates rise.,,base,draft,1
-risk.fx,risk,汇率风险,Currency risk,因汇率变动导致以本币计价的投资价值变化的风险。,The risk that exchange-rate movements change the home-currency value of an investment.,,base,draft,1
-risk.commodity_price,risk,商品价格风险,Commodity price risk,因大宗商品价格变动导致损失的风险。,The risk of loss from changes in commodity prices.,,base,draft,1
-risk.credit,risk,信用风险,Credit risk,借款人或发行人信用状况恶化甚至违约而导致损失的风险。,The risk of loss because a borrower or issuer's creditworthiness deteriorates or it defaults.,,base,draft,1
-risk.default,risk,违约风险,Default risk,发行人无法按时足额支付本金或利息的风险。,The risk that an issuer fails to pay principal or interest in full and on time.,,base,draft,1
-risk.counterparty,risk,交易对手风险,Counterparty risk,交易对手未能履行合约义务而造成损失的风险，常见于场外衍生品。,"The risk that the other party fails to meet its contractual obligations, common in OTC derivatives.",,base,draft,1
-risk.liquidity,risk,流动性风险,Liquidity risk,无法以合理价格及时买卖资产的风险。,The risk of being unable to buy or sell an asset quickly at a fair price.,,base,draft,1
-risk.inflation,risk,通胀风险,Inflation risk,通货膨胀侵蚀投资实际购买力的风险。,The risk that inflation erodes the real purchasing power of an investment.,,base,draft,1
-risk.reinvestment,risk,再投资风险,Reinvestment risk,收到的利息或本金只能以更低收益率再投资的风险。,The risk that cash flows received must be reinvested at lower yields.,,base,draft,1
-risk.concentration,risk,集中度风险,Concentration risk,组合过度集中于少数资产、行业或地区而放大损失的风险。,"The risk of amplified losses from concentrating a portfolio in few assets, sectors or regions.",,base,draft,1
-risk.leverage,risk,杠杆风险,Leverage risk,使用借入资金或衍生品放大收益的同时也放大损失的风险。,The risk that borrowing or derivatives magnify losses as well as gains.,,base,draft,1
-risk.tail,risk,尾部风险,Tail risk,发生概率很低但损失极大的极端事件风险。,The risk of rare events that cause extreme losses.,,base,draft,1
-risk.sequence_of_returns,risk,收益顺序风险,Sequence-of-returns risk,在持续取款阶段，早期出现亏损会显著缩短资产可支撑时间的风险。,The risk that poor returns early in a withdrawal phase significantly shorten how long savings last.,,base,draft,1
-risk.regulatory,risk,政策与监管风险,Regulatory risk,法律、监管或税收政策变化影响投资价值的风险。,"The risk that changes in law, regulation or tax policy affect investment value.",,base,draft,1
-risk.country,risk,国别风险,Country risk,因特定国家的政治、经济或资本管制因素导致损失的风险。,"The risk of loss arising from political, economic or capital-control factors in a specific country.",,base,draft,1
-metric.return,metric,投资回报率,Return,一段时间内投资的盈亏占初始投入的比例，含价格变动和现金收入。,"The gain or loss on an investment over a period as a proportion of the amount invested, including price change and income.","Distinct from metric.yield: in bond contexts the Chinese '收益率' means yield, not return.",base,draft,1
-metric.total_return,metric,总回报,Total return,包含价格变动及分红、利息等收入在内的全部收益。,The full return including price change plus income such as dividends and interest.,,base,draft,1
-metric.annualized_return,metric,年化收益率,Annualized return,将不同期限的收益换算为每年平均复合收益的指标。,"A return expressed as an average compound rate per year, enabling comparison across periods.","Short-period annualised figures (e.g. 7-day annualised yield) are extrapolations, not achievable returns.",base,draft,1
-metric.real_return,metric,实际收益率,Real return,扣除通货膨胀影响后的收益率。,The return after adjusting for inflation.,,base,draft,1
-metric.excess_return,metric,超额收益,Excess return,投资收益超出基准或无风险利率的部分。,The portion of return above a benchmark or the risk-free rate.,,base,draft,1
-metric.risk_adjusted_return,metric,风险调整后收益,Risk-adjusted return,在考虑所承担风险后对收益进行衡量的一类指标。,A family of measures that evaluate return relative to the risk taken.,,base,draft,1
-metric.sharpe,metric,夏普比率,Sharpe ratio,单位总波动所获得的超过无风险利率的收益。,Return in excess of the risk-free rate per unit of total volatility.,,base,draft,1
-metric.sortino,metric,索提诺比率,Sortino ratio,只以下行波动衡量风险的风险调整后收益指标。,A risk-adjusted return measure that uses only downside volatility as risk.,,base,draft,1
-metric.information_ratio,metric,信息比率,Information ratio,相对基准的超额收益除以跟踪误差，衡量主动管理效率。,"Excess return over a benchmark divided by tracking error, measuring active management efficiency.",,base,draft,1
-metric.alpha,metric,阿尔法,Alpha,在扣除市场风险贡献后，投资相对基准的超额表现。,Performance relative to a benchmark after removing the contribution of market risk.,,base,draft,1
-metric.beta,metric,贝塔系数,Beta,衡量资产相对整个市场波动敏感程度的指标。,A measure of how sensitive an asset's returns are to movements of the overall market.,,base,draft,1
-metric.volatility,metric,波动率,Volatility,资产价格或收益变动幅度的度量，通常以年化标准差表示。,"A measure of how much an asset's price or return fluctuates, usually expressed as annualised standard deviation.",,base,draft,1
-metric.standard_deviation,metric,标准差,Standard deviation,衡量收益偏离其平均值程度的统计量。,A statistic measuring how far returns deviate from their average.,,base,draft,1
-metric.max_drawdown,metric,最大回撤,Maximum drawdown,一段时间内资产净值从最高点到随后最低点的最大跌幅。,The largest peak-to-trough decline in value over a period.,,base,draft,1
-metric.var,metric,风险价值,Value at risk,在给定置信水平和期限内，组合可能遭受的最大损失估计。,An estimate of the maximum loss a portfolio may suffer over a given horizon at a given confidence level.,,base,draft,1
-metric.tracking_error,metric,跟踪误差,Tracking error,组合收益与基准收益之差的波动程度。,The volatility of the difference between portfolio and benchmark returns.,,base,draft,1
-metric.correlation,metric,相关系数,Correlation,衡量两种资产收益同向变动程度的指标，取值在 -1 到 1 之间。,A measure from -1 to 1 of how closely two assets' returns move together.,,base,draft,1
-metric.duration,metric,久期,Duration,债券现金流的加权平均回收期；也常泛指债券价格对收益率变动的敏感程度，久期越长利率风险越大。,"The weighted-average time to receive a bond's cash flows; also commonly used for a bond's price sensitivity to yield changes, with longer duration meaning higher interest rate risk.",Macaulay duration is a time measure; modified duration is the price-sensitivity measure.,base,draft,1
-metric.modified_duration,metric,修正久期,Modified duration,收益率变动 1 个百分点时债券价格的近似百分比变化。,The approximate percentage change in a bond's price for a one-percentage-point change in yield.,,base,draft,1
-metric.convexity,metric,凸性,Convexity,衡量债券价格与收益率关系弯曲程度、用于修正久期估计的指标。,"A measure of the curvature in the bond price-yield relationship, used to refine duration estimates.",,base,draft,1
-metric.dv01,metric,基点价值,DV01,收益率变动一个基点时债券价格的变动金额。,The change in a bond's price for a one-basis-point change in yield.,,base,draft,1
-metric.ytm,metric,到期收益率,Yield to maturity,按当前价格买入并持有至到期时债券的年化收益率。,The annualised return of a bond if bought at the current price and held to maturity.,,base,draft,1
-metric.coupon_rate,metric,票面利率,Coupon rate,债券每年支付的利息占面值的比例。,The annual interest paid by a bond as a percentage of its face value.,,base,draft,1
-metric.credit_spread,metric,信用利差,Credit spread,信用债收益率与同期限无风险债券收益率之差，反映信用风险补偿。,"The yield difference between a credit bond and a risk-free bond of the same maturity, reflecting compensation for credit risk.",,base,draft,1
-metric.credit_rating,metric,信用评级,Credit rating,评级机构对发行人或债券偿债能力和违约可能性的评估等级。,An agency's assessment of an issuer's or bond's ability to repay and likelihood of default.,,base,draft,1
-metric.dividend_yield,metric,股息率,Dividend yield,每股年度股息占股价的比例。,Annual dividends per share divided by the share price.,,base,draft,1
-metric.valuation_multiple,metric,估值倍数,Valuation multiple,以价格或企业价值与财务指标之比衡量估值高低的一类指标。,A family of ratios comparing price or enterprise value to a financial metric to gauge valuation.,,base,draft,1
-metric.pe,metric,市盈率,Price-to-earnings ratio,股价与每股收益之比。,Share price divided by earnings per share.,Abbreviation 'PE' is shared with private equity (asset.private_equity); disambiguate by context.,base,draft,1
-metric.pb,metric,市净率,Price-to-book ratio,股价与每股净资产之比。,Share price divided by book value per share.,,base,draft,1
-metric.ev_ebitda,metric,企业价值倍数,EV/EBITDA,企业价值与息税折旧摊销前利润之比。,"Enterprise value divided by earnings before interest, taxes, depreciation and amortisation.",,base,draft,1
-metric.eps,metric,每股收益,Earnings per share,归属于母公司股东的净利润除以加权平均股本。,Net profit attributable to shareholders divided by the weighted-average number of shares outstanding.,,base,draft,1
-metric.roe,metric,净资产收益率,Return on equity,净利润与股东权益之比，衡量股东资本的盈利能力。,"Net profit divided by shareholders' equity, measuring profitability on shareholder capital.",,base,draft,1
-metric.market_cap,metric,市值,Market capitalization,公司股价乘以总股本得到的市场价值。,The market value of a company: share price multiplied by shares outstanding.,,base,draft,1
-metric.expense_ratio,metric,费用率,Expense ratio,基金年度运营费用占基金资产的比例。,A fund's annual operating expenses as a percentage of its assets.,,base,draft,1
-metric.nav,metric,基金净值,Net asset value,基金资产减去负债后按份额计算的价值。,"A fund's assets minus liabilities, expressed per share or unit.",,base,draft,1
-metric.aum,metric,资产管理规模,Assets under management,管理人代客户管理的资产总市值。,The total market value of assets a manager manages on behalf of clients.,,base,draft,1
-metric.turnover,metric,组合换手率,Portfolio turnover,一段时间内组合买卖交易金额相对资产规模的比例。,Trading volume over a period relative to the size of a portfolio.,Portfolio turnover; the Chinese '换手率' alone usually means stock/market trading turnover.,base,draft,1
-metric.bid_ask_spread,metric,买卖价差,Bid-ask spread,最高买价与最低卖价之差，反映交易成本和流动性。,"The difference between the highest bid and lowest ask price, reflecting trading cost and liquidity.",,base,draft,1
-strat.asset_allocation,strategy,资产配置,Asset allocation,根据目标和风险承受能力，在不同资产类别之间分配投资比例。,Dividing a portfolio among asset classes according to objectives and risk tolerance.,,base,draft,1
-strat.strategic_aa,strategy,战略资产配置,Strategic asset allocation,基于长期目标设定的长期目标资产比例。,Long-term target asset weights set according to long-term objectives.,,base,draft,1
-strat.tactical_aa,strategy,战术资产配置,Tactical asset allocation,根据中短期市场判断对战略比例进行的主动偏离。,Active short- to medium-term deviations from strategic weights based on market views.,,base,draft,1
-strat.risk_parity,strategy,风险平价,Risk parity,让各类资产对组合风险贡献大致相等的配置方法。,An allocation approach in which each asset class contributes roughly equally to portfolio risk.,,base,draft,1
-strat.core_satellite,strategy,核心-卫星策略,Core-satellite strategy,以低成本被动核心持仓为主、辅以少量主动卫星持仓的组合构建方法。,A portfolio approach combining a low-cost passive core with smaller active satellite positions.,,base,draft,1
-strat.diversification,strategy,分散化投资,Diversification,将资金分散到相关性较低的多种资产，以降低组合整体风险。,Spreading money across assets with low correlation to reduce overall portfolio risk.,,base,draft,1
-strat.rebalancing,strategy,再平衡,Rebalancing,定期或在偏离阈值时将组合调整回目标配置比例。,Periodically or at drift thresholds bringing a portfolio back to its target weights.,,base,draft,1
-strat.dca,strategy,定期定额投资,Dollar-cost averaging,按固定周期投入固定金额，以平滑买入成本。,Investing a fixed amount at regular intervals to smooth the average purchase cost.,Smooths purchase cost; must not be described as reducing risk or raising return (mainland fund marketing rules).,base,draft,1
-strat.buy_and_hold,strategy,买入并持有,Buy and hold,长期持有资产、不因短期波动频繁交易的策略。,A strategy of holding assets for the long term without frequent trading on short-term moves.,,base,draft,1
-strat.market_timing,strategy,择时,Market timing,试图通过预测市场涨跌来决定买入卖出时机的做法。,Trying to decide when to buy or sell by predicting market moves.,,base,draft,1
-strat.passive,strategy,被动投资,Passive investing,以跟踪指数为目标、低成本低换手的投资方式。,"A low-cost, low-turnover approach that aims to track an index.",,base,draft,1
-strat.active,strategy,主动投资,Active management,管理人通过选券和择时力图跑赢基准的投资方式。,An approach in which managers use security selection and timing to try to beat a benchmark.,,base,draft,1
-strat.value,strategy,价值投资,Value investing,买入价格低于内在价值证券的投资风格。,An investment style buying securities priced below their intrinsic value.,,base,draft,1
-strat.growth,strategy,成长投资,Growth investing,投资于盈利预期高速增长企业的投资风格。,An investment style focused on companies expected to grow earnings rapidly.,,base,draft,1
-strat.factor,strategy,因子投资,Factor investing,系统性地暴露于价值、动量、质量、低波等收益因子的投资方法。,"Systematically targeting return factors such as value, momentum, quality and low volatility.",,base,draft,1
-strat.hedging,strategy,对冲,Hedging,建立反向头寸以降低特定风险敞口的做法。,Taking an offsetting position to reduce a specific risk exposure.,,base,draft,1
-strat.immunization,strategy,免疫策略,Immunization,使债券组合久期与负债期限匹配，以抵消利率变动影响的策略。,Matching a bond portfolio's duration to its liability horizon to offset the impact of rate changes.,,base,draft,1
-strat.laddering,strategy,债券阶梯,Bond laddering,将资金分散投资于不同到期日的债券，按期滚动再投资。,Spreading money across bonds with staggered maturities and reinvesting as each matures.,,base,draft,1
-strat.leverage,strategy,杠杆投资,Leveraged investing,借入资金或使用衍生品以放大投资敞口。,Using borrowed money or derivatives to magnify investment exposure.,,base,draft,1
-strat.income,strategy,收益型投资,Income investing,以获取稳定利息、股息等现金收入为主要目标的投资方式。,An approach aiming primarily at steady cash income such as interest and dividends.,,base,draft,1
-strat.esg,strategy,ESG 投资,ESG investing,在投资决策中纳入环境、社会和公司治理因素的方法。,"Incorporating environmental, social and governance factors into investment decisions.",,base,draft,1
-strat.glide_path,strategy,下滑轨道,Glide path,随目标日期临近逐步降低风险资产比例的配置路径。,The schedule by which risky-asset weight declines as a target date approaches.,,base,draft,1
-strat.stop_loss,strategy,止损,Stop-loss,在价格跌至预设水平时卖出以限制损失的规则。,"A rule to sell when the price falls to a preset level, limiting losses.",,base,draft,1
-strat.long_short,strategy,多空策略,Long-short strategy,同时买入看好的资产并卖空看淡的资产的策略。,A strategy that buys assets expected to rise and short sells those expected to fall.,,base,draft,1
-macro.interest_rate,macro,利率,Interest rate,借贷资金的价格，以本金的百分比表示。,"The price of borrowing money, expressed as a percentage of principal.",,base,draft,1
-macro.policy_rate,macro,政策利率,Policy rate,中央银行用以实施货币政策的基准利率。,The benchmark rate a central bank uses to implement monetary policy.,,base,draft,1
-macro.rate_hike,macro,加息,Rate hike,中央银行上调政策利率。,A central bank raising its policy rate.,,base,draft,1
-macro.rate_cut,macro,降息,Rate cut,中央银行下调政策利率。,A central bank lowering its policy rate.,,base,draft,1
-macro.monetary_policy,macro,货币政策,Monetary policy,中央银行通过利率和货币供应调节经济的政策。,Central bank policy that steers the economy through interest rates and money supply.,,base,draft,1
-macro.quantitative_easing,macro,量化宽松,Quantitative easing,中央银行大规模购买资产以压低长期利率、增加流动性的政策。,Large-scale central bank asset purchases to lower long-term rates and add liquidity.,,base,draft,1
-macro.fiscal_policy,macro,财政政策,Fiscal policy,政府通过税收和支出调节经济的政策。,Government policy that steers the economy through taxation and spending.,,base,draft,1
-macro.inflation,macro,通货膨胀,Inflation,一般物价水平持续上涨、货币购买力下降的现象。,"A sustained rise in the general price level, reducing the purchasing power of money.",,base,draft,1
-macro.deflation,macro,通货紧缩,Deflation,一般物价水平持续下降的现象。,A sustained fall in the general price level.,,base,draft,1
-macro.cpi,macro,消费者价格指数,Consumer price index,衡量居民消费商品和服务价格变化的指数，常用于衡量通胀。,"An index tracking prices of consumer goods and services, commonly used to measure inflation.",,base,draft,1
-macro.economic_growth,macro,经济增长,Economic growth,一个经济体产出随时间的增加。,An increase in an economy's output over time.,,base,draft,1
-macro.gdp,macro,国内生产总值,Gross domestic product,一定时期内一国境内生产的全部最终产品和服务的价值。,The value of all final goods and services produced within a country over a period.,,base,draft,1
-macro.business_cycle,macro,经济周期,Business cycle,经济活动在扩张与收缩之间交替的周期性波动。,The recurring fluctuation of economic activity between expansion and contraction.,,base,draft,1
-macro.recession,macro,经济衰退,Recession,经济活动显著且持续下滑的阶段。,"A significant, sustained decline in economic activity.",,base,draft,1
-macro.unemployment,macro,失业率,Unemployment rate,劳动力中没有工作但在寻找工作的人口比例。,The share of the labour force that is without work but seeking it.,,base,draft,1
-macro.yield_curve,macro,收益率曲线,Yield curve,同一信用等级债券收益率与期限关系的曲线。,A curve showing yields of bonds of the same credit quality across maturities.,,base,draft,1
-macro.yield_curve_inversion,macro,收益率曲线倒挂,Yield curve inversion,短期收益率高于长期收益率的现象，常被视为衰退先行信号。,"When short-term yields exceed long-term yields, often seen as a leading signal of recession.","Historically a leading recession indicator, not a guarantee.",base,draft,1
-macro.exchange_rate,macro,汇率,Exchange rate,一种货币兑换另一种货币的价格。,The price of one currency in terms of another.,,base,draft,1
-macro.credit_cycle,macro,信用周期,Credit cycle,信贷扩张与收缩交替出现的周期。,The alternating expansion and contraction of credit availability.,,base,draft,1
-market.bond_price,market,债券价格,Bond price,债券在市场上的交易价格，与收益率呈反向变动。,"The market price of a bond, which moves inversely to its yield.",,base,draft,1
-market.index,market,市场指数,Market index,按规则选取一篮子证券、反映市场或板块整体表现的指标。,A rules-based basket of securities measuring the performance of a market or segment.,,base,draft,1
-market.benchmark,market,业绩比较基准,Benchmark,用于评价投资组合表现的参照标准，通常为指数。,"A reference, usually an index, against which portfolio performance is evaluated.",,base,draft,1
-market.liquidity,market,市场流动性,Market liquidity,资产能以接近公允价格快速成交的程度。,The degree to which an asset can be traded quickly near its fair price.,,base,draft,1
-market.bull_market,market,牛市,Bull market,价格持续上涨、投资者情绪乐观的市场阶段。,A market phase of sustained rising prices and optimistic sentiment.,,base,draft,1
-market.bear_market,market,熊市,Bear market,价格持续下跌、投资者情绪悲观的市场阶段。,A market phase of sustained falling prices and pessimistic sentiment.,,base,draft,1
-market.primary_market,market,一级市场,Primary market,证券首次发行、资金从投资者流向发行人的市场。,The market where securities are first issued and money flows from investors to issuers.,,base,draft,1
-market.secondary_market,market,二级市场,Secondary market,已发行证券在投资者之间交易的市场。,The market where previously issued securities trade between investors.,,base,draft,1
-market.ipo,market,首次公开发行,Initial public offering,公司首次向公众发行股票并上市。,A company's first sale of shares to the public and listing on an exchange.,,base,draft,1
-market.dividend,market,股息,Dividend,公司从利润中分配给股东的现金或股票。,Cash or shares a company distributes to shareholders from its profits.,,base,draft,1
-market.coupon,market,票息,Coupon payment,债券按期向持有人支付的利息。,The periodic interest a bond pays to its holder.,,base,draft,1
-market.maturity,market,到期日,Maturity,债券或其他债务工具偿还本金的日期。,The date on which a bond or other debt instrument repays its principal.,,base,draft,1
-market.fees,market,投资费用,Investment fees,投资过程中支付的管理费、托管费、交易佣金等成本。,"Costs paid when investing, such as management fees, custody fees and trading commissions.",,base,draft,1
-market.margin_trading,market,融资融券,Margin trading,向券商借入资金买入证券或借入证券卖出的交易方式。,"Borrowing money from a broker to buy securities, or borrowing securities to sell.",,base,draft,1
-market.short_selling,market,卖空,Short selling,借入证券卖出、期望日后以更低价格买回获利的交易。,Selling borrowed securities in the hope of buying them back later at a lower price.,,base,draft,1
-market.risk_premium,market,风险溢价,Risk premium,投资者因承担风险而要求的高于无风险利率的额外收益。,The extra return above the risk-free rate that investors require for bearing risk.,,base,draft,1
-market.risk_free_rate,market,无风险利率,Risk-free rate,理论上不承担违约风险的投资收益率，常以短期国债利率代表。,"The return on an investment with theoretically no default risk, often proxied by short-term government bill rates.","Proxy differs by market (e.g. T-bills, SORA, DR007).",base,draft,1
-suit.suitability,suitability,投资者适当性,Suitability,金融机构应承担的义务：将合适的产品销售给合适的投资者，并充分揭示风险。,The obligation of financial institutions to sell suitable products to suitable investors and to disclose risks adequately.,,base,draft,1
-suit.kyc,suitability,了解你的客户,Know your customer,在提供服务前识别并了解客户身份、财务状况和投资需求的流程。,The process of identifying a client and understanding their finances and needs before providing services.,,base,draft,1
-suit.investor_profile,suitability,投资者画像,Investor profile,描述投资者目标、期限、风险承受能力和流动性需求的综合信息。,"A summary of an investor's objectives, horizon, risk tolerance and liquidity needs.",,base,draft,1
-suit.risk_tolerance,suitability,风险承受能力,Risk tolerance,经评估确定的投资者在财务和心理上能够承受的损失程度。,The assessed degree of loss an investor can bear financially and psychologically.,,base,draft,1
-suit.risk_appetite,suitability,风险偏好,Risk appetite,投资者主观上愿意承担风险的意愿。,An investor's subjective willingness to take risk.,,base,draft,1
-suit.investment_horizon,suitability,投资期限,Investment horizon,投资者计划持有投资直到需要使用资金的时间长度。,How long an investor plans to hold investments before needing the money.,,base,draft,1
-suit.liquidity_needs,suitability,流动性需求,Liquidity needs,投资者在一定时间内需要动用资金的程度。,How much and how soon an investor may need access to their money.,,base,draft,1
-suit.investment_objective,suitability,投资目标,Investment objective,投资者希望通过投资实现的目标，如保值、收入或增值。,"What an investor wants to achieve, such as capital preservation, income or growth.",,base,draft,1
-suit.investor_risk_category,suitability,投资者风险类型,Investor risk category,根据风险承受能力对投资者划分的等级。,A classification of investors by assessed risk tolerance.,Jurisdictions use finer scales (e.g. five levels C1-C5 in mainland China); map local levels onto these three types.,base,draft,1
-suit.conservative,suitability,保守型投资者,Conservative investor,以保本和稳定为首要目标、只能承受很小波动的投资者类型。,"An investor type prioritising capital preservation and stability, able to bear only small fluctuations.",Generic type; map to local regulatory levels.,base,draft,1
-suit.balanced,suitability,平衡型投资者,Balanced investor,在收益和风险之间寻求平衡、可承受中等波动的投资者类型。,"An investor type balancing return and risk, able to bear moderate fluctuations.",Generic type; in mainland China '稳健型' and '平衡型' are distinct levels - do not merge.,base,draft,1
-suit.aggressive,suitability,进取型投资者,Aggressive investor,追求较高收益、可承受较大波动和亏损的投资者类型。,An investor type seeking higher returns and able to bear large fluctuations and losses.,Generic type; map to local regulatory levels.,base,draft,1
-suit.product_risk_rating,suitability,产品风险等级,Product risk rating,机构根据产品风险特征对其划分的等级，用于与投资者风险类型匹配。,"A grade assigned to a product by its risk characteristics, used to match investor risk categories.",Scales are firm/jurisdiction-specific (e.g. R1-R5).,base,draft,1
-suit.qualified_investor,suitability,合格投资者,Qualified investor,达到监管规定的资产、收入或经验门槛、可投资私募等高风险产品的投资者；门槛因辖区而异。,"An investor meeting regulatory wealth, income or experience thresholds and eligible for higher-risk products such as private funds; thresholds differ by jurisdiction.",Mainland private-fund threshold (financial assets >= RMB 3m or income tests) differs from Singapore accredited-investor tests (e.g. net personal assets >= S$2m); state the jurisdiction.,base,draft,1
-suit.risk_disclosure,suitability,风险揭示,Risk disclosure,向投资者充分说明产品风险的义务和文件。,"The obligation, and documents, to explain product risks fully to investors.",,base,draft,1
-suit.retirement_planning,suitability,退休规划,Retirement planning,为退休后的生活需求进行储蓄和投资安排的过程。,The process of saving and investing to fund living needs in retirement.,,base,draft,1
-suit.emergency_fund,suitability,应急资金,Emergency fund,为应对突发支出而预留的高流动性资金。,Highly liquid money set aside for unexpected expenses.,,base,draft,1
-behav.behavioral_bias,behavioral,行为偏差,Behavioral bias,系统性偏离理性决策、影响投资判断的心理倾向。,A psychological tendency that systematically departs from rational decision-making and affects investment judgement.,,base,draft,1
-behav.loss_aversion,behavioral,损失厌恶,Loss aversion,同等金额的损失带来的痛苦大于收益带来的快乐的倾向。,The tendency to feel losses more strongly than gains of the same size.,,base,draft,1
-behav.herding,behavioral,羊群效应,Herding,跟随多数人的投资行为而忽视自身判断的倾向。,The tendency to follow the crowd's investment behaviour instead of one's own judgement.,,base,draft,1
-behav.overconfidence,behavioral,过度自信,Overconfidence,高估自身判断准确性和能力的倾向。,The tendency to overestimate the accuracy of one's own judgement and abilities.,,base,draft,1
-behav.anchoring,behavioral,锚定效应,Anchoring,过度依赖最初获得的信息（如买入价）作出判断的倾向。,"The tendency to rely too heavily on initial information, such as a purchase price, when deciding.",,base,draft,1
-behav.disposition_effect,behavioral,处置效应,Disposition effect,过早卖出盈利资产、过久持有亏损资产的倾向。,The tendency to sell winners too early and hold losers too long.,,base,draft,1
-behav.recency_bias,behavioral,近因偏差,Recency bias,过度看重近期事件、以为近期趋势会持续的倾向。,The tendency to overweight recent events and assume recent trends will continue.,,base,draft,1
-behav.confirmation_bias,behavioral,确认偏误,Confirmation bias,只关注支持自己既有观点信息的倾向。,The tendency to seek out information that supports one's existing views.,,base,draft,1
-behav.mental_accounting,behavioral,心理账户,Mental accounting,将资金按来源或用途分别看待、而非整体考虑的倾向。,The tendency to treat money differently depending on its source or intended use rather than as a whole.,,base,draft,1
-behav.home_bias,behavioral,本土偏好,Home bias,过度投资于本国或熟悉市场的倾向。,The tendency to over-invest in one's home or familiar market.,,base,draft,1
-behav.fomo,behavioral,错失恐惧,Fear of missing out,担心错过上涨机会而仓促追涨的心理。,Anxiety about missing gains that leads to hasty buying into rallies.,,base,draft,1
-metric.yield,metric,收益率,Yield,资产每年产生的现金收入（利息、股息）相对其价格的比率；债券语境下通常指到期收益率。,"Annual cash income (interest, dividends) from an asset relative to its price; in bond contexts usually the yield to maturity.",Chinese '收益率' maps here by default in bond contexts; total return is metric.return.,base,draft,1
-metric.cvar,metric,条件风险价值,Conditional value at risk,超过风险价值阈值的损失的期望值，用于刻画尾部损失幅度。,"The expected loss beyond the value-at-risk threshold, used to characterise the size of tail losses.",,base,draft,1
-metric.downside_risk,metric,下行风险,Downside risk,收益低于目标或零的波动部分，是索提诺比率的分母。,The portion of volatility from returns below a target or zero; the denominator of the Sortino ratio.,,base,draft,1
-metric.capital_gain,metric,资本利得,Capital gain,资产卖出价高于买入价所实现的收益。,The gain realised when an asset is sold for more than its purchase price.,,base,draft,1
-metric.compounding,metric,复利,Compounding,收益再投资后继续产生收益，使资产随时间加速增长的过程。,"The process by which reinvested returns earn further returns, accelerating growth over time.",,base,draft,1
-metric.investment_grade,metric,投资级,Investment grade,信用评级达到较高等级（如 BBB-/Baa3 及以上）、违约风险较低的评级区间。,The rating band (e.g. BBB-/Baa3 and above) indicating relatively low default risk.,,base,draft,1
-metric.speculative_grade,metric,投机级,Speculative grade,信用评级低于投资级、违约风险较高的评级区间。,"The rating band below investment grade, indicating higher default risk.",,base,draft,1
-term.fee_structure,terms,费用结构,Fee structure,投资产品收取的各类费用的组成，如管理费、托管费、申购赎回费、销售服务费和业绩报酬。,"The composition of charges on an investment product, such as management, custody, subscription/redemption, distribution and performance fees.",,base,draft,1
-term.management_fee,terms,管理费,Management fee,基金管理人按资产规模比例收取的费用。,A fee charged by the manager as a percentage of assets.,,base,draft,1
-term.custody_fee,terms,托管费,Custody fee,托管机构保管基金资产收取的费用。,A fee charged by the custodian for safekeeping fund assets.,,base,draft,1
-term.subscription_redemption_fee,terms,申购赎回费,Subscription and redemption fees,投资者买入或卖出基金份额时支付的费用。,Fees paid by investors when buying or selling fund units.,,base,draft,1
-term.performance_fee,terms,业绩报酬,Performance fee,管理人在业绩超过约定基准时按超额部分提取的报酬，常见于私募基金。,"A fee the manager takes from returns above an agreed hurdle, common in private funds.",,base,draft,1
-term.redemption_terms,terms,赎回条款,Redemption terms,产品何时、以何种条件允许投资者取回资金的规定，如开放日、锁定期和赎回费。,"The rules on when and how investors can get their money back, such as dealing days, lock-ups and redemption fees.",,base,draft,1
-term.open_end,terms,开放式,Open-ended,投资者可在开放日按净值申购和赎回的基金运作方式。,A fund structure in which investors can subscribe and redeem at net asset value on dealing days.,,base,draft,1
-term.closed_end,terms,封闭式,Closed-ended,在封闭期内不接受申购赎回、份额只能在二级市场转让的运作方式。,A fund structure with no subscriptions or redemptions during the closed period; units trade on the secondary market.,,base,draft,1
-term.lock_up,terms,锁定期,Lock-up period,投资者不得赎回的最短持有期限。,The minimum holding period during which investors cannot redeem.,,base,draft,1
-term.principal_protection,terms,本金保障,Principal protection,产品是否承诺到期归还本金；多数投资产品不保本，存款受存款保险保障。,"Whether a product promises to return principal; most investment products do not, while deposits are covered by deposit insurance.",,base,draft,1
-term.nav_based,terms,净值化,Net-asset-value based,产品按实际投资结果计算净值、收益随市场波动、不承诺固定回报的管理方式。,"Managing a product so that its value reflects actual investment results, fluctuating with markets and promising no fixed return.",,base,draft,1
-term.implicit_guarantee,terms,刚性兑付,Implicit guarantee,发行机构在产品亏损时仍自行承担损失、保证兑付的做法；资管新规要求打破刚兑。,The practice of an issuer absorbing losses to honour payouts regardless of performance; regulators in mainland China require this to be broken.,,base,draft,1
-term.past_performance,terms,过往业绩,Past performance,产品或管理人历史上的收益表现；不代表未来表现，也不构成收益承诺。,The historical returns of a product or manager; not indicative of future results and not a promise of return.,Always present with 'not indicative of future results'.,base,draft,1
-risk.call,risk,赎回风险,Call risk,发行人在利率下降时提前赎回债券，投资者被迫以更低收益率再投资的风险。,"The risk that an issuer redeems a bond early when rates fall, forcing reinvestment at lower yields.",,base,draft,1
-inst.callable_bond,instrument,可赎回债券,Callable bond,发行人有权在到期前按约定价格赎回的债券。,A bond the issuer may redeem before maturity at a set price.,,base,draft,1
-inst.perpetual_bond,instrument,永续债,Perpetual bond,没有固定到期日、发行人可选择赎回的债券，常见于银行资本工具。,"A bond with no fixed maturity that the issuer may call, common among bank capital instruments.",,base,draft,1
-inst.annuity,instrument,年金保险,Annuity,由保险公司发行、按约定在未来定期给付的保险产品，常用于退休收入规划。,"An insurance product paying regular amounts in the future, often used for retirement income.",,base,draft,1
-inst.insurance_product,instrument,保险类理财产品,Insurance-based investment product,兼具保障与储蓄或投资功能的人身保险产品，如增额终身寿险、分红险、投连险。,"Life insurance products combining protection with savings or investment, such as participating and unit-linked policies.",,base,draft,1
-term.tax,terms,投资税收,Investment taxation,投资收益涉及的税负及税收优惠安排，如资本利得税、股息税和税收递延账户。,"Taxes on investment returns and tax-advantaged arrangements, such as capital gains tax, dividend tax and tax-deferred accounts.",,base,draft,1
-inst.cross_border_channel,instrument,跨境投资通道,Cross-border investment channel,居民投资境外市场的合规渠道，如 QDII、沪深港通、跨境理财通。,"Regulated channels for investing in overseas markets, such as QDII, Stock Connect and Wealth Management Connect.",,base,draft,1
-suit.retail_investor,suitability,普通投资者,Retail investor,未被认定为专业投资者的个人投资者，享有更高程度的适当性保护。,"An individual investor not classified as professional, receiving a higher level of suitability protection.",Mainland: 普通投资者; Singapore: retail client. Derivatives access for retail requires additional assessment.,base,draft,1
-suit.professional_investor,suitability,专业投资者,Professional investor,满足资产、收入或经验标准、被认定为具备专业判断能力的投资者；认定标准因辖区而异。,"An investor meeting asset, income or experience criteria and deemed able to judge risks independently; criteria differ by jurisdiction.",Mainland: 专业投资者 under the suitability measures; Singapore: Accredited / Expert / Institutional investor (SFA). Thresholds differ.,base,draft,1
-suit.cautious,suitability,谨慎型投资者,Cautious investor,风险承受能力最低、几乎不能承受本金损失的投资者类型（中国大陆 C1）。,"The lowest risk-tolerance type, barely able to bear any loss of principal (C1 in mainland China).",,base,draft,1
-suit.steady,suitability,稳健型投资者,Steady investor,可承受较小波动、以稳健收益为目标的投资者类型（中国大陆 C2）。,An investor type able to bear small fluctuations and seeking steady returns (C2 in mainland China).,"Mainland China five-level scale: C1 谨慎型, C2 稳健型, C3 平衡型, C4 成长型, C5 进取型. Do not merge 稳健型 with 平衡型.",base,draft,1
-suit.growth,suitability,成长型投资者,Growth investor,可承受较大波动、追求资产增长的投资者类型（中国大陆 C4）。,An investor type able to bear larger fluctuations and seeking asset growth (C4 in mainland China).,,base,draft,1
+concept_id,scheme,pref_zh,pref_en,definition_zh,definition_en,scope_note,jurisdiction,tier,layer,status,version
+asset.equity,asset_class,权益类资产,Equity,代表对企业所有权的资产，收益来自分红和价格上涨，波动通常高于固定收益。,"Assets representing ownership in companies, earning returns through dividends and price appreciation, typically more volatile than fixed income.",,global,1,base,draft,1
+asset.fixed_income,asset_class,固定收益,Fixed income,按约定支付利息并到期还本的债务类资产，收益相对稳定，主要受利率和信用影响。,Debt assets that pay contractual interest and return principal at maturity; returns are relatively stable and driven mainly by interest rates and credit.,,global,1,base,draft,1
+asset.cash,asset_class,现金及现金等价物,Cash and cash equivalents,流动性极高、价格波动极小的资产，如活期存款和短期货币市场工具。,"Highly liquid assets with minimal price fluctuation, such as demand deposits and short-term money market instruments.",,global,1,base,draft,1
+asset.alternative,asset_class,另类资产,Alternative assets,股票、债券和现金之外的资产类别，通常流动性较低、估值较复杂。,"Asset classes outside stocks, bonds and cash, usually less liquid and harder to value.",,global,1,base,draft,1
+asset.real_estate,asset_class,房地产,Real estate,以土地和建筑物为基础的资产，收益来自租金和资产增值。,"Assets based on land and buildings, earning returns from rent and capital appreciation.",,global,1,base,draft,1
+asset.commodity,asset_class,大宗商品,Commodities,能源、金属、农产品等可标准化交易的实物商品。,"Standardised, tradable physical goods such as energy, metals and agricultural products.",,global,1,base,draft,1
+asset.gold,asset_class,黄金,Gold,常被视为避险和价值储藏手段的贵金属；价格波动较大，并不保证保值。,A precious metal often regarded as a safe haven and store of value; its price is volatile and value preservation is not guaranteed.,,global,1,base,draft,1
+asset.private_equity,asset_class,私募股权,Private equity,投资于未公开上市企业股权的资产类别，持有期长、流动性低。,"Investment in equity of companies that are not publicly listed, with long holding periods and low liquidity.",Abbreviation 'PE' is shared with the P/E ratio (metric.pe); disambiguate by context.,global,3,base,draft,1
+asset.private_credit,asset_class,私募信贷,Private credit,由非银行机构直接向企业提供、不在公开市场交易的贷款类资产。,Loans provided directly to companies by non-bank lenders and not traded on public markets.,,global,3,base,draft,1
+asset.infrastructure,asset_class,基础设施,Infrastructure,投资于交通、能源、公用事业等长期基础设施项目的资产类别。,"An asset class investing in long-lived projects such as transport, energy and utilities.",,global,3,base,draft,1
+strat.multi_asset,strategy,多资产,Multi-asset,在同一组合中同时配置多种资产类别的投资方式。,An approach that combines several asset classes within one portfolio.,,global,2,base,draft,1
+inst.financial_instrument,instrument,金融工具,Financial instrument,具有货币价值、可交易或可转让的合约或凭证的统称。,A general term for contracts or certificates with monetary value that can be traded or transferred.,,global,1,base,draft,1
+inst.security,instrument,证券,Security,代表所有权或债权、可在市场上交易的金融工具，如股票和债券。,"A tradable financial instrument representing ownership or a creditor claim, such as stocks and bonds.",,global,1,base,draft,1
+inst.stock,instrument,股票,Stock,代表持有者对公司部分所有权的证券。,A security representing partial ownership of a company.,,global,1,base,draft,1
+inst.common_stock,instrument,普通股,Common stock,享有投票权和剩余收益分配权、清偿顺序最后的股票。,"Stock carrying voting rights and a residual claim on earnings, ranking last in liquidation.",,global,2,base,draft,1
+inst.preferred_stock,instrument,优先股,Preferred stock,在股息分配和清偿顺序上优先于普通股、通常无投票权的股票。,"Stock with priority over common stock for dividends and liquidation, usually without voting rights.",,global,3,base,draft,1
+inst.bond,instrument,债券,Bond,发行人向投资者借款并承诺按期付息、到期还本的债务证券。,A debt security in which the issuer borrows from investors and promises periodic interest and repayment of principal at maturity.,,global,1,base,draft,1
+inst.government_bond,instrument,国债,Government bond,由中央政府发行的债券，通常被视为本币信用风险最低的债券，但仍承担利率风险和价格波动。,"A bond issued by a national government, usually seen as carrying the lowest credit risk in its currency, while still subject to interest rate risk and price fluctuation.",Typical product risk rating R1-R2 depending on duration; long-dated bonds carry significant interest rate risk.,global,1,base,draft,1
+inst.credit_bond,instrument,信用债,Credit bond,由非政府主体发行、需承担发行人信用风险的债券。,"A bond issued by a non-government entity, exposing investors to the issuer's credit risk.",,global,1,base,draft,1
+inst.corporate_bond,instrument,公司债,Corporate bond,由企业发行、用于融资的债券。,A bond issued by a company to raise financing.,In mainland China 公司债 (CSRC) and 企业债 (NDRC) are distinct instruments.,global,1,base,draft,1
+inst.high_yield_bond,instrument,高收益债,High-yield bond,信用评级低于投资级、以较高收益补偿较高违约风险的债券。,A bond rated below investment grade that offers higher yield to compensate for higher default risk.,,global,2,base,draft,1
+inst.convertible_bond,instrument,可转换债券,Convertible bond,持有人可在约定条件下转换为发行人股票的债券。,A bond that the holder can convert into the issuer's shares under specified terms.,,global,2,base,draft,1
+inst.zero_coupon_bond,instrument,零息债券,Zero-coupon bond,不支付票息、以折价发行并到期按面值兑付的债券。,"A bond that pays no coupon, is issued at a discount and redeems at face value at maturity.",,global,3,base,draft,1
+inst.inflation_linked_bond,instrument,通胀挂钩债券,Inflation-linked bond,本金或利息随通胀指数调整的债券。,A bond whose principal or interest is adjusted in line with an inflation index.,TIPS are the US variant; other markets have their own linkers.,global,3,base,draft,1
+inst.money_market_instrument,instrument,货币市场工具,Money market instrument,期限通常在一年以内、流动性高的短期债务工具，如短期票据和回购。,"Short-term, highly liquid debt instruments, typically under one year, such as commercial paper and repos.",,global,3,base,draft,1
+inst.deposit,instrument,存款,Deposit,存放在银行等存款机构、按约定计息的资金。,Funds placed with a bank or deposit-taking institution that earn agreed interest.,,global,1,base,draft,1
+inst.fund,instrument,投资基金,Investment fund,汇集多名投资者资金、由专业管理人统一投资的集合投资工具。,A collective investment vehicle pooling money from many investors and managed by a professional manager.,,global,1,base,draft,1
+inst.mutual_fund,instrument,公募基金,Mutual fund,向公众公开募集、受严格监管的投资基金。,An investment fund offered to the public and subject to strict regulation.,,global,1,base,draft,1
+inst.etf,instrument,交易所交易基金,Exchange-traded fund,在交易所上市、可像股票一样买卖的基金，多数跟踪指数。,"A fund listed on an exchange and traded like a stock, most tracking an index.",,global,1,base,draft,1
+inst.index_fund,instrument,指数基金,Index fund,以复制特定市场指数表现为目标的基金。,A fund that aims to replicate the performance of a specific market index.,,global,1,base,draft,1
+inst.money_market_fund,instrument,货币市场基金,Money market fund,主要投资于货币市场工具、追求较低波动和高流动性的基金；不保证本金不受损失。,"A fund investing mainly in money market instruments, seeking low volatility and high liquidity; principal is not guaranteed.",Typical product risk rating R1 (lowest); principal not guaranteed. Matching to investors is done by the suitability rule layer.,global,1,base,draft,1
+inst.bond_fund,instrument,债券基金,Bond fund,主要投资于债券的基金。,A fund that invests mainly in bonds.,Typical product risk rating R2-R3.,global,1,base,draft,1
+inst.equity_fund,instrument,股票型基金,Equity fund,主要投资于股票的基金。,A fund that invests mainly in stocks.,Typical product risk rating R4.,global,1,base,draft,1
+inst.balanced_fund,instrument,混合型基金,Balanced fund,同时投资股票和债券、在两者之间灵活配置的基金。,"A fund that invests in both stocks and bonds, allocating flexibly between them.",Typical product risk rating R3-R4.,global,1,base,draft,1
+inst.fund_of_funds,instrument,基金中的基金,Fund of funds,以其他基金为主要投资对象的基金。,A fund whose main holdings are other funds.,,global,3,base,draft,1
+inst.target_date_fund,instrument,目标日期基金,Target-date fund,按预设目标日期逐步降低风险资产比例的基金，常用于养老规划。,"A fund that gradually reduces risky assets as a preset target date approaches, often used for retirement.",,global,2,base,draft,1
+inst.private_fund,instrument,私募基金,Private fund,仅向合格投资者非公开募集的投资基金。,An investment fund raised privately and only from qualified investors.,Typical product risk rating R4-R5; qualified investors only.,global,3,base,draft,1
+inst.hedge_fund,instrument,对冲基金,Hedge fund,运用杠杆、做空和衍生品等多种策略追求绝对收益的私募基金。,"A private fund using strategies such as leverage, short selling and derivatives to pursue absolute returns.",,global,3,base,draft,1
+inst.reit,instrument,房地产投资信托,Real estate investment trust,持有并经营收益性房地产、将大部分收益分配给投资者的可交易工具。,A tradable vehicle that owns and operates income-producing real estate and distributes most income to investors.,,global,1,base,draft,1
+inst.derivative,instrument,衍生品,Derivative,价值取决于股票、利率、汇率、商品等基础资产的金融合约。,"A financial contract whose value depends on an underlying asset such as stocks, rates, currencies or commodities.","Retail access is subject to jurisdiction-specific suitability tests (e.g. SIP CKA/CAR in Singapore, exchange-set thresholds in mainland China).",global,1,base,draft,1
+inst.option,instrument,期权,Option,赋予买方在约定期限内以约定价格买入或卖出基础资产权利的合约。,"A contract giving the buyer the right, but not the obligation, to buy or sell an underlying asset at a set price within a set period.",,global,3,base,draft,1
+inst.call_option,instrument,看涨期权,Call option,赋予买方以约定价格买入基础资产权利的期权。,An option giving the buyer the right to buy the underlying asset at the strike price.,,global,3,base,draft,1
+inst.put_option,instrument,看跌期权,Put option,赋予买方以约定价格卖出基础资产权利的期权。,An option giving the buyer the right to sell the underlying asset at the strike price.,,global,3,base,draft,1
+inst.future,instrument,期货,Futures contract,在交易所交易、约定未来以确定价格交割标准化资产的合约。,An exchange-traded contract to deliver a standardised asset at a set price on a future date.,,global,3,base,draft,1
+inst.forward,instrument,远期合约,Forward contract,双方私下约定未来以确定价格买卖资产的非标准化合约。,"A privately negotiated, non-standardised contract to buy or sell an asset at a set price in the future.",,global,3,base,draft,1
+inst.swap,instrument,互换,Swap,双方约定在一段时间内交换现金流的衍生品合约。,A derivative contract in which two parties exchange cash flows over a period of time.,,global,3,base,draft,1
+inst.interest_rate_swap,instrument,利率互换,Interest rate swap,双方交换固定利率与浮动利率利息支付的互换。,A swap in which parties exchange fixed-rate and floating-rate interest payments.,,global,3,base,draft,1
+inst.cds,instrument,信用违约互换,Credit default swap,买方定期付费、在参考实体违约时获得补偿的信用衍生品。,A credit derivative in which the buyer pays a periodic fee and is compensated if a reference entity defaults.,Classified here as a swap (ISDA); commonly referred to as a credit derivative.,global,3,base,draft,1
+inst.structured_product,instrument,结构化产品,Structured product,将固定收益工具与衍生品组合、收益与特定标的挂钩的产品。,A product combining fixed income with derivatives so that returns are linked to a specified underlying.,,global,1,base,draft,1
+inst.structured_deposit,instrument,结构性存款,Structured deposit,在存款基础上嵌入衍生品的产品，本金按存款保障，收益与利率、汇率或指数等挂钩而浮动。,"A deposit with an embedded derivative: principal is protected as a deposit while the return floats with rates, currencies or indices.","Classified as a deposit in mainland China (on balance sheet, deposit insurance); return is not guaranteed.",global,1,base,draft,1
+inst.wealth_management_product,instrument,理财产品,Wealth management product,由银行或理财子公司等发行、代客投资管理的集合投资产品；实行净值化管理，不保证本金和收益。,"A pooled investment product issued by banks or their wealth management subsidiaries; net-asset-value based, with neither principal nor return guaranteed.","Post-2018 mainland rules: NAV-based, no guarantee of principal or return; broader term 资管产品 covers funds, trusts and WMPs.",CN,2,base,draft,1
+risk.investment_risk,risk,投资风险,Investment risk,实际投资结果偏离预期、包括可能发生损失的不确定性。,"The uncertainty that actual investment outcomes differ from expectations, including the possibility of loss.",,global,1,base,draft,1
+risk.systematic,risk,系统性风险,Systematic risk,影响整个市场、无法通过分散化消除的风险。,Risk affecting the whole market that cannot be eliminated through diversification.,,global,2,base,draft,1
+risk.unsystematic,risk,非系统性风险,Unsystematic risk,仅影响个别公司或行业、可通过分散化降低的风险。,Risk specific to individual companies or sectors that can be reduced through diversification.,,global,2,base,draft,1
+risk.market,risk,市场风险,Market risk,因市场价格（股价、利率、汇率、商品价格）变动导致损失的风险。,"The risk of loss from movements in market prices such as equity prices, interest rates, exchange rates and commodity prices.",,global,1,base,draft,1
+risk.equity_price,risk,股价风险,Equity price risk,因股票价格下跌导致损失的风险。,The risk of loss from falling stock prices.,,global,1,base,draft,1
+risk.interest_rate,risk,利率风险,Interest rate risk,因利率变动导致资产价值变化的风险，利率上升时债券价格通常下跌。,The risk that changes in interest rates alter asset values; bond prices usually fall when rates rise.,,global,1,base,draft,1
+risk.fx,risk,汇率风险,Currency risk,因汇率变动导致以本币计价的投资价值变化的风险。,The risk that exchange-rate movements change the home-currency value of an investment.,,global,1,base,draft,1
+risk.commodity_price,risk,商品价格风险,Commodity price risk,因大宗商品价格变动导致损失的风险。,The risk of loss from changes in commodity prices.,,global,3,base,draft,1
+risk.credit,risk,信用风险,Credit risk,借款人或发行人信用状况恶化甚至违约而导致损失的风险。,The risk of loss because a borrower or issuer's creditworthiness deteriorates or it defaults.,,global,1,base,draft,1
+risk.default,risk,违约风险,Default risk,发行人无法按时足额支付本金或利息的风险。,The risk that an issuer fails to pay principal or interest in full and on time.,,global,1,base,draft,1
+risk.counterparty,risk,交易对手风险,Counterparty risk,交易对手未能履行合约义务而造成损失的风险，常见于场外衍生品。,"The risk that the other party fails to meet its contractual obligations, common in OTC derivatives.",,global,3,base,draft,1
+risk.liquidity,risk,流动性风险,Liquidity risk,无法以合理价格及时买卖资产的风险。,The risk of being unable to buy or sell an asset quickly at a fair price.,,global,1,base,draft,1
+risk.inflation,risk,通胀风险,Inflation risk,通货膨胀侵蚀投资实际购买力的风险。,The risk that inflation erodes the real purchasing power of an investment.,,global,1,base,draft,1
+risk.reinvestment,risk,再投资风险,Reinvestment risk,收到的利息或本金只能以更低收益率再投资的风险。,The risk that cash flows received must be reinvested at lower yields.,,global,2,base,draft,1
+risk.concentration,risk,集中度风险,Concentration risk,组合过度集中于少数资产、行业或地区而放大损失的风险。,"The risk of amplified losses from concentrating a portfolio in few assets, sectors or regions.",,global,1,base,draft,1
+risk.leverage,risk,杠杆风险,Leverage risk,使用借入资金或衍生品放大收益的同时也放大损失的风险。,The risk that borrowing or derivatives magnify losses as well as gains.,,global,3,base,draft,1
+risk.tail,risk,尾部风险,Tail risk,发生概率很低但损失极大的极端事件风险。,The risk of rare events that cause extreme losses.,,global,3,base,draft,1
+risk.sequence_of_returns,risk,收益顺序风险,Sequence-of-returns risk,在持续取款阶段，早期出现亏损会显著缩短资产可支撑时间的风险。,The risk that poor returns early in a withdrawal phase significantly shorten how long savings last.,,global,3,base,draft,1
+risk.regulatory,risk,政策与监管风险,Regulatory risk,法律、监管或税收政策变化影响投资价值的风险。,"The risk that changes in law, regulation or tax policy affect investment value.",,global,2,base,draft,1
+risk.country,risk,国别风险,Country risk,因特定国家的政治、经济或资本管制因素导致损失的风险。,"The risk of loss arising from political, economic or capital-control factors in a specific country.",,global,3,base,draft,1
+metric.return,metric,投资回报率,Return,一段时间内投资的盈亏占初始投入的比例，含价格变动和现金收入。,"The gain or loss on an investment over a period as a proportion of the amount invested, including price change and income.","Distinct from metric.yield: in bond contexts the Chinese '收益率' means yield, not return.",global,1,base,draft,1
+metric.total_return,metric,总回报,Total return,包含价格变动及分红、利息等收入在内的全部收益。,The full return including price change plus income such as dividends and interest.,,global,1,base,draft,1
+metric.annualized_return,metric,年化收益率,Annualized return,将不同期限的收益换算为每年平均复合收益的指标。,"A return expressed as an average compound rate per year, enabling comparison across periods.","Short-period annualised figures (e.g. 7-day annualised yield) are extrapolations, not achievable returns.",global,1,base,draft,1
+metric.real_return,metric,实际收益率,Real return,扣除通货膨胀影响后的收益率。,The return after adjusting for inflation.,,global,2,base,draft,1
+metric.excess_return,metric,超额收益,Excess return,投资收益超出基准或无风险利率的部分。,The portion of return above a benchmark or the risk-free rate.,,global,2,base,draft,1
+metric.risk_adjusted_return,metric,风险调整后收益,Risk-adjusted return,在考虑所承担风险后对收益进行衡量的一类指标。,A family of measures that evaluate return relative to the risk taken.,,global,2,base,draft,1
+metric.sharpe,metric,夏普比率,Sharpe ratio,单位总波动所获得的超过无风险利率的收益。,Return in excess of the risk-free rate per unit of total volatility.,,global,2,base,draft,1
+metric.sortino,metric,索提诺比率,Sortino ratio,只以下行波动衡量风险的风险调整后收益指标。,A risk-adjusted return measure that uses only downside volatility as risk.,,global,3,base,draft,1
+metric.information_ratio,metric,信息比率,Information ratio,相对基准的超额收益除以跟踪误差，衡量主动管理效率。,"Excess return over a benchmark divided by tracking error, measuring active management efficiency.",,global,3,base,draft,1
+metric.alpha,metric,阿尔法,Alpha,在扣除市场风险贡献后，投资相对基准的超额表现。,Performance relative to a benchmark after removing the contribution of market risk.,,global,2,base,draft,1
+metric.beta,metric,贝塔系数,Beta,衡量资产相对整个市场波动敏感程度的指标。,A measure of how sensitive an asset's returns are to movements of the overall market.,,global,2,base,draft,1
+metric.volatility,metric,波动率,Volatility,资产价格或收益变动幅度的度量，通常以年化标准差表示。,"A measure of how much an asset's price or return fluctuates, usually expressed as annualised standard deviation.",,global,1,base,draft,1
+metric.standard_deviation,metric,标准差,Standard deviation,衡量收益偏离其平均值程度的统计量。,A statistic measuring how far returns deviate from their average.,,global,2,base,draft,1
+metric.max_drawdown,metric,最大回撤,Maximum drawdown,一段时间内资产净值从最高点到随后最低点的最大跌幅。,The largest peak-to-trough decline in value over a period.,,global,1,base,draft,1
+metric.var,metric,风险价值,Value at risk,在给定置信水平和期限内，组合可能遭受的最大损失估计。,An estimate of the maximum loss a portfolio may suffer over a given horizon at a given confidence level.,,global,3,base,draft,1
+metric.tracking_error,metric,跟踪误差,Tracking error,组合收益与基准收益之差的波动程度。,The volatility of the difference between portfolio and benchmark returns.,,global,3,base,draft,1
+metric.correlation,metric,相关系数,Correlation,衡量两种资产收益同向变动程度的指标，取值在 -1 到 1 之间。,A measure from -1 to 1 of how closely two assets' returns move together.,,global,2,base,draft,1
+metric.duration,metric,久期,Duration,债券现金流的加权平均回收期；也常泛指债券价格对收益率变动的敏感程度，久期越长利率风险越大。,"The weighted-average time to receive a bond's cash flows; also commonly used for a bond's price sensitivity to yield changes, with longer duration meaning higher interest rate risk.",Macaulay duration is a time measure; modified duration is the price-sensitivity measure.,global,1,base,draft,1
+metric.modified_duration,metric,修正久期,Modified duration,收益率变动 1 个百分点时债券价格的近似百分比变化。,The approximate percentage change in a bond's price for a one-percentage-point change in yield.,,global,3,base,draft,1
+metric.convexity,metric,凸性,Convexity,衡量债券价格与收益率关系弯曲程度、用于修正久期估计的指标。,"A measure of the curvature in the bond price-yield relationship, used to refine duration estimates.",,global,3,base,draft,1
+metric.dv01,metric,基点价值,DV01,收益率变动一个基点时债券价格的变动金额。,The change in a bond's price for a one-basis-point change in yield.,,global,3,base,draft,1
+metric.ytm,metric,到期收益率,Yield to maturity,按当前价格买入并持有至到期时债券的年化收益率。,The annualised return of a bond if bought at the current price and held to maturity.,,global,2,base,draft,1
+metric.coupon_rate,metric,票面利率,Coupon rate,债券每年支付的利息占面值的比例。,The annual interest paid by a bond as a percentage of its face value.,,global,2,base,draft,1
+metric.credit_spread,metric,信用利差,Credit spread,信用债收益率与同期限无风险债券收益率之差，反映信用风险补偿。,"The yield difference between a credit bond and a risk-free bond of the same maturity, reflecting compensation for credit risk.",,global,2,base,draft,1
+metric.credit_rating,metric,信用评级,Credit rating,评级机构对发行人或债券偿债能力和违约可能性的评估等级。,An agency's assessment of an issuer's or bond's ability to repay and likelihood of default.,,global,1,base,draft,1
+metric.dividend_yield,metric,股息率,Dividend yield,每股年度股息占股价的比例。,Annual dividends per share divided by the share price.,,global,1,base,draft,1
+metric.valuation_multiple,metric,估值倍数,Valuation multiple,以价格或企业价值与财务指标之比衡量估值高低的一类指标。,A family of ratios comparing price or enterprise value to a financial metric to gauge valuation.,,global,1,base,draft,1
+metric.pe,metric,市盈率,Price-to-earnings ratio,股价与每股收益之比。,Share price divided by earnings per share.,Abbreviation 'PE' is shared with private equity (asset.private_equity); disambiguate by context.,global,1,base,draft,1
+metric.pb,metric,市净率,Price-to-book ratio,股价与每股净资产之比。,Share price divided by book value per share.,,global,2,base,draft,1
+metric.ev_ebitda,metric,企业价值倍数,EV/EBITDA,企业价值与息税折旧摊销前利润之比。,"Enterprise value divided by earnings before interest, taxes, depreciation and amortisation.",,global,3,base,draft,1
+metric.eps,metric,每股收益,Earnings per share,归属于母公司股东的净利润除以加权平均股本。,Net profit attributable to shareholders divided by the weighted-average number of shares outstanding.,,global,2,base,draft,1
+metric.roe,metric,净资产收益率,Return on equity,净利润与股东权益之比，衡量股东资本的盈利能力。,"Net profit divided by shareholders' equity, measuring profitability on shareholder capital.",,global,3,base,draft,1
+metric.market_cap,metric,市值,Market capitalization,公司股价乘以总股本得到的市场价值。,The market value of a company: share price multiplied by shares outstanding.,,global,2,base,draft,1
+metric.expense_ratio,metric,费用率,Expense ratio,基金年度运营费用占基金资产的比例。,A fund's annual operating expenses as a percentage of its assets.,,global,1,base,draft,1
+metric.nav,metric,基金净值,Net asset value,基金资产减去负债后按份额计算的价值。,"A fund's assets minus liabilities, expressed per share or unit.",,global,1,base,draft,1
+metric.aum,metric,资产管理规模,Assets under management,管理人代客户管理的资产总市值。,The total market value of assets a manager manages on behalf of clients.,,global,3,base,draft,1
+metric.turnover,metric,组合换手率,Portfolio turnover,一段时间内组合买卖交易金额相对资产规模的比例。,Trading volume over a period relative to the size of a portfolio.,Portfolio turnover; the Chinese '换手率' alone usually means stock/market trading turnover.,global,3,base,draft,1
+metric.bid_ask_spread,metric,买卖价差,Bid-ask spread,最高买价与最低卖价之差，反映交易成本和流动性。,"The difference between the highest bid and lowest ask price, reflecting trading cost and liquidity.",,global,3,base,draft,1
+strat.asset_allocation,strategy,资产配置,Asset allocation,根据目标和风险承受能力，在不同资产类别之间分配投资比例。,Dividing a portfolio among asset classes according to objectives and risk tolerance.,,global,1,base,draft,1
+strat.strategic_aa,strategy,战略资产配置,Strategic asset allocation,基于长期目标设定的长期目标资产比例。,Long-term target asset weights set according to long-term objectives.,,global,3,base,draft,1
+strat.tactical_aa,strategy,战术资产配置,Tactical asset allocation,根据中短期市场判断对战略比例进行的主动偏离。,Active short- to medium-term deviations from strategic weights based on market views.,,global,3,base,draft,1
+strat.risk_parity,strategy,风险平价,Risk parity,让各类资产对组合风险贡献大致相等的配置方法。,An allocation approach in which each asset class contributes roughly equally to portfolio risk.,,global,3,base,draft,1
+strat.core_satellite,strategy,核心-卫星策略,Core-satellite strategy,以低成本被动核心持仓为主、辅以少量主动卫星持仓的组合构建方法。,A portfolio approach combining a low-cost passive core with smaller active satellite positions.,,global,2,base,draft,1
+strat.diversification,strategy,分散化投资,Diversification,将资金分散到相关性较低的多种资产，以降低组合整体风险。,Spreading money across assets with low correlation to reduce overall portfolio risk.,,global,1,base,draft,1
+strat.rebalancing,strategy,再平衡,Rebalancing,定期或在偏离阈值时将组合调整回目标配置比例。,Periodically or at drift thresholds bringing a portfolio back to its target weights.,,global,1,base,draft,1
+strat.dca,strategy,定期定额投资,Dollar-cost averaging,按固定周期投入固定金额，以平滑买入成本。,Investing a fixed amount at regular intervals to smooth the average purchase cost.,Smooths purchase cost; must not be described as reducing risk or raising return (mainland fund marketing rules).,global,1,base,draft,1
+strat.buy_and_hold,strategy,买入并持有,Buy and hold,长期持有资产、不因短期波动频繁交易的策略。,A strategy of holding assets for the long term without frequent trading on short-term moves.,,global,1,base,draft,1
+strat.market_timing,strategy,择时,Market timing,试图通过预测市场涨跌来决定买入卖出时机的做法。,Trying to decide when to buy or sell by predicting market moves.,,global,3,base,draft,1
+strat.passive,strategy,被动投资,Passive investing,以跟踪指数为目标、低成本低换手的投资方式。,"A low-cost, low-turnover approach that aims to track an index.",,global,1,base,draft,1
+strat.active,strategy,主动投资,Active management,管理人通过选券和择时力图跑赢基准的投资方式。,An approach in which managers use security selection and timing to try to beat a benchmark.,,global,1,base,draft,1
+strat.value,strategy,价值投资,Value investing,买入价格低于内在价值证券的投资风格。,An investment style buying securities priced below their intrinsic value.,,global,2,base,draft,1
+strat.growth,strategy,成长投资,Growth investing,投资于盈利预期高速增长企业的投资风格。,An investment style focused on companies expected to grow earnings rapidly.,,global,2,base,draft,1
+strat.factor,strategy,因子投资,Factor investing,系统性地暴露于价值、动量、质量、低波等收益因子的投资方法。,"Systematically targeting return factors such as value, momentum, quality and low volatility.",,global,3,base,draft,1
+strat.hedging,strategy,对冲,Hedging,建立反向头寸以降低特定风险敞口的做法。,Taking an offsetting position to reduce a specific risk exposure.,,global,2,base,draft,1
+strat.immunization,strategy,免疫策略,Immunization,使债券组合久期与负债期限匹配，以抵消利率变动影响的策略。,Matching a bond portfolio's duration to its liability horizon to offset the impact of rate changes.,,global,3,base,draft,1
+strat.laddering,strategy,债券阶梯,Bond laddering,将资金分散投资于不同到期日的债券，按期滚动再投资。,Spreading money across bonds with staggered maturities and reinvesting as each matures.,,global,3,base,draft,1
+strat.leverage,strategy,杠杆投资,Leveraged investing,借入资金或使用衍生品以放大投资敞口。,Using borrowed money or derivatives to magnify investment exposure.,,global,3,base,draft,1
+strat.income,strategy,收益型投资,Income investing,以获取稳定利息、股息等现金收入为主要目标的投资方式。,An approach aiming primarily at steady cash income such as interest and dividends.,,global,2,base,draft,1
+strat.esg,strategy,ESG 投资,ESG investing,在投资决策中纳入环境、社会和公司治理因素的方法。,"Incorporating environmental, social and governance factors into investment decisions.",,global,3,base,draft,1
+strat.glide_path,strategy,下滑轨道,Glide path,随目标日期临近逐步降低风险资产比例的配置路径。,The schedule by which risky-asset weight declines as a target date approaches.,,global,3,base,draft,1
+strat.stop_loss,strategy,止损,Stop-loss,在价格跌至预设水平时卖出以限制损失的规则。,"A rule to sell when the price falls to a preset level, limiting losses.",,global,2,base,draft,1
+strat.long_short,strategy,多空策略,Long-short strategy,同时买入看好的资产并卖空看淡的资产的策略。,A strategy that buys assets expected to rise and short sells those expected to fall.,,global,3,base,draft,1
+macro.interest_rate,macro,利率,Interest rate,借贷资金的价格，以本金的百分比表示。,"The price of borrowing money, expressed as a percentage of principal.",,global,1,base,draft,1
+macro.policy_rate,macro,政策利率,Policy rate,中央银行用以实施货币政策的基准利率。,The benchmark rate a central bank uses to implement monetary policy.,,global,2,base,draft,1
+macro.rate_hike,macro,加息,Rate hike,中央银行上调政策利率。,A central bank raising its policy rate.,,global,1,base,draft,1
+macro.rate_cut,macro,降息,Rate cut,中央银行下调政策利率。,A central bank lowering its policy rate.,,global,1,base,draft,1
+macro.monetary_policy,macro,货币政策,Monetary policy,中央银行通过利率和货币供应调节经济的政策。,Central bank policy that steers the economy through interest rates and money supply.,,global,2,base,draft,1
+macro.quantitative_easing,macro,量化宽松,Quantitative easing,中央银行大规模购买资产以压低长期利率、增加流动性的政策。,Large-scale central bank asset purchases to lower long-term rates and add liquidity.,,global,3,base,draft,1
+macro.fiscal_policy,macro,财政政策,Fiscal policy,政府通过税收和支出调节经济的政策。,Government policy that steers the economy through taxation and spending.,,global,2,base,draft,1
+macro.inflation,macro,通货膨胀,Inflation,一般物价水平持续上涨、货币购买力下降的现象。,"A sustained rise in the general price level, reducing the purchasing power of money.",,global,1,base,draft,1
+macro.deflation,macro,通货紧缩,Deflation,一般物价水平持续下降的现象。,A sustained fall in the general price level.,,global,3,base,draft,1
+macro.cpi,macro,消费者价格指数,Consumer price index,衡量居民消费商品和服务价格变化的指数，常用于衡量通胀。,"An index tracking prices of consumer goods and services, commonly used to measure inflation.",,global,2,base,draft,1
+macro.economic_growth,macro,经济增长,Economic growth,一个经济体产出随时间的增加。,An increase in an economy's output over time.,,global,1,base,draft,1
+macro.gdp,macro,国内生产总值,Gross domestic product,一定时期内一国境内生产的全部最终产品和服务的价值。,The value of all final goods and services produced within a country over a period.,,global,2,base,draft,1
+macro.business_cycle,macro,经济周期,Business cycle,经济活动在扩张与收缩之间交替的周期性波动。,The recurring fluctuation of economic activity between expansion and contraction.,,global,2,base,draft,1
+macro.recession,macro,经济衰退,Recession,经济活动显著且持续下滑的阶段。,"A significant, sustained decline in economic activity.",,global,1,base,draft,1
+macro.unemployment,macro,失业率,Unemployment rate,劳动力中没有工作但在寻找工作的人口比例。,The share of the labour force that is without work but seeking it.,,global,2,base,draft,1
+macro.yield_curve,macro,收益率曲线,Yield curve,同一信用等级债券收益率与期限关系的曲线。,A curve showing yields of bonds of the same credit quality across maturities.,,global,2,base,draft,1
+macro.yield_curve_inversion,macro,收益率曲线倒挂,Yield curve inversion,短期收益率高于长期收益率的现象，常被视为衰退先行信号。,"When short-term yields exceed long-term yields, often seen as a leading signal of recession.","Historically a leading recession indicator, not a guarantee.",global,3,base,draft,1
+macro.exchange_rate,macro,汇率,Exchange rate,一种货币兑换另一种货币的价格。,The price of one currency in terms of another.,,global,2,base,draft,1
+macro.credit_cycle,macro,信用周期,Credit cycle,信贷扩张与收缩交替出现的周期。,The alternating expansion and contraction of credit availability.,,global,3,base,draft,1
+market.bond_price,market,债券价格,Bond price,债券在市场上的交易价格，与收益率呈反向变动。,"The market price of a bond, which moves inversely to its yield.",,global,1,base,draft,1
+market.index,market,市场指数,Market index,按规则选取一篮子证券、反映市场或板块整体表现的指标。,A rules-based basket of securities measuring the performance of a market or segment.,,global,1,base,draft,1
+market.benchmark,market,业绩比较基准,Benchmark,用于评价投资组合表现的参照标准，通常为指数。,"A reference, usually an index, against which portfolio performance is evaluated.",,global,1,base,draft,1
+market.liquidity,market,市场流动性,Market liquidity,资产能以接近公允价格快速成交的程度。,The degree to which an asset can be traded quickly near its fair price.,,global,2,base,draft,1
+market.bull_market,market,牛市,Bull market,价格持续上涨、投资者情绪乐观的市场阶段。,A market phase of sustained rising prices and optimistic sentiment.,,global,1,base,draft,1
+market.bear_market,market,熊市,Bear market,价格持续下跌、投资者情绪悲观的市场阶段。,A market phase of sustained falling prices and pessimistic sentiment.,,global,1,base,draft,1
+market.primary_market,market,一级市场,Primary market,证券首次发行、资金从投资者流向发行人的市场。,The market where securities are first issued and money flows from investors to issuers.,,global,3,base,draft,1
+market.secondary_market,market,二级市场,Secondary market,已发行证券在投资者之间交易的市场。,The market where previously issued securities trade between investors.,,global,1,base,draft,1
+market.ipo,market,首次公开发行,Initial public offering,公司首次向公众发行股票并上市。,A company's first sale of shares to the public and listing on an exchange.,,global,3,base,draft,1
+market.dividend,market,股息,Dividend,公司从利润中分配给股东的现金或股票。,Cash or shares a company distributes to shareholders from its profits.,,global,1,base,draft,1
+market.coupon,market,票息,Coupon payment,债券按期向持有人支付的利息。,The periodic interest a bond pays to its holder.,,global,1,base,draft,1
+market.maturity,market,到期日,Maturity,债券或其他债务工具偿还本金的日期。,The date on which a bond or other debt instrument repays its principal.,,global,1,base,draft,1
+market.fees,market,投资费用,Investment fees,投资过程中支付的管理费、托管费、交易佣金等成本。,"Costs paid when investing, such as management fees, custody fees and trading commissions.",,global,1,base,draft,1
+market.margin_trading,market,融资融券,Margin trading,向券商借入资金买入证券或借入证券卖出的交易方式。,"Borrowing money from a broker to buy securities, or borrowing securities to sell.",,global,3,base,draft,1
+market.short_selling,market,卖空,Short selling,借入证券卖出、期望日后以更低价格买回获利的交易。,Selling borrowed securities in the hope of buying them back later at a lower price.,,global,3,base,draft,1
+market.risk_premium,market,风险溢价,Risk premium,投资者因承担风险而要求的高于无风险利率的额外收益。,The extra return above the risk-free rate that investors require for bearing risk.,,global,2,base,draft,1
+market.risk_free_rate,market,无风险利率,Risk-free rate,理论上不承担违约风险的投资收益率，常以短期国债利率代表。,"The return on an investment with theoretically no default risk, often proxied by short-term government bill rates.","Proxy differs by market (e.g. T-bills, SORA, DR007).",global,1,base,draft,1
+suit.suitability,suitability,投资者适当性,Suitability,金融机构应承担的义务：将合适的产品销售给合适的投资者，并充分揭示风险。,The obligation of financial institutions to sell suitable products to suitable investors and to disclose risks adequately.,,global,1,base,draft,1
+suit.kyc,suitability,了解你的客户,Know your customer,在提供服务前识别并了解客户身份、财务状况和投资需求的流程。,The process of identifying a client and understanding their finances and needs before providing services.,,global,1,base,draft,1
+suit.investor_profile,suitability,投资者画像,Investor profile,描述投资者目标、期限、风险承受能力和流动性需求的综合信息。,"A summary of an investor's objectives, horizon, risk tolerance and liquidity needs.",,global,1,base,draft,1
+suit.risk_tolerance,suitability,风险承受能力,Risk tolerance,经评估确定的投资者在财务和心理上能够承受的损失程度。,The assessed degree of loss an investor can bear financially and psychologically.,,global,1,base,draft,1
+suit.risk_appetite,suitability,风险偏好,Risk appetite,投资者主观上愿意承担风险的意愿。,An investor's subjective willingness to take risk.,,global,2,base,draft,1
+suit.investment_horizon,suitability,投资期限,Investment horizon,投资者计划持有投资直到需要使用资金的时间长度。,How long an investor plans to hold investments before needing the money.,,global,1,base,draft,1
+suit.liquidity_needs,suitability,流动性需求,Liquidity needs,投资者在一定时间内需要动用资金的程度。,How much and how soon an investor may need access to their money.,,global,1,base,draft,1
+suit.investment_objective,suitability,投资目标,Investment objective,投资者希望通过投资实现的目标，如保值、收入或增值。,"What an investor wants to achieve, such as capital preservation, income or growth.",,global,1,base,draft,1
+suit.investor_risk_category,suitability,投资者风险类型,Investor risk category,根据风险承受能力对投资者划分的等级。,A classification of investors by assessed risk tolerance.,Jurisdictions use finer scales (e.g. five levels C1-C5 in mainland China); map local levels onto these three types.,global,1,base,draft,1
+suit.conservative,suitability,保守型投资者,Conservative investor,以保本和稳定为首要目标、只能承受很小波动的投资者类型。,"An investor type prioritising capital preservation and stability, able to bear only small fluctuations.",Generic type; map to local regulatory levels.,global,1,base,draft,1
+suit.balanced,suitability,平衡型投资者,Balanced investor,在收益和风险之间寻求平衡、可承受中等波动的投资者类型。,"An investor type balancing return and risk, able to bear moderate fluctuations.",Generic type; in mainland China '稳健型' and '平衡型' are distinct levels - do not merge.,global,1,base,draft,1
+suit.aggressive,suitability,进取型投资者,Aggressive investor,追求较高收益、可承受较大波动和亏损的投资者类型。,An investor type seeking higher returns and able to bear large fluctuations and losses.,Generic type; map to local regulatory levels.,global,1,base,draft,1
+suit.product_risk_rating,suitability,产品风险等级,Product risk rating,机构根据产品风险特征对其划分的等级，用于与投资者风险类型匹配。,"A grade assigned to a product by its risk characteristics, used to match investor risk categories.",Scales are firm/jurisdiction-specific (e.g. R1-R5).,global,1,base,draft,1
+suit.qualified_investor,suitability,合格投资者,Qualified investor,达到监管规定的资产、收入或经验门槛、可投资私募等高风险产品的投资者；门槛因辖区而异。,"An investor meeting regulatory wealth, income or experience thresholds and eligible for higher-risk products such as private funds; thresholds differ by jurisdiction.",Mainland private-fund threshold (financial assets >= RMB 3m or income tests) differs from Singapore accredited-investor tests (e.g. net personal assets >= S$2m); state the jurisdiction.,CN,3,base,draft,1
+suit.risk_disclosure,suitability,风险揭示,Risk disclosure,向投资者充分说明产品风险的义务和文件。,"The obligation, and documents, to explain product risks fully to investors.",,global,1,base,draft,1
+suit.retirement_planning,suitability,退休规划,Retirement planning,为退休后的生活需求进行储蓄和投资安排的过程。,The process of saving and investing to fund living needs in retirement.,,global,1,base,draft,1
+suit.emergency_fund,suitability,应急资金,Emergency fund,为应对突发支出而预留的高流动性资金。,Highly liquid money set aside for unexpected expenses.,,global,1,base,draft,1
+behav.behavioral_bias,behavioral,行为偏差,Behavioral bias,系统性偏离理性决策、影响投资判断的心理倾向。,A psychological tendency that systematically departs from rational decision-making and affects investment judgement.,,global,1,base,draft,1
+behav.loss_aversion,behavioral,损失厌恶,Loss aversion,同等金额的损失带来的痛苦大于收益带来的快乐的倾向。,The tendency to feel losses more strongly than gains of the same size.,,global,1,base,draft,1
+behav.herding,behavioral,羊群效应,Herding,跟随多数人的投资行为而忽视自身判断的倾向。,The tendency to follow the crowd's investment behaviour instead of one's own judgement.,,global,1,base,draft,1
+behav.overconfidence,behavioral,过度自信,Overconfidence,高估自身判断准确性和能力的倾向。,The tendency to overestimate the accuracy of one's own judgement and abilities.,,global,2,base,draft,1
+behav.anchoring,behavioral,锚定效应,Anchoring,过度依赖最初获得的信息（如买入价）作出判断的倾向。,"The tendency to rely too heavily on initial information, such as a purchase price, when deciding.",,global,2,base,draft,1
+behav.disposition_effect,behavioral,处置效应,Disposition effect,过早卖出盈利资产、过久持有亏损资产的倾向。,The tendency to sell winners too early and hold losers too long.,,global,2,base,draft,1
+behav.recency_bias,behavioral,近因偏差,Recency bias,过度看重近期事件、以为近期趋势会持续的倾向。,The tendency to overweight recent events and assume recent trends will continue.,,global,2,base,draft,1
+behav.confirmation_bias,behavioral,确认偏误,Confirmation bias,只关注支持自己既有观点信息的倾向。,The tendency to seek out information that supports one's existing views.,,global,3,base,draft,1
+behav.mental_accounting,behavioral,心理账户,Mental accounting,将资金按来源或用途分别看待、而非整体考虑的倾向。,The tendency to treat money differently depending on its source or intended use rather than as a whole.,,global,3,base,draft,1
+behav.home_bias,behavioral,本土偏好,Home bias,过度投资于本国或熟悉市场的倾向。,The tendency to over-invest in one's home or familiar market.,,global,3,base,draft,1
+behav.fomo,behavioral,错失恐惧,Fear of missing out,担心错过上涨机会而仓促追涨的心理。,Anxiety about missing gains that leads to hasty buying into rallies.,,global,1,base,draft,1
+metric.yield,metric,收益率,Yield,资产每年产生的现金收入（利息、股息）相对其价格的比率；债券语境下通常指到期收益率。,"Annual cash income (interest, dividends) from an asset relative to its price; in bond contexts usually the yield to maturity.",Chinese '收益率' maps here by default in bond contexts; total return is metric.return.,global,1,base,draft,1
+metric.cvar,metric,条件风险价值,Conditional value at risk,超过风险价值阈值的损失的期望值，用于刻画尾部损失幅度。,"The expected loss beyond the value-at-risk threshold, used to characterise the size of tail losses.",,global,3,base,draft,1
+metric.downside_risk,metric,下行风险,Downside risk,收益低于目标或零的波动部分，是索提诺比率的分母。,The portion of volatility from returns below a target or zero; the denominator of the Sortino ratio.,,global,3,base,draft,1
+metric.capital_gain,metric,资本利得,Capital gain,资产卖出价高于买入价所实现的收益。,The gain realised when an asset is sold for more than its purchase price.,,global,2,base,draft,1
+term.compounding,terms,复利,Compounding,收益再投资后继续产生收益，使资产随时间加速增长的过程。,"The process by which reinvested returns earn further returns, accelerating growth over time.",,global,1,base,draft,1
+metric.investment_grade,metric,投资级,Investment grade,信用评级达到较高等级（如 BBB-/Baa3 及以上）、违约风险较低的评级区间。,The rating band (e.g. BBB-/Baa3 and above) indicating relatively low default risk.,,global,3,base,draft,1
+metric.speculative_grade,metric,投机级,Speculative grade,信用评级低于投资级、违约风险较高的评级区间。,"The rating band below investment grade, indicating higher default risk.",,global,3,base,draft,1
+term.fee_structure,terms,费用结构,Fee structure,投资产品收取的各类费用的组成，如管理费、托管费、申购赎回费、销售服务费和业绩报酬。,"The composition of charges on an investment product, such as management, custody, subscription/redemption, distribution and performance fees.",,global,1,base,draft,1
+term.management_fee,terms,管理费,Management fee,基金管理人按资产规模比例收取的费用。,A fee charged by the manager as a percentage of assets.,,global,1,base,draft,1
+term.custody_fee,terms,托管费,Custody fee,托管机构保管基金资产收取的费用。,A fee charged by the custodian for safekeeping fund assets.,,global,3,base,draft,1
+term.subscription_redemption_fee,terms,申购赎回费,Subscription and redemption fees,投资者买入或卖出基金份额时支付的费用。,Fees paid by investors when buying or selling fund units.,,global,1,base,draft,1
+term.performance_fee,terms,业绩报酬,Performance fee,管理人在业绩超过约定基准时按超额部分提取的报酬，常见于私募基金。,"A fee the manager takes from returns above an agreed hurdle, common in private funds.",,global,3,base,draft,1
+term.redemption_terms,terms,赎回条款,Redemption terms,产品何时、以何种条件允许投资者取回资金的规定，如开放日、锁定期和赎回费。,"The rules on when and how investors can get their money back, such as dealing days, lock-ups and redemption fees.",,global,1,base,draft,1
+term.open_end,terms,开放式基金,Open-ended fund,投资者可在开放日按净值申购和赎回的基金运作方式。,A fund structure in which investors can subscribe and redeem at net asset value on dealing days.,,global,1,base,draft,1
+term.closed_end,terms,封闭式基金,Closed-ended fund,在封闭期内不接受申购赎回、份额只能在二级市场转让的运作方式。,A fund structure with no subscriptions or redemptions during the closed period; units trade on the secondary market.,,global,1,base,draft,1
+term.lock_up,terms,锁定期,Lock-up period,投资者不得赎回的最短持有期限。,The minimum holding period during which investors cannot redeem.,,global,1,base,draft,1
+term.principal_protection,terms,本金保障,Principal protection,产品是否承诺到期归还本金；多数投资产品不保本，存款受存款保险保障。,"Whether a product promises to return principal; most investment products do not, while deposits are covered by deposit insurance.",,global,1,base,draft,1
+term.nav_based,terms,净值化,Net-asset-value based,产品按实际投资结果计算净值、收益随市场波动、不承诺固定回报的管理方式。,"Managing a product so that its value reflects actual investment results, fluctuating with markets and promising no fixed return.",,global,2,base,draft,1
+term.implicit_guarantee,terms,刚性兑付,Implicit guarantee,发行机构在产品亏损时仍自行承担损失、保证兑付的做法；资管新规要求打破刚兑。,The practice of an issuer absorbing losses to honour payouts regardless of performance; regulators in mainland China require this to be broken.,,global,3,base,draft,1
+term.past_performance,terms,过往业绩,Past performance,产品或管理人历史上的收益表现；不代表未来表现，也不构成收益承诺。,The historical returns of a product or manager; not indicative of future results and not a promise of return.,Always present with 'not indicative of future results'.,global,1,base,draft,1
+risk.call,risk,赎回风险,Call risk,发行人在利率下降时提前赎回债券，投资者被迫以更低收益率再投资的风险。,"The risk that an issuer redeems a bond early when rates fall, forcing reinvestment at lower yields.",,global,3,base,draft,1
+inst.callable_bond,instrument,可赎回债券,Callable bond,发行人有权在到期前按约定价格赎回的债券。,A bond the issuer may redeem before maturity at a set price.,,global,3,base,draft,1
+inst.perpetual_bond,instrument,永续债,Perpetual bond,没有固定到期日、发行人可选择赎回的债券，常见于银行资本工具。,"A bond with no fixed maturity that the issuer may call, common among bank capital instruments.",,global,3,base,draft,1
+inst.annuity,instrument,年金保险,Annuity,由保险公司发行、按约定在未来定期给付的保险产品，常用于退休收入规划。,"An insurance product paying regular amounts in the future, often used for retirement income.",,global,1,base,draft,1
+inst.insurance_product,instrument,保险类理财产品,Insurance-based investment product,兼具保障与储蓄或投资功能的人身保险产品，如增额终身寿险、分红险、投连险。,"Life insurance products combining protection with savings or investment, such as participating and unit-linked policies.",,global,1,base,draft,1
+term.tax,terms,投资税收,Investment taxation,投资收益涉及的税负及税收优惠安排，如资本利得税、股息税和税收递延账户。,"Taxes on investment returns and tax-advantaged arrangements, such as capital gains tax, dividend tax and tax-deferred accounts.",,global,1,base,draft,1
+local.cross_border_channel,scheme_local,跨境投资通道,Cross-border investment channel,居民投资境外市场的合规渠道，如 QDII、沪深港通、跨境理财通。,"Regulated channels for investing in overseas markets, such as QDII, Stock Connect and Wealth Management Connect.",,CN,3,base,draft,1
+suit.retail_investor,suitability,零售投资者,Retail investor,未被归入认可、专家或机构投资者的个人投资者，享有最高程度的监管保护。,"An individual investor not classified as accredited, expert or institutional, receiving the highest level of regulatory protection.",Mainland: 普通投资者; Singapore: retail client. Derivatives access for retail requires additional assessment.,global,1,base,draft,1
+suit.professional_investor,suitability,专业投资者,Professional investor (CN),满足资产、收入或经验标准、被认定为具备专业判断能力的投资者；认定标准因辖区而异。,"An investor meeting asset, income or experience criteria and deemed able to judge risks independently; criteria differ by jurisdiction.",Mainland: 专业投资者 under the suitability measures; Singapore: Accredited / Expert / Institutional investor (SFA). Thresholds differ.,CN,3,base,draft,1
+suit.cautious,suitability,谨慎型投资者,Cautious investor,风险承受能力最低、几乎不能承受本金损失的投资者类型（中国大陆 C1）。,"The lowest risk-tolerance type, barely able to bear any loss of principal (C1 in mainland China).",,CN,3,base,draft,1
+suit.steady,suitability,稳健型投资者,Steady investor,可承受较小波动、以稳健收益为目标的投资者类型（中国大陆 C2）。,An investor type able to bear small fluctuations and seeking steady returns (C2 in mainland China).,"Mainland China five-level scale: C1 谨慎型, C2 稳健型, C3 平衡型, C4 成长型, C5 进取型. Do not merge 稳健型 with 平衡型.",CN,3,base,draft,1
+suit.growth,suitability,成长型投资者,Growth investor,可承受较大波动、追求资产增长的投资者类型（中国大陆 C4）。,An investor type able to bear larger fluctuations and seeking asset growth (C4 in mainland China).,,CN,3,base,draft,1
+macro.rates_rising,macro,利率上行,Rising interest rates,市场利率或债券收益率上升的阶段；可由加息、通胀预期或供需变化引起。,"A phase of rising market interest rates or bond yields, driven by policy tightening, inflation expectations or supply and demand.",,global,1,base,draft,1
+macro.rates_falling,macro,利率下行,Falling interest rates,市场利率或债券收益率下降的阶段。,A phase of falling market interest rates or bond yields.,,global,1,base,draft,1
+risk.prepayment,risk,提前偿付风险,Prepayment risk,借款人提前偿还本金（常见于按揭和资产支持证券），使投资者被迫在较低利率下再投资的风险。,"The risk that borrowers repay principal early (common in mortgages and asset-backed securities), forcing reinvestment at lower rates.",,global,3,base,draft,1
+term.fund_structure,terms,基金运作方式,Fund dealing structure,基金接受申购赎回的安排方式，分为开放式和封闭式。,How a fund handles subscriptions and redemptions: open-ended or closed-ended.,,global,1,base,draft,1
+inst.asset_management_product,instrument,资管产品,Asset management product,由持牌机构受托管理投资者资金的集合投资产品的统称，包括基金、理财产品、信托计划等。,"The umbrella term for pooled products managed by licensed institutions on behalf of investors, including funds, wealth management products and trust schemes.",,global,1,base,draft,1
+metric.payout_ratio,metric,股利支付率,Dividend payout ratio,公司分红占净利润的比例。,Dividends paid as a proportion of net profit.,,global,3,base,draft,1
+inst.enterprise_bond,instrument,企业债,Enterprise bond (CN),中国大陆由发改委审核、主要由国企和城投平台发行的债券，与证监会监管的公司债为不同品种。,A mainland China bond category approved by the NDRC and issued mainly by state-owned enterprises and local financing vehicles; distinct from CSRC-regulated corporate bonds.,,CN,3,base,draft,1
+inst.financial_bond,instrument,金融债,Financial bond,由银行和其他金融机构发行的债券。,A bond issued by banks and other financial institutions.,,global,3,base,draft,1
+inst.local_government_bond,instrument,地方政府债,Local government bond,由地方政府发行的债券。,A bond issued by a sub-national government.,,global,3,base,draft,1
+inst.ncd,instrument,同业存单,Negotiable certificate of deposit,银行在银行间市场发行的可转让定期存款凭证。,A transferable time-deposit certificate issued by banks in the interbank market.,,global,3,base,draft,1
+inst.trust_scheme,instrument,信托计划,Trust scheme,由信托公司设立、受托管理投资者资金的集合投资计划。,A pooled investment scheme established and managed by a trust company.,,CN,3,base,draft,1
+strat.fixed_income_plus,strategy,固收+,Fixed income plus,以债券为底仓、搭配少量权益或衍生品以增强收益的配置策略。,An allocation that holds mostly bonds with a small equity or derivative sleeve to enhance returns.,,global,3,base,draft,1
+metric.seven_day_yield,metric,七日年化收益率,Seven-day annualised yield,货币基金最近七天收益折算成年化后的数值；仅为换算，不代表未来收益。,"A money market fund's last seven days of income annualised; an extrapolation, not a forecast.",,global,3,base,draft,1
+term.expected_return_product,terms,预期收益型产品,Expected-return product,以预期收益率而非净值表述收益的产品形态；资管新规后逐步被净值型产品取代。,A product form quoting an expected return rather than a net asset value; being phased out in favour of NAV-based products.,,CN,3,base,draft,1
+macro.lpr,macro,贷款市场报价利率,Loan prime rate,中国大陆银行贷款定价的基准利率。,The benchmark lending rate in mainland China.,,CN,3,base,draft,1
+suit.cn_risk_level,suitability,大陆投资者风险等级,Mainland China investor risk level,中国大陆适当性管理下按风险承受能力划分的五级：C1 谨慎型、C2 稳健型、C3 平衡型、C4 成长型、C5 进取型。,"The five-level risk tolerance scale under mainland China suitability rules: C1 cautious, C2 steady, C3 balanced, C4 growth, C5 aggressive.",,CN,3,base,draft,1
+suit.cn_balanced,suitability,平衡型（C3）,Balanced (C3),大陆五级分类中的第三级。,Level three of the mainland five-level scale.,,CN,3,base,draft,1
+suit.cn_aggressive,suitability,进取型（C5）,Aggressive (C5),大陆五级分类中的最高级。,The top level of the mainland five-level scale.,,CN,3,base,draft,1
+suit.investor_qualification,suitability,投资者资格分类,Investor qualification,按资产、收入、知识或机构属性划分的投资者类别，决定可购买的产品范围和保护程度。,"Investor classes based on wealth, income, knowledge or institutional status, determining product access and the level of protection.",,global,1,base,draft,1
+suit.accredited_investor,suitability,认可投资者,Accredited investor,新加坡《证券期货法》下满足资产或收入门槛并选择加入（opt-in）的个人或实体，可获得的监管保护少于零售投资者。,"Under Singapore's Securities and Futures Act, an individual or entity meeting wealth or income thresholds who opts in to reduced regulatory protection.","SFA s4A individual tests (verify current MAS rules): net personal assets > S$2m (primary residence counted up to S$1m), or net financial assets > S$1m, or income >= S$300k in the preceding 12 months; opt-in required and typically reconfirmed annually.",SG,1,base,draft,1
+suit.expert_investor,suitability,专家投资者,Expert investor,新加坡《证券期货法》下以投资为业或具备相应专业能力的投资者类别。,A Singapore SFA class for persons whose business involves investing or who have equivalent expertise.,SFA s4A; verify current definition with MAS.,SG,3,base,draft,1
+suit.institutional_investor,suitability,机构投资者,Institutional investor,银行、保险公司、基金管理人、政府机构等按机构属性认定的投资者类别。,"Investor class defined by institutional status, such as banks, insurers, fund managers and government bodies.",,global,3,base,draft,1
+local.mas,scheme_local,新加坡金融管理局,Monetary Authority of Singapore,新加坡的中央银行和综合金融监管机构。,Singapore's central bank and integrated financial regulator.,,SG,1,base,draft,1
+local.sfa,scheme_local,证券期货法,Securities and Futures Act,新加坡规范资本市场产品、投资者分类和持牌活动的主要法律。,"Singapore's principal law governing capital markets products, investor classes and licensed activities.",,SG,3,base,draft,1
+local.faa,scheme_local,财务顾问法,Financial Advisers Act,新加坡规范财务顾问及其代表提供投资建议的法律，要求建议有合理依据并基于了解客户。,"Singapore's law governing financial advisers and their representatives, requiring recommendations to have a reasonable basis and be based on knowing the client.",,SG,3,base,draft,1
+local.fair_dealing,scheme_local,公平对待客户准则,Fair Dealing Guidelines,MAS 发布的指引，要求金融机构以客户利益为中心，提供适合目标客户的产品和有质量的建议。,MAS guidelines requiring financial institutions to put fair dealing at the centre of their culture and to offer suitable products and quality advice.,,SG,3,base,draft,1
+local.sip,scheme_local,特定投资产品,Specified Investment Product,MAS 认定为结构较复杂、零售客户购买前需评估知识或经验的产品，如结构性票据、部分基金、衍生品、结构性存款。,"Products MAS deems more complex, for which retail customers must be assessed for knowledge or experience before dealing, such as structured notes, certain funds, derivatives and structured deposits.","Listed SIPs (e.g. structured warrants, leveraged ETFs, futures) require a Customer Account Review; unlisted SIPs (structured notes, certain funds, structured deposits, leveraged FX, certain ILPs) require a Customer Knowledge Assessment. Verify current MAS notices.",SG,1,base,draft,1
+local.eip,scheme_local,除外投资产品,Excluded Investment Product,结构较简单、无需知识评估即可向零售客户销售的产品，如普通股票和部分 ETF；简单不等于低风险。,"Simpler products that can be sold to retail customers without a knowledge assessment, such as plain shares and some ETFs; simple does not mean low risk.",,SG,1,base,draft,1
+local.cka,scheme_local,客户知识评估,Customer Knowledge Assessment,零售客户购买非上市特定投资产品前，机构对其教育背景、工作经验和投资经验的评估。,"An assessment of a retail customer's education, work experience and investment experience before dealing in unlisted Specified Investment Products.","Pass criteria include relevant education, work experience or prior transactions; validity period set by MAS notices (verify).",SG,1,base,draft,1
+local.car,scheme_local,客户账户审查,Customer Account Review,零售客户交易上市特定投资产品前，机构对其相关知识和经验的审查。,A review of a retail customer's knowledge and experience before trading listed Specified Investment Products.,As for CKA; validity period set by MAS notices (verify).,SG,1,base,draft,1
+local.cpf,scheme_local,中央公积金,Central Provident Fund,新加坡的强制性社会保障储蓄计划，分为普通账户、特别账户、保健账户和退休账户。,"Singapore's mandatory social security savings scheme, with Ordinary, Special, MediSave and Retirement accounts.","Verify CPF interest rates with CPF Board (OA 2.5% floor, SA/MA/RA 4% floor at time of writing, plus extra interest on first tiers).",SG,1,base,draft,1
+local.cpf_oa,scheme_local,公积金普通账户,CPF Ordinary Account,可用于住房、教育和获批投资的公积金账户。,"The CPF account usable for housing, education and approved investments.",,SG,1,base,draft,1
+local.cpf_sa,scheme_local,公积金特别账户,CPF Special Account,用于退休储蓄、利率较高、投资范围较窄的公积金账户。,"The CPF account for retirement savings, earning a higher rate with a narrower investment scope.",,SG,1,base,draft,1
+local.cpfis,scheme_local,公积金投资计划,CPF Investment Scheme,允许会员将超过规定余额的普通账户和特别账户资金投资于获批产品的计划；股票和黄金有比例上限。,"A scheme allowing members to invest Ordinary and Special Account savings above set balances in approved products, with caps on shares and gold.","Verify with CPF Board: minimum OA balance S$20,000 and SA balance S$40,000 before investing; up to 35% of investible savings in shares/property funds and 10% in gold (OA); SA scope narrower; Self-Awareness Questionnaire required.",SG,1,base,draft,1
+local.cpf_life,scheme_local,公积金终身入息计划,CPF LIFE,以退休账户储蓄购买、提供终身每月给付的国家年金计划。,A national annuity scheme funded from Retirement Account savings that pays monthly for life.,,SG,1,base,draft,1
+local.srs,scheme_local,退休辅助计划,Supplementary Retirement Scheme,自愿参加的退休储蓄计划，供款可抵扣应税收入，资金可投资，退休后提取部分征税。,"A voluntary retirement savings scheme: contributions are tax-deductible, funds can be invested, and withdrawals after retirement age are partly taxable.","Verify with IRAS: annual contribution cap (S$15,300 for citizens/PRs, S$35,700 for foreigners at time of writing); withdrawals after statutory retirement age are 50% taxable, spread over up to 10 years; early withdrawal is fully taxable plus a 5% penalty.",SG,1,base,draft,1
+inst.ssb,instrument,新加坡储蓄债券,Singapore Savings Bond,面向个人发行、期限最长十年、利率逐年递增、任何月份可无罚金赎回的政府债券。,"A government bond for individuals with tenor up to ten years, step-up interest and penalty-free redemption in any month.","Minimum S$500, individual holding cap (S$200,000 at time of writing); buy with cash or SRS, not CPF. Verify with MAS.",SG,1,base,draft,1
+inst.sgs,instrument,新加坡政府债券,Singapore Government Securities,新加坡政府发行、期限两年至五十年、每半年付息、可在二级市场买卖的债券。,"Bonds issued by the Singapore government with tenors of two to fifty years, semi-annual coupons and secondary-market trading.","Minimum S$1,000; eligible for cash, SRS and CPFIS; no early redemption, secondary-market sale may be above or below cost.",SG,1,base,draft,1
+inst.t_bill,instrument,短期国库券,Treasury bill,期限一年以内、折价发行、到期按面值兑付的政府短期债务工具。,"Short-term government debt with tenor up to one year, issued at a discount and redeemed at par.","Singapore T-bills: 6-month and 1-year, minimum S$1,000; cash, SRS or CPF eligible.",global,1,base,draft,1
+inst.unit_trust,instrument,单位信托,Unit trust,新加坡市场对公开发售的集合投资基金的常用称呼。,The common Singapore term for a publicly offered collective investment fund.,Singapore term; most are EIPs but some (e.g. with derivatives) are SIPs.,SG,1,base,draft,1
+inst.ilp,instrument,投资联结保单,Investment-linked policy,保费扣除保障成本后投资于基金、现金价值随基金表现波动的人寿保险产品。,"A life insurance product whose premiums, net of protection costs, are invested in funds, with cash value moving with fund performance.",Many ILPs are SIPs; protection cost rises with age and can erode cash value. Not a savings guarantee.,SG,1,base,draft,1
+inst.endowment_plan,instrument,储蓄保险,Endowment plan,到期或身故时给付约定金额、兼具储蓄功能的保险产品；提前退保可能损失本金。,An insurance product paying an agreed sum at maturity or death with a savings element; early surrender may lose principal.,Guaranteed and non-guaranteed components; surrender before maturity may return less than premiums paid.,SG,1,base,draft,1
+inst.s_reit,instrument,新加坡房地产投资信托,Singapore REIT,在新加坡交易所上市的房地产投资信托。,A real estate investment trust listed on the Singapore Exchange.,,SG,1,base,draft,1
+inst.dual_currency_investment,instrument,双货币投资,Dual currency investment,挂钩汇率、到期可能以另一货币偿付本金的结构化存款类产品；本金不受保障。,A structured deposit-like product linked to an exchange rate whose principal may be repaid in the alternate currency; principal is not protected.,,SG,3,base,draft,1
+market.sgx,market,新加坡交易所,Singapore Exchange,新加坡的证券和衍生品交易所。,Singapore's securities and derivatives exchange.,,SG,1,base,draft,1
+market.sti,market,海峡时报指数,Straits Times Index,新加坡股市的基准指数，由新交所主要上市公司组成。,Singapore's benchmark equity index of leading SGX-listed companies.,,SG,1,base,draft,1
+macro.sora,macro,新加坡隔夜平均利率,Singapore Overnight Rate Average,新加坡元无担保隔夜借贷的基准利率，用于浮动利率贷款和产品定价。,"The benchmark overnight unsecured borrowing rate in Singapore dollars, used to price floating-rate loans and products.",Replaced SIBOR/SOR as the SGD benchmark; floating-rate mortgages and products reference compounded SORA.,SG,3,base,draft,1
+term.no_capital_gains_tax,terms,无资本利得税,No capital gains tax,新加坡对个人投资的资本利得不征税；股息在一级税制下免税；个人存款和政府债券利息通常免税。,Singapore does not tax individuals' capital gains; dividends are tax-exempt under the one-tier system; individuals' bank and government bond interest is generally exempt.,Singapore individuals; frequent trading may be treated as income in rare cases. Verify with IRAS.,SG,1,base,draft,1
+strat.robo_advisor,strategy,智能投顾,Robo-advisor,以算法按风险问卷自动构建和再平衡组合的数字化投资服务。,A digital service that builds and rebalances portfolios algorithmically from a risk questionnaire.,,global,1,base,draft,1

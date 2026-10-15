@@ -1,0 +1,201 @@
+relation_id,src,rel,dst,polarity,confidence,note,layer,status
+rl-000001,asset.real_estate,is_a,asset.alternative,,1.0,,base,draft
+rl-000002,asset.commodity,is_a,asset.alternative,,1.0,,base,draft
+rl-000003,asset.gold,is_a,asset.commodity,,1.0,,base,draft
+rl-000008,inst.security,is_a,inst.financial_instrument,,1.0,,base,draft
+rl-000009,inst.stock,is_a,inst.security,,1.0,,base,draft
+rl-000012,inst.bond,is_a,inst.security,,1.0,,base,draft
+rl-000013,inst.government_bond,is_a,inst.bond,,1.0,,base,draft
+rl-000014,inst.credit_bond,is_a,inst.bond,,1.0,,base,draft
+rl-000015,inst.corporate_bond,is_a,inst.credit_bond,,1.0,,base,draft
+rl-000021,inst.deposit,is_a,inst.financial_instrument,,1.0,,base,draft
+rl-000022,inst.fund,is_a,inst.asset_management_product,,1.0,,base,draft
+rl-000023,inst.mutual_fund,is_a,inst.fund,,1.0,,base,draft
+rl-000024,inst.etf,is_a,inst.fund,,1.0,,base,draft
+rl-000025,inst.index_fund,is_a,inst.fund,,1.0,,base,draft
+rl-000026,inst.money_market_fund,is_a,inst.fund,,1.0,,base,draft
+rl-000027,inst.bond_fund,is_a,inst.fund,,1.0,,base,draft
+rl-000028,inst.equity_fund,is_a,inst.fund,,1.0,,base,draft
+rl-000029,inst.balanced_fund,is_a,inst.fund,,1.0,,base,draft
+rl-000034,inst.reit,is_a,inst.security,,1.0,,base,draft
+rl-000035,inst.derivative,is_a,inst.financial_instrument,,1.0,,base,draft
+rl-000044,inst.structured_product,is_a,inst.financial_instrument,,1.0,,base,draft
+rl-000045,inst.structured_deposit,is_a,inst.deposit,,1.0,,base,draft
+rl-000049,risk.market,is_a,risk.investment_risk,,1.0,,base,draft
+rl-000050,risk.equity_price,is_a,risk.market,,1.0,,base,draft
+rl-000051,risk.interest_rate,is_a,risk.market,,1.0,,base,draft
+rl-000052,risk.fx,is_a,risk.market,,1.0,,base,draft
+rl-000054,risk.credit,is_a,risk.investment_risk,,1.0,,base,draft
+rl-000055,risk.default,is_a,risk.credit,,1.0,,base,draft
+rl-000057,risk.liquidity,is_a,risk.investment_risk,,1.0,,base,draft
+rl-000058,risk.inflation,is_a,risk.investment_risk,,1.0,,base,draft
+rl-000060,risk.concentration,is_a,risk.investment_risk,,1.0,,base,draft
+rl-000066,metric.total_return,is_a,metric.return,,1.0,,base,draft
+rl-000067,metric.annualized_return,is_a,metric.return,,1.0,,base,draft
+rl-000076,metric.dividend_yield,is_a,metric.yield,,1.0,,base,draft
+rl-000077,metric.pe,is_a,metric.valuation_multiple,,1.0,,base,draft
+rl-000085,suit.conservative,is_a,suit.investor_risk_category,,1.0,,base,draft
+rl-000086,suit.balanced,is_a,suit.investor_risk_category,,1.0,,base,draft
+rl-000087,suit.aggressive,is_a,suit.investor_risk_category,,1.0,,base,draft
+rl-000089,behav.loss_aversion,is_a,behav.behavioral_bias,,1.0,,base,draft
+rl-000090,behav.herding,is_a,behav.behavioral_bias,,1.0,,base,draft
+rl-000098,behav.fomo,is_a,behav.behavioral_bias,,1.0,,base,draft
+rl-000101,term.open_end,is_a,term.fund_structure,,1.0,,base,draft
+rl-000102,term.closed_end,is_a,term.fund_structure,,1.0,,base,draft
+rl-000106,inst.annuity,is_a,inst.financial_instrument,,1.0,,base,draft
+rl-000107,inst.insurance_product,is_a,inst.financial_instrument,,1.0,,base,draft
+rl-000108,suit.retail_investor,is_a,suit.investor_qualification,,1.0,,base,draft
+rl-000114,inst.asset_management_product,is_a,inst.financial_instrument,,1.0,,base,draft
+rl-000126,suit.accredited_investor,is_a,suit.investor_qualification,,1.0,,base,draft
+rl-000129,local.cpf_oa,is_a,local.cpf,,1.0,,base,draft
+rl-000130,local.cpf_sa,is_a,local.cpf,,1.0,,base,draft
+rl-000131,inst.ssb,is_a,inst.government_bond,,1.0,,base,draft
+rl-000132,inst.sgs,is_a,inst.government_bond,,1.0,,base,draft
+rl-000133,inst.t_bill,is_a,inst.government_bond,,1.0,,base,draft
+rl-000134,inst.unit_trust,is_a,inst.mutual_fund,,1.0,,base,draft
+rl-000135,inst.ilp,is_a,inst.insurance_product,,1.0,,base,draft
+rl-000136,inst.endowment_plan,is_a,inst.insurance_product,,1.0,,base,draft
+rl-000137,inst.s_reit,is_a,inst.reit,,1.0,,base,draft
+rl-000139,market.sgx,is_a,market.secondary_market,,1.0,,base,draft
+rl-000140,market.sti,is_a,market.index,,1.0,,base,draft
+rl-000142,term.no_capital_gains_tax,is_a,term.tax,,1.0,,base,draft
+rl-000143,strat.robo_advisor,is_a,strat.passive,,1.0,,base,draft
+rl-000144,macro.interest_rate,affects,market.bond_price,-1,0.85,Rates up -> bond prices down,base,draft
+rl-000145,macro.rate_hike,affects,market.bond_price,-1,0.85,,base,draft
+rl-000146,macro.rate_cut,affects,market.bond_price,1,0.85,,base,draft
+rl-000147,macro.rate_hike,opposite_of,macro.rate_cut,,0.95,,base,draft
+rl-000149,metric.duration,measures,risk.interest_rate,,0.95,,base,draft
+rl-000154,asset.fixed_income,exposed_to,risk.interest_rate,,0.9,,base,draft
+rl-000155,asset.fixed_income,exposed_to,risk.credit,,0.9,,base,draft
+rl-000156,asset.fixed_income,exposed_to,risk.inflation,,0.9,,base,draft
+rl-000159,inst.credit_bond,exposed_to,risk.credit,,0.9,,base,draft
+rl-000168,metric.credit_rating,measures,risk.credit,,0.95,,base,draft
+rl-000171,market.maturity,related,metric.duration,,0.75,,base,draft
+rl-000175,macro.inflation,affects,macro.interest_rate,1,0.7,Tendency via central bank reaction,base,draft
+rl-000178,asset.cash,exposed_to,risk.inflation,,0.9,,base,draft
+rl-000179,asset.commodity,mitigates,risk.inflation,,0.6,Partial and inconsistent hedge,base,draft
+rl-000180,asset.equity,exposed_to,risk.equity_price,,0.9,,base,draft
+rl-000183,metric.volatility,measures,risk.market,,0.95,,base,draft
+rl-000184,metric.max_drawdown,measures,risk.market,,0.95,,base,draft
+rl-000192,market.dividend,related,metric.dividend_yield,,0.75,,base,draft
+rl-000195,market.fees,affects,metric.total_return,-1,0.85,,base,draft
+rl-000196,metric.expense_ratio,related,market.fees,,0.75,,base,draft
+rl-000197,metric.nav,related,inst.fund,,0.75,,base,draft
+rl-000201,strat.diversification,mitigates,risk.concentration,,0.85,,base,draft
+rl-000212,asset.real_estate,exposed_to,risk.liquidity,,0.9,,base,draft
+rl-000214,inst.structured_product,exposed_to,risk.liquidity,,0.9,,base,draft
+rl-000215,inst.structured_product,exposed_to,risk.credit,,0.9,Issuer credit risk,base,draft
+rl-000217,strat.rebalancing,part_of,strat.asset_allocation,,1.0,,base,draft
+rl-000220,strat.passive,opposite_of,strat.active,,0.95,,base,draft
+rl-000221,inst.index_fund,related,strat.passive,,0.75,,base,draft
+rl-000222,inst.etf,related,strat.passive,,0.75,,base,draft
+rl-000234,suit.risk_tolerance,part_of,suit.investor_profile,,1.0,,base,draft
+rl-000236,suit.investment_horizon,part_of,suit.investor_profile,,1.0,,base,draft
+rl-000237,suit.liquidity_needs,part_of,suit.investor_profile,,1.0,,base,draft
+rl-000238,suit.investment_objective,part_of,suit.investor_profile,,1.0,,base,draft
+rl-000239,suit.kyc,part_of,suit.suitability,,1.0,,base,draft
+rl-000240,suit.investor_profile,part_of,suit.suitability,,1.0,,base,draft
+rl-000241,suit.product_risk_rating,part_of,suit.suitability,,1.0,,base,draft
+rl-000242,suit.risk_disclosure,part_of,suit.suitability,,1.0,,base,draft
+rl-000243,suit.investor_risk_category,related,suit.risk_tolerance,,0.75,,base,draft
+rl-000244,suit.product_risk_rating,related,suit.investor_risk_category,,0.75,,base,draft
+rl-000246,suit.emergency_fund,related,asset.cash,,0.75,,base,draft
+rl-000247,suit.emergency_fund,related,suit.liquidity_needs,,0.75,,base,draft
+rl-000256,market.bull_market,opposite_of,market.bear_market,,0.95,,base,draft
+rl-000258,market.index,related,inst.index_fund,,0.75,,base,draft
+rl-000259,market.benchmark,related,market.index,,0.75,,base,draft
+rl-000262,behav.herding,related,behav.fomo,,0.75,,base,draft
+rl-000272,risk.interest_rate,related,macro.interest_rate,,0.75,,base,draft
+rl-000273,market.bond_price,related,risk.interest_rate,,0.75,Rate-driven bond price moves are interest rate risk,base,draft
+rl-000274,inst.structured_deposit,related,inst.structured_product,,0.75,,base,draft
+rl-000275,inst.stock,belongs_to,asset.equity,,1.0,,base,draft
+rl-000276,inst.bond,belongs_to,asset.fixed_income,,1.0,,base,draft
+rl-000277,inst.deposit,belongs_to,asset.cash,,1.0,,base,draft
+rl-000279,inst.reit,belongs_to,asset.real_estate,,1.0,,base,draft
+rl-000282,inst.equity_fund,belongs_to,asset.equity,,1.0,,base,draft
+rl-000283,inst.bond_fund,belongs_to,asset.fixed_income,,1.0,,base,draft
+rl-000284,inst.money_market_fund,belongs_to,asset.cash,,1.0,,base,draft
+rl-000290,market.dividend,input_of,metric.total_return,,1.0,,base,draft
+rl-000291,market.coupon,input_of,metric.total_return,,1.0,,base,draft
+rl-000296,inst.equity_fund,exposed_to,risk.equity_price,,0.9,,base,draft
+rl-000297,inst.equity_fund,exposed_to,risk.market,,0.9,,base,draft
+rl-000298,inst.bond_fund,exposed_to,risk.interest_rate,,0.9,,base,draft
+rl-000299,inst.bond_fund,exposed_to,risk.credit,,0.9,,base,draft
+rl-000301,suit.investment_horizon,related,asset.equity,,0.7,Horizon is one suitability input for equity allocation,base,draft
+rl-000310,term.compounding,related,metric.annualized_return,,0.75,,base,draft
+rl-000311,term.compounding,related,strat.buy_and_hold,,0.75,,base,draft
+rl-000314,term.fee_structure,related,market.fees,,0.75,,base,draft
+rl-000315,term.fee_structure,related,metric.expense_ratio,,0.75,,base,draft
+rl-000317,term.open_end,opposite_of,term.closed_end,,0.95,,base,draft
+rl-000318,term.redemption_terms,related,risk.liquidity,,0.75,,base,draft
+rl-000319,term.redemption_terms,related,suit.liquidity_needs,,0.75,,base,draft
+rl-000322,inst.deposit,related,term.principal_protection,,0.75,,base,draft
+rl-000323,inst.structured_deposit,related,term.principal_protection,,0.75,,base,draft
+rl-000324,term.principal_protection,related,risk.default,,0.75,,base,draft
+rl-000325,term.past_performance,related,metric.return,,0.75,,base,draft
+rl-000326,term.past_performance,related,suit.risk_disclosure,,0.75,,base,draft
+rl-000330,inst.annuity,related,suit.retirement_planning,,0.75,,base,draft
+rl-000331,inst.annuity,exposed_to,risk.inflation,,0.9,,base,draft
+rl-000332,inst.insurance_product,related,inst.annuity,,0.75,,base,draft
+rl-000333,inst.insurance_product,exposed_to,risk.liquidity,,0.9,,base,draft
+rl-000334,term.tax,affects,metric.total_return,-1,0.85,,base,draft
+rl-000336,term.tax,related,suit.retirement_planning,,0.75,,base,draft
+rl-000339,macro.interest_rate,affects,asset.equity,-1,0.6,Higher discount rates weigh on valuations; effect varies,base,draft
+rl-000340,macro.interest_rate,affects,asset.gold,-1,0.6,Via real rates / opportunity cost,base,draft
+rl-000342,macro.economic_growth,affects,asset.equity,1,0.7,,base,draft
+rl-000343,macro.recession,affects,asset.equity,-1,0.8,,base,draft
+rl-000345,macro.inflation,affects,asset.gold,1,0.6,Inconsistent hedge,base,draft
+rl-000346,macro.inflation,affects,market.bond_price,-1,0.8,Via higher yields,base,draft
+rl-000347,inst.reit,exposed_to,risk.interest_rate,,0.9,,base,draft
+rl-000348,inst.reit,exposed_to,risk.equity_price,,0.9,,base,draft
+rl-000356,inst.money_market_fund,exposed_to,risk.credit,,0.8,Low but not zero,base,draft
+rl-000357,inst.money_market_fund,exposed_to,risk.liquidity,,0.7,,base,draft
+rl-000358,inst.etf,exposed_to,risk.market,,0.9,,base,draft
+rl-000359,inst.index_fund,exposed_to,risk.market,,0.9,,base,draft
+rl-000361,inst.structured_product,exposed_to,risk.market,,0.9,,base,draft
+rl-000362,macro.rates_rising,opposite_of,macro.rates_falling,,0.95,,base,draft
+rl-000363,macro.rate_hike,affects,macro.rates_rising,1,0.8,"Policy tightening usually, not always, lifts market rates",base,draft
+rl-000364,macro.rates_rising,affects,market.bond_price,-1,0.85,,base,draft
+rl-000365,macro.rates_rising,related,macro.interest_rate,,0.75,,base,draft
+rl-000368,metric.yield,related,market.bond_price,,0.95,Price and yield are two expressions of the same valuation and move inversely,base,draft
+rl-000369,macro.inflation,related,risk.inflation,,0.75,,base,draft
+rl-000375,term.management_fee,part_of,term.fee_structure,,1.0,,base,draft
+rl-000377,term.subscription_redemption_fee,part_of,term.fee_structure,,1.0,,base,draft
+rl-000379,term.lock_up,part_of,term.redemption_terms,,1.0,,base,draft
+rl-000380,term.fund_structure,related,term.redemption_terms,,0.75,,base,draft
+rl-000381,inst.etf,related,inst.mutual_fund,,0.75,Commonly offered publicly; private variants exist,base,draft
+rl-000382,inst.index_fund,related,inst.mutual_fund,,0.75,Commonly offered publicly; private variants exist,base,draft
+rl-000383,inst.money_market_fund,related,inst.mutual_fund,,0.75,Commonly offered publicly; private variants exist,base,draft
+rl-000384,inst.bond_fund,related,inst.mutual_fund,,0.75,Commonly offered publicly; private variants exist,base,draft
+rl-000385,inst.equity_fund,related,inst.mutual_fund,,0.75,Commonly offered publicly; private variants exist,base,draft
+rl-000386,inst.balanced_fund,related,inst.mutual_fund,,0.75,Commonly offered publicly; private variants exist,base,draft
+rl-000404,suit.retail_investor,opposite_of,suit.accredited_investor,,0.95,,base,draft
+rl-000408,local.sip,opposite_of,local.eip,,0.95,,base,draft
+rl-000409,local.cka,related,local.sip,,0.75,,base,draft
+rl-000410,local.car,related,local.sip,,0.75,,base,draft
+rl-000411,local.cka,related,suit.suitability,,0.75,,base,draft
+rl-000412,local.car,related,suit.suitability,,0.75,,base,draft
+rl-000419,local.cpfis,related,local.cpf_oa,,0.75,,base,draft
+rl-000420,local.cpfis,related,local.cpf_sa,,0.75,,base,draft
+rl-000421,local.cpfis,related,suit.retirement_planning,,0.75,,base,draft
+rl-000422,local.cpf_life,related,inst.annuity,,0.75,,base,draft
+rl-000423,local.cpf_life,related,suit.retirement_planning,,0.75,,base,draft
+rl-000424,local.srs,related,term.tax,,0.75,,base,draft
+rl-000425,local.srs,related,suit.retirement_planning,,0.75,,base,draft
+rl-000426,local.cpfis,exposed_to,risk.market,,0.8,Investing CPF savings forgoes the guaranteed CPF interest,base,draft
+rl-000427,inst.ssb,mitigates,risk.interest_rate,,0.8,"Redeemable at par any month, so no price loss on exit",base,draft
+rl-000428,inst.ssb,mitigates,risk.liquidity,,0.9,,base,draft
+rl-000429,inst.sgs,exposed_to,risk.interest_rate,,0.9,,base,draft
+rl-000431,inst.ilp,exposed_to,risk.market,,0.9,,base,draft
+rl-000432,inst.endowment_plan,exposed_to,risk.liquidity,,0.9,,base,draft
+rl-000433,inst.endowment_plan,related,term.principal_protection,,0.75,,base,draft
+rl-000436,inst.structured_product,related,local.sip,,0.75,,base,draft
+rl-000437,inst.derivative,related,local.sip,,0.75,,base,draft
+rl-000438,inst.structured_deposit,related,local.sip,,0.75,,base,draft
+rl-000439,inst.stock,related,local.eip,,0.75,,base,draft
+rl-000440,inst.etf,related,local.eip,,0.7,Only plain ETFs; leveraged or synthetic ETFs are SIPs,base,draft
+rl-000441,inst.s_reit,related,market.sgx,,0.75,,base,draft
+rl-000442,market.sti,related,market.sgx,,0.75,,base,draft
+rl-000444,strat.robo_advisor,related,strat.asset_allocation,,0.75,,base,draft
+rl-000445,strat.robo_advisor,related,strat.rebalancing,,0.75,,base,draft
+rl-000447,term.no_capital_gains_tax,related,market.dividend,,0.75,,base,draft

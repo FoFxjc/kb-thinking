@@ -20,11 +20,23 @@ import sys
 from collections import defaultdict
 
 SCHEMES = {"asset_class", "instrument", "risk", "metric", "strategy",
-           "macro", "market", "suitability", "behavioral", "terms"}
+           "macro", "market", "suitability", "behavioral", "terms", "scheme_local"}
 RELS = {"is_a", "part_of", "input_of", "belongs_to", "measures", "affects", "mitigates",
         "exposed_to", "suitable_for", "opposite_of", "related"}
 SYMMETRIC = {"opposite_of", "related"}
 HIERARCHICAL = {"is_a", "part_of", "input_of"}
+ANY = SCHEMES
+# docs/09 §4: allowed (src scheme, dst scheme) per relation
+CONSTRAINT = {
+    "is_a": "same", "part_of": "same", "opposite_of": "same",
+    "input_of": (ANY, {"metric"}),
+    "belongs_to": ({"instrument"}, {"asset_class"}),
+    "measures": ({"metric", "macro"}, {"risk", "macro", "market"}),
+    "affects": ({"macro", "market", "terms", "behavioral"}, ANY),
+    "exposed_to": ({"asset_class", "instrument", "scheme_local", "strategy"}, {"risk"}),
+    "mitigates": ({"strategy", "instrument", "asset_class"}, {"risk"}),
+    "related": (ANY, ANY),
+}
 
 
 def load(seed, name):
@@ -76,21 +88,34 @@ def main():
             if not c[k].strip():
                 errors.append(f"{c['concept_id']}: missing {k}")
 
+    scheme_of = {c["concept_id"]: c["scheme"] for c in concepts}
+    tier_of = {c["concept_id"]: int(c.get("tier", 2)) for c in concepts}
+    for c in concepts:
+        if c.get("jurisdiction", "global") not in ("global", "SG", "CN"):
+            errors.append(f"{c['concept_id']}: bad jurisdiction {c.get('jurisdiction')}")
     prefs = defaultdict(int)
     by_norm = defaultdict(set)
+    visible = defaultdict(set)
     for l in labels:
         if l["concept_id"] not in ids:
             errors.append(f"{l['label_id']}: unknown concept {l['concept_id']}")
         if l["kind"] == "pref":
             prefs[(l["concept_id"], l["lang"])] += 1
         by_norm[(l["lang"], l["normalized"])].add(l["concept_id"])
+        if l["kind"] in ("pref", "alt", "abbr"):
+            visible[(l["lang"], l["normalized"])].add(l["concept_id"])
+        if l["kind"] == "abbr" and len([ch for ch in l["text"] if ch.isalnum()]) < 3:
+            errors.append(f"{l['label_id']}: 2-char abbr '{l['text']}' must be hidden")
     for cid in ids:
         for lang in ("zh", "en"):
             if prefs[(cid, lang)] != 1:
                 errors.append(f"{cid}: {prefs[(cid, lang)]} pref labels for {lang}")
-    for (lang, text), cids in sorted(by_norm.items()):
+    for (lang, text), cids in sorted(visible.items()):
         if len(cids) > 1:
-            warnings.append(f"ambiguous label [{lang}] '{text}' -> {', '.join(sorted(cids))}")
+            errors.append(f"visible label [{lang}] '{text}' shared by {', '.join(sorted(cids))} (docs/09 §5)")
+    for (lang, text), cids in sorted(by_norm.items()):
+        if len(cids) > 1 and len(visible.get((lang, text), ())) <= 1:
+            warnings.append(f"hidden-only ambiguity [{lang}] '{text}' -> {', '.join(sorted(cids))}")
 
     rel_ids = set()
     sym_pairs = set()
@@ -102,14 +127,22 @@ def main():
         for end in ("src", "dst"):
             if r[end] not in ids:
                 errors.append(f"{r['relation_id']}: unknown {end} {r[end]}")
+        if not r["confidence"]:
+            errors.append(f"{r['relation_id']}: empty confidence")
         if r["src"] == r["dst"]:
             errors.append(f"{r['relation_id']}: self-loop")
         if r["rel"] == "suitable_for" and r["layer"] == "base":
             errors.append(f"{r['relation_id']}: suitable_for is not allowed in the base layer")
-        if r["rel"] == "is_a":
-            sc = {c["concept_id"]: c["scheme"] for c in concepts}
+        sc = scheme_of
+        cons = CONSTRAINT.get(r["rel"])
+        if cons == "same":
             if sc.get(r["src"]) != sc.get(r["dst"]):
-                errors.append(f"{r['relation_id']}: is_a across schemes {sc.get(r['src'])} -> {sc.get(r['dst'])}")
+                errors.append(f"{r['relation_id']}: {r['rel']} across schemes {sc.get(r['src'])} -> {sc.get(r['dst'])}")
+        elif cons:
+            if sc.get(r["src"]) not in cons[0] or sc.get(r["dst"]) not in cons[1]:
+                errors.append(f"{r['relation_id']}: {r['rel']} not allowed for {sc.get(r['src'])} -> {sc.get(r['dst'])}")
+        if r["rel"] in ("is_a", "part_of") and tier_of.get(r["dst"], 9) > tier_of.get(r["src"], 0):
+            errors.append(f"{r['relation_id']}: parent {r['dst']} tier {tier_of.get(r['dst'])} > child {r['src']} tier {tier_of.get(r['src'])}")
         if r["polarity"] and r["rel"] != "affects":
             errors.append(f"{r['relation_id']}: polarity on {r['rel']}")
         if r["rel"] in SYMMETRIC:
@@ -138,6 +171,10 @@ def main():
         errors.append(f"{rid}: no authoring evidence")
 
     # summary
+    per_tier = defaultdict(int)
+    for c in concepts:
+        per_tier[c.get("tier", "2")] += 1
+    print("by tier    : " + ", ".join(f"{k} {v}" for k, v in sorted(per_tier.items())))
     per_scheme = defaultdict(int)
     for c in concepts:
         per_scheme[c["scheme"]] += 1

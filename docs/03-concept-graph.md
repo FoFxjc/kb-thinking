@@ -19,7 +19,7 @@ flowchart LR
 
   IRR -- is_a --> MR
   DUR -- measures --> IRR
-  IRR -- applies_to --> FI
+  FI -- exposed_to --> IRR
   IMM -- mitigates --> IRR
   DV01 -. related .-> DUR
 ```
@@ -45,26 +45,29 @@ flowchart LR
 | 指标 | 收益率、波动率、夏普比率、最大回撤、久期、Beta |
 | 策略与配置 | 资产配置、分散化、再平衡、定投、对冲 |
 | 宏观因素 | 利率、通胀、经济周期、货币政策 |
-| 适当性 | 风险承受能力、投资期限、流动性需求、投资者分类 |
+| 适当性 | 风险承受能力、投资期限、流动性需求、投资者风险类型、投资者资格（零售 / 认可 / 专家 / 机构） |
+| 本地制度 | MAS、SIP / EIP、CKA / CAR、CPF、CPFIS、SRS |
+| 产品条款与费用 | 费用结构、赎回条款、保本、过往业绩、税收 |
 | 行为金融 | 损失厌恶、羊群效应、过度自信 |
 
-MVP 种子范围建议：约 **400 个概念**。已完成的种子 v0.1 有 197 个概念、9 个分类（另增 `market` 市场与交易），见 [08](08-concept-graph-seed.md)。
+种子 v0.3：278 个概念、11 个分类，分基础 / 进阶 / 完整三个层级，含新加坡本地化。见 [08](08-concept-graph-seed.md) 与 [10 · 评审日志](10-kg-review-log.md)。
 
 ### 3.2 关系类型（固定集合）
 
 | 关系 | 含义 | 示例 |
 |---|---|---|
-| `is_a` | 上下位 | 利率风险 is_a 市场风险 |
-| `part_of` | 组成 | 再平衡 part_of 资产配置 |
+| `is_a` | 分类（同一 scheme 内） | 利率风险 is_a 市场风险 |
+| `part_of` | 组成 | 管理费 part_of 费用结构 |
+| `input_of` | 指标的计算输入 | 超额收益 input_of 夏普比率 |
+| `belongs_to` | 工具归入资产类别 | 股票 belongs_to 权益类资产 |
 | `measures` | 度量 | 久期 measures 利率风险 |
-| `affects` | 影响（带正负方向） | 利率 affects(−) 债券价格 |
+| `affects` | 影响（带正负方向） | 利率上行 affects(−) 债券价格 |
 | `mitigates` | 缓释 | 分散化 mitigates 非系统性风险 |
-| `exposed_to` | 资产 / 工具承担某种风险 | 固定收益 exposed_to 利率风险 |
-| `suitable_for` | 适当性匹配（仅示意） | 货币基金 suitable_for 保守型投资者 |
-| `opposite_of` | 相对概念 | 主动管理 opposite_of 被动管理 |
-| `related` | 弱关联 | DV01 related 久期 |
+| `exposed_to` | 承担某种风险 | 固定收益 exposed_to 利率风险 |
+| `opposite_of` | 相对概念 | 主动投资 opposite_of 被动投资 |
+| `related` | 弱关联 | 信用周期 related 信用利差 |
 
-关系类型越少，Agent 推理越稳定；新增关系类型需经评审。
+`suitable_for` 保留给规则层，基础层禁止出现。完整约束见 [09 · 建模规则](09-kg-rules.md)。
 
 ### 3.3 基础层来源
 
