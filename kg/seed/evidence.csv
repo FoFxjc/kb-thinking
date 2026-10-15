@@ -1,0 +1,660 @@
+evidence_id,target_type,target_id,evidence_type,source_name,locator,lookup_term,verified,doc_id,chunk_id,quote,note,created_by
+ev-000001,concept,asset.equity,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000002,concept,asset.equity,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Equity,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000003,concept,asset.fixed_income,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000004,concept,asset.fixed_income,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Fixed income,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000005,concept,asset.cash,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000006,concept,asset.cash,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Cash and cash equivalents,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000007,concept,asset.alternative,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000008,concept,asset.alternative,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Alternative assets,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000009,concept,asset.real_estate,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000010,concept,asset.real_estate,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Real estate,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000011,concept,asset.commodity,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000012,concept,asset.commodity,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Commodities,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000013,concept,asset.gold,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000014,concept,asset.gold,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Gold,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000015,concept,asset.private_equity,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000016,concept,asset.private_equity,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Private equity,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000017,concept,asset.private_credit,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000018,concept,asset.private_credit,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Private credit,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000019,concept,asset.infrastructure,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000020,concept,asset.infrastructure,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Infrastructure,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000021,concept,asset.multi_asset,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000022,concept,asset.multi_asset,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Multi-asset,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000023,concept,inst.financial_instrument,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000024,concept,inst.financial_instrument,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Financial instrument,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000025,concept,inst.security,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000026,concept,inst.security,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Security,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000027,concept,inst.stock,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000028,concept,inst.stock,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Stock,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000029,concept,inst.common_stock,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000030,concept,inst.common_stock,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Common stock,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000031,concept,inst.preferred_stock,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000032,concept,inst.preferred_stock,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Preferred stock,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000033,concept,inst.bond,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000034,concept,inst.bond,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Bond,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000035,concept,inst.government_bond,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000036,concept,inst.government_bond,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Government bond,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000037,concept,inst.credit_bond,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000038,concept,inst.credit_bond,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Credit bond,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000039,concept,inst.corporate_bond,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000040,concept,inst.corporate_bond,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Corporate bond,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000041,concept,inst.high_yield_bond,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000042,concept,inst.high_yield_bond,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,High-yield bond,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000043,concept,inst.convertible_bond,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000044,concept,inst.convertible_bond,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Convertible bond,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000045,concept,inst.zero_coupon_bond,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000046,concept,inst.zero_coupon_bond,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Zero-coupon bond,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000047,concept,inst.inflation_linked_bond,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000048,concept,inst.inflation_linked_bond,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Inflation-linked bond,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000049,concept,inst.money_market_instrument,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000050,concept,inst.money_market_instrument,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Money market instrument,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000051,concept,inst.deposit,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000052,concept,inst.deposit,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Deposit,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000053,concept,inst.fund,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000054,concept,inst.fund,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Investment fund,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000055,concept,inst.mutual_fund,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000056,concept,inst.mutual_fund,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Mutual fund,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000057,concept,inst.etf,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000058,concept,inst.etf,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Exchange-traded fund,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000059,concept,inst.index_fund,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000060,concept,inst.index_fund,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Index fund,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000061,concept,inst.money_market_fund,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000062,concept,inst.money_market_fund,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Money market fund,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000063,concept,inst.bond_fund,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000064,concept,inst.bond_fund,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Bond fund,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000065,concept,inst.equity_fund,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000066,concept,inst.equity_fund,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Equity fund,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000067,concept,inst.balanced_fund,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000068,concept,inst.balanced_fund,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Balanced fund,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000069,concept,inst.fund_of_funds,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000070,concept,inst.fund_of_funds,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Fund of funds,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000071,concept,inst.target_date_fund,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000072,concept,inst.target_date_fund,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Target-date fund,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000073,concept,inst.private_fund,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000074,concept,inst.private_fund,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Private fund,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000075,concept,inst.hedge_fund,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000076,concept,inst.hedge_fund,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Hedge fund,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000077,concept,inst.reit,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000078,concept,inst.reit,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Real estate investment trust,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000079,concept,inst.derivative,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000080,concept,inst.derivative,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Derivative,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000081,concept,inst.option,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000082,concept,inst.option,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Option,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000083,concept,inst.call_option,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000084,concept,inst.call_option,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Call option,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000085,concept,inst.put_option,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000086,concept,inst.put_option,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Put option,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000087,concept,inst.future,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000088,concept,inst.future,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Futures contract,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000089,concept,inst.forward,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000090,concept,inst.forward,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Forward contract,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000091,concept,inst.swap,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000092,concept,inst.swap,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Swap,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000093,concept,inst.interest_rate_swap,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000094,concept,inst.interest_rate_swap,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Interest rate swap,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000095,concept,inst.cds,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000096,concept,inst.cds,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Credit default swap,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000097,concept,inst.structured_product,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000098,concept,inst.structured_product,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Structured product,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000099,concept,inst.structured_deposit,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000100,concept,inst.structured_deposit,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Structured deposit,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000101,concept,inst.wealth_management_product,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000102,concept,inst.wealth_management_product,reference,"FIBO - Financial Industry Business Ontology (EDM Council, MIT)",https://spec.edmcouncil.org/fibo/,Wealth management product,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000103,concept,risk.investment_risk,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000104,concept,risk.investment_risk,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Investment risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000105,concept,risk.systematic,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000106,concept,risk.systematic,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Systematic risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000107,concept,risk.unsystematic,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000108,concept,risk.unsystematic,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Unsystematic risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000109,concept,risk.market,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000110,concept,risk.market,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Market risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000111,concept,risk.equity_price,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000112,concept,risk.equity_price,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Equity price risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000113,concept,risk.interest_rate,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000114,concept,risk.interest_rate,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Interest rate risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000115,concept,risk.fx,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000116,concept,risk.fx,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Currency risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000117,concept,risk.commodity_price,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000118,concept,risk.commodity_price,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Commodity price risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000119,concept,risk.credit,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000120,concept,risk.credit,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Credit risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000121,concept,risk.default,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000122,concept,risk.default,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Default risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000123,concept,risk.counterparty,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000124,concept,risk.counterparty,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Counterparty risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000125,concept,risk.liquidity,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000126,concept,risk.liquidity,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Liquidity risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000127,concept,risk.inflation,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000128,concept,risk.inflation,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Inflation risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000129,concept,risk.reinvestment,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000130,concept,risk.reinvestment,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Reinvestment risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000131,concept,risk.concentration,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000132,concept,risk.concentration,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Concentration risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000133,concept,risk.leverage,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000134,concept,risk.leverage,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Leverage risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000135,concept,risk.tail,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000136,concept,risk.tail,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Tail risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000137,concept,risk.sequence_of_returns,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000138,concept,risk.sequence_of_returns,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Sequence-of-returns risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000139,concept,risk.regulatory,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000140,concept,risk.regulatory,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Regulatory risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000141,concept,risk.country,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000142,concept,risk.country,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Country risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000143,concept,metric.return,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000144,concept,metric.return,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Return,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000145,concept,metric.total_return,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000146,concept,metric.total_return,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Total return,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000147,concept,metric.annualized_return,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000148,concept,metric.annualized_return,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Annualized return,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000149,concept,metric.real_return,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000150,concept,metric.real_return,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Real return,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000151,concept,metric.excess_return,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000152,concept,metric.excess_return,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Excess return,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000153,concept,metric.risk_adjusted_return,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000154,concept,metric.risk_adjusted_return,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Risk-adjusted return,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000155,concept,metric.sharpe,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000156,concept,metric.sharpe,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Sharpe ratio,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000157,concept,metric.sortino,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000158,concept,metric.sortino,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Sortino ratio,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000159,concept,metric.information_ratio,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000160,concept,metric.information_ratio,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Information ratio,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000161,concept,metric.alpha,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000162,concept,metric.alpha,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Alpha,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000163,concept,metric.beta,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000164,concept,metric.beta,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Beta,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000165,concept,metric.volatility,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000166,concept,metric.volatility,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Volatility,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000167,concept,metric.standard_deviation,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000168,concept,metric.standard_deviation,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Standard deviation,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000169,concept,metric.max_drawdown,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000170,concept,metric.max_drawdown,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Maximum drawdown,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000171,concept,metric.var,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000172,concept,metric.var,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Value at risk,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000173,concept,metric.tracking_error,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000174,concept,metric.tracking_error,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Tracking error,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000175,concept,metric.correlation,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000176,concept,metric.correlation,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Correlation,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000177,concept,metric.duration,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000178,concept,metric.duration,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Duration,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000179,concept,metric.modified_duration,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000180,concept,metric.modified_duration,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Modified duration,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000181,concept,metric.convexity,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000182,concept,metric.convexity,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Convexity,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000183,concept,metric.dv01,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000184,concept,metric.dv01,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,DV01,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000185,concept,metric.ytm,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000186,concept,metric.ytm,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Yield to maturity,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000187,concept,metric.coupon_rate,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000188,concept,metric.coupon_rate,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Coupon rate,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000189,concept,metric.credit_spread,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000190,concept,metric.credit_spread,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Credit spread,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000191,concept,metric.credit_rating,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000192,concept,metric.credit_rating,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Credit rating,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000193,concept,metric.dividend_yield,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000194,concept,metric.dividend_yield,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Dividend yield,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000195,concept,metric.valuation_multiple,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000196,concept,metric.valuation_multiple,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Valuation multiple,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000197,concept,metric.pe,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000198,concept,metric.pe,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Price-to-earnings ratio,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000199,concept,metric.pb,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000200,concept,metric.pb,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Price-to-book ratio,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000201,concept,metric.ev_ebitda,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000202,concept,metric.ev_ebitda,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,EV/EBITDA,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000203,concept,metric.eps,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000204,concept,metric.eps,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Earnings per share,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000205,concept,metric.roe,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000206,concept,metric.roe,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Return on equity,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000207,concept,metric.market_cap,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000208,concept,metric.market_cap,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Market capitalization,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000209,concept,metric.expense_ratio,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000210,concept,metric.expense_ratio,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Expense ratio,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000211,concept,metric.nav,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000212,concept,metric.nav,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Net asset value,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000213,concept,metric.aum,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000214,concept,metric.aum,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Assets under management,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000215,concept,metric.turnover,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000216,concept,metric.turnover,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Turnover ratio,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000217,concept,metric.bid_ask_spread,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000218,concept,metric.bid_ask_spread,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Bid-ask spread,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000219,concept,strat.asset_allocation,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000220,concept,strat.asset_allocation,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Asset allocation,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000221,concept,strat.strategic_aa,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000222,concept,strat.strategic_aa,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Strategic asset allocation,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000223,concept,strat.tactical_aa,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000224,concept,strat.tactical_aa,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Tactical asset allocation,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000225,concept,strat.risk_parity,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000226,concept,strat.risk_parity,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Risk parity,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000227,concept,strat.core_satellite,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000228,concept,strat.core_satellite,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Core-satellite strategy,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000229,concept,strat.diversification,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000230,concept,strat.diversification,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Diversification,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000231,concept,strat.rebalancing,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000232,concept,strat.rebalancing,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Rebalancing,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000233,concept,strat.dca,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000234,concept,strat.dca,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Dollar-cost averaging,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000235,concept,strat.buy_and_hold,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000236,concept,strat.buy_and_hold,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Buy and hold,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000237,concept,strat.market_timing,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000238,concept,strat.market_timing,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Market timing,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000239,concept,strat.passive,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000240,concept,strat.passive,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Passive investing,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000241,concept,strat.active,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000242,concept,strat.active,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Active management,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000243,concept,strat.value,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000244,concept,strat.value,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Value investing,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000245,concept,strat.growth,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000246,concept,strat.growth,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Growth investing,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000247,concept,strat.factor,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000248,concept,strat.factor,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Factor investing,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000249,concept,strat.hedging,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000250,concept,strat.hedging,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Hedging,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000251,concept,strat.immunization,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000252,concept,strat.immunization,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Immunization,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000253,concept,strat.laddering,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000254,concept,strat.laddering,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Bond laddering,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000255,concept,strat.leverage,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000256,concept,strat.leverage,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Leveraged investing,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000257,concept,strat.income,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000258,concept,strat.income,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Income investing,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000259,concept,strat.esg,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000260,concept,strat.esg,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,ESG investing,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000261,concept,strat.glide_path,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000262,concept,strat.glide_path,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Glide path,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000263,concept,strat.stop_loss,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000264,concept,strat.stop_loss,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Stop-loss,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000265,concept,strat.long_short,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000266,concept,strat.long_short,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Long-short strategy,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000267,concept,macro.interest_rate,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000268,concept,macro.interest_rate,reference,Central bank / statistics agency glossary (to be selected),,Interest rate,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000269,concept,macro.policy_rate,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000270,concept,macro.policy_rate,reference,Central bank / statistics agency glossary (to be selected),,Policy rate,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000271,concept,macro.rate_hike,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000272,concept,macro.rate_hike,reference,Central bank / statistics agency glossary (to be selected),,Rate hike,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000273,concept,macro.rate_cut,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000274,concept,macro.rate_cut,reference,Central bank / statistics agency glossary (to be selected),,Rate cut,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000275,concept,macro.monetary_policy,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000276,concept,macro.monetary_policy,reference,Central bank / statistics agency glossary (to be selected),,Monetary policy,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000277,concept,macro.quantitative_easing,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000278,concept,macro.quantitative_easing,reference,Central bank / statistics agency glossary (to be selected),,Quantitative easing,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000279,concept,macro.fiscal_policy,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000280,concept,macro.fiscal_policy,reference,Central bank / statistics agency glossary (to be selected),,Fiscal policy,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000281,concept,macro.inflation,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000282,concept,macro.inflation,reference,Central bank / statistics agency glossary (to be selected),,Inflation,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000283,concept,macro.deflation,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000284,concept,macro.deflation,reference,Central bank / statistics agency glossary (to be selected),,Deflation,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000285,concept,macro.cpi,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000286,concept,macro.cpi,reference,Central bank / statistics agency glossary (to be selected),,Consumer price index,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000287,concept,macro.economic_growth,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000288,concept,macro.economic_growth,reference,Central bank / statistics agency glossary (to be selected),,Economic growth,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000289,concept,macro.gdp,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000290,concept,macro.gdp,reference,Central bank / statistics agency glossary (to be selected),,Gross domestic product,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000291,concept,macro.business_cycle,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000292,concept,macro.business_cycle,reference,Central bank / statistics agency glossary (to be selected),,Business cycle,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000293,concept,macro.recession,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000294,concept,macro.recession,reference,Central bank / statistics agency glossary (to be selected),,Recession,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000295,concept,macro.unemployment,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000296,concept,macro.unemployment,reference,Central bank / statistics agency glossary (to be selected),,Unemployment rate,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000297,concept,macro.yield_curve,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000298,concept,macro.yield_curve,reference,Central bank / statistics agency glossary (to be selected),,Yield curve,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000299,concept,macro.yield_curve_inversion,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000300,concept,macro.yield_curve_inversion,reference,Central bank / statistics agency glossary (to be selected),,Yield curve inversion,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000301,concept,macro.exchange_rate,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000302,concept,macro.exchange_rate,reference,Central bank / statistics agency glossary (to be selected),,Exchange rate,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000303,concept,macro.credit_cycle,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000304,concept,macro.credit_cycle,reference,Central bank / statistics agency glossary (to be selected),,Credit cycle,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000305,concept,market.bond_price,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000306,concept,market.bond_price,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Bond price,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000307,concept,market.index,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000308,concept,market.index,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Market index,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000309,concept,market.benchmark,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000310,concept,market.benchmark,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Benchmark,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000311,concept,market.liquidity,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000312,concept,market.liquidity,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Market liquidity,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000313,concept,market.bull_market,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000314,concept,market.bull_market,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Bull market,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000315,concept,market.bear_market,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000316,concept,market.bear_market,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Bear market,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000317,concept,market.primary_market,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000318,concept,market.primary_market,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Primary market,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000319,concept,market.secondary_market,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000320,concept,market.secondary_market,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Secondary market,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000321,concept,market.ipo,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000322,concept,market.ipo,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Initial public offering,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000323,concept,market.dividend,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000324,concept,market.dividend,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Dividend,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000325,concept,market.coupon,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000326,concept,market.coupon,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Coupon payment,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000327,concept,market.maturity,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000328,concept,market.maturity,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Maturity,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000329,concept,market.fees,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000330,concept,market.fees,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Investment fees,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000331,concept,market.margin_trading,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000332,concept,market.margin_trading,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Margin trading,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000333,concept,market.short_selling,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000334,concept,market.short_selling,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Short selling,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000335,concept,market.risk_premium,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000336,concept,market.risk_premium,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Risk premium,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000337,concept,market.risk_free_rate,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000338,concept,market.risk_free_rate,reference,Investor.gov Glossary (U.S. SEC),https://www.investor.gov/introduction-investing/investing-basics/glossary,Risk-free rate,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000339,concept,suit.suitability,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000340,concept,suit.suitability,reference,Local regulator suitability rules (to be selected),,Suitability,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000341,concept,suit.kyc,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000342,concept,suit.kyc,reference,Local regulator suitability rules (to be selected),,Know your customer,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000343,concept,suit.investor_profile,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000344,concept,suit.investor_profile,reference,Local regulator suitability rules (to be selected),,Investor profile,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000345,concept,suit.risk_tolerance,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000346,concept,suit.risk_tolerance,reference,Local regulator suitability rules (to be selected),,Risk tolerance,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000347,concept,suit.risk_appetite,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000348,concept,suit.risk_appetite,reference,Local regulator suitability rules (to be selected),,Risk appetite,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000349,concept,suit.investment_horizon,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000350,concept,suit.investment_horizon,reference,Local regulator suitability rules (to be selected),,Investment horizon,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000351,concept,suit.liquidity_needs,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000352,concept,suit.liquidity_needs,reference,Local regulator suitability rules (to be selected),,Liquidity needs,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000353,concept,suit.investment_objective,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000354,concept,suit.investment_objective,reference,Local regulator suitability rules (to be selected),,Investment objective,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000355,concept,suit.investor_risk_category,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000356,concept,suit.investor_risk_category,reference,Local regulator suitability rules (to be selected),,Investor risk category,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000357,concept,suit.conservative,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000358,concept,suit.conservative,reference,Local regulator suitability rules (to be selected),,Conservative investor,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000359,concept,suit.balanced,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000360,concept,suit.balanced,reference,Local regulator suitability rules (to be selected),,Balanced investor,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000361,concept,suit.aggressive,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000362,concept,suit.aggressive,reference,Local regulator suitability rules (to be selected),,Aggressive investor,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000363,concept,suit.product_risk_rating,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000364,concept,suit.product_risk_rating,reference,Local regulator suitability rules (to be selected),,Product risk rating,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000365,concept,suit.qualified_investor,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000366,concept,suit.qualified_investor,reference,Local regulator suitability rules (to be selected),,Qualified investor,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000367,concept,suit.risk_disclosure,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000368,concept,suit.risk_disclosure,reference,Local regulator suitability rules (to be selected),,Risk disclosure,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000369,concept,suit.retirement_planning,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000370,concept,suit.retirement_planning,reference,Local regulator suitability rules (to be selected),,Retirement planning,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000371,concept,suit.emergency_fund,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000372,concept,suit.emergency_fund,reference,Local regulator suitability rules (to be selected),,Emergency fund,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000373,concept,behav.behavioral_bias,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000374,concept,behav.behavioral_bias,reference,Behavioral finance literature (to be cited),,Behavioral bias,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000375,concept,behav.loss_aversion,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000376,concept,behav.loss_aversion,reference,Behavioral finance literature (to be cited),,Loss aversion,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000377,concept,behav.herding,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000378,concept,behav.herding,reference,Behavioral finance literature (to be cited),,Herding,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000379,concept,behav.overconfidence,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000380,concept,behav.overconfidence,reference,Behavioral finance literature (to be cited),,Overconfidence,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000381,concept,behav.anchoring,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000382,concept,behav.anchoring,reference,Behavioral finance literature (to be cited),,Anchoring,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000383,concept,behav.disposition_effect,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000384,concept,behav.disposition_effect,reference,Behavioral finance literature (to be cited),,Disposition effect,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000385,concept,behav.recency_bias,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000386,concept,behav.recency_bias,reference,Behavioral finance literature (to be cited),,Recency bias,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000387,concept,behav.confirmation_bias,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000388,concept,behav.confirmation_bias,reference,Behavioral finance literature (to be cited),,Confirmation bias,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000389,concept,behav.mental_accounting,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000390,concept,behav.mental_accounting,reference,Behavioral finance literature (to be cited),,Mental accounting,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000391,concept,behav.home_bias,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000392,concept,behav.home_bias,reference,Behavioral finance literature (to be cited),,Home bias,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000393,concept,behav.fomo,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted definition and labels; pending expert review,seed-v0.1
+ev-000394,concept,behav.fomo,reference,Behavioral finance literature (to be cited),,Fear of missing out,false,,,,Verify definition against source; do not copy text,seed-v0.1
+ev-000395,relation,rl-000001,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000396,relation,rl-000002,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000397,relation,rl-000003,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000398,relation,rl-000004,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000399,relation,rl-000005,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000400,relation,rl-000006,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000401,relation,rl-000007,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000402,relation,rl-000008,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000403,relation,rl-000009,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000404,relation,rl-000010,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000405,relation,rl-000011,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000406,relation,rl-000012,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000407,relation,rl-000013,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000408,relation,rl-000014,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000409,relation,rl-000015,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000410,relation,rl-000016,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000411,relation,rl-000017,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000412,relation,rl-000018,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000413,relation,rl-000019,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000414,relation,rl-000020,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000415,relation,rl-000021,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000416,relation,rl-000022,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000417,relation,rl-000023,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000418,relation,rl-000024,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000419,relation,rl-000025,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000420,relation,rl-000026,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000421,relation,rl-000027,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000422,relation,rl-000028,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000423,relation,rl-000029,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000424,relation,rl-000030,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000425,relation,rl-000031,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000426,relation,rl-000032,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000427,relation,rl-000033,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000428,relation,rl-000034,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000429,relation,rl-000035,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000430,relation,rl-000036,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000431,relation,rl-000037,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000432,relation,rl-000038,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000433,relation,rl-000039,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000434,relation,rl-000040,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000435,relation,rl-000041,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000436,relation,rl-000042,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000437,relation,rl-000043,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000438,relation,rl-000044,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000439,relation,rl-000045,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000440,relation,rl-000046,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000441,relation,rl-000047,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000442,relation,rl-000048,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000443,relation,rl-000049,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000444,relation,rl-000050,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000445,relation,rl-000051,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000446,relation,rl-000052,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000447,relation,rl-000053,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000448,relation,rl-000054,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000449,relation,rl-000055,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000450,relation,rl-000056,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000451,relation,rl-000057,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000452,relation,rl-000058,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000453,relation,rl-000059,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000454,relation,rl-000060,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000455,relation,rl-000061,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000456,relation,rl-000062,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000457,relation,rl-000063,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000458,relation,rl-000064,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000459,relation,rl-000065,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000460,relation,rl-000066,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000461,relation,rl-000067,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000462,relation,rl-000068,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000463,relation,rl-000069,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000464,relation,rl-000070,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000465,relation,rl-000071,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000466,relation,rl-000072,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000467,relation,rl-000073,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000468,relation,rl-000074,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000469,relation,rl-000075,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000470,relation,rl-000076,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000471,relation,rl-000077,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000472,relation,rl-000078,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000473,relation,rl-000079,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000474,relation,rl-000080,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000475,relation,rl-000081,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000476,relation,rl-000082,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000477,relation,rl-000083,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000478,relation,rl-000084,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000479,relation,rl-000085,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000480,relation,rl-000086,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000481,relation,rl-000087,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000482,relation,rl-000088,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000483,relation,rl-000089,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000484,relation,rl-000090,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000485,relation,rl-000091,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000486,relation,rl-000092,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000487,relation,rl-000093,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000488,relation,rl-000094,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000489,relation,rl-000095,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000490,relation,rl-000096,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000491,relation,rl-000097,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000492,relation,rl-000098,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000493,relation,rl-000099,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000494,relation,rl-000100,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000495,relation,rl-000101,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000496,relation,rl-000102,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000497,relation,rl-000103,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000498,relation,rl-000104,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000499,relation,rl-000105,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000500,relation,rl-000106,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000501,relation,rl-000107,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000502,relation,rl-000108,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000503,relation,rl-000109,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000504,relation,rl-000110,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000505,relation,rl-000111,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000506,relation,rl-000112,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000507,relation,rl-000113,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000508,relation,rl-000114,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000509,relation,rl-000115,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000510,relation,rl-000116,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000511,relation,rl-000117,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000512,relation,rl-000118,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000513,relation,rl-000119,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000514,relation,rl-000120,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000515,relation,rl-000121,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000516,relation,rl-000122,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000517,relation,rl-000123,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000518,relation,rl-000124,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000519,relation,rl-000125,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000520,relation,rl-000126,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000521,relation,rl-000127,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000522,relation,rl-000128,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000523,relation,rl-000129,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000524,relation,rl-000130,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000525,relation,rl-000131,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000526,relation,rl-000132,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000527,relation,rl-000133,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000528,relation,rl-000134,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000529,relation,rl-000135,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000530,relation,rl-000136,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000531,relation,rl-000137,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000532,relation,rl-000138,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000533,relation,rl-000139,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000534,relation,rl-000140,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000535,relation,rl-000141,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000536,relation,rl-000142,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000537,relation,rl-000143,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000538,relation,rl-000144,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000539,relation,rl-000145,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000540,relation,rl-000146,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000541,relation,rl-000147,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000542,relation,rl-000148,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000543,relation,rl-000149,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000544,relation,rl-000150,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000545,relation,rl-000151,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000546,relation,rl-000152,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000547,relation,rl-000153,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000548,relation,rl-000154,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000549,relation,rl-000155,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000550,relation,rl-000156,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000551,relation,rl-000157,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000552,relation,rl-000158,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000553,relation,rl-000159,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000554,relation,rl-000160,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000555,relation,rl-000161,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000556,relation,rl-000162,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000557,relation,rl-000163,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000558,relation,rl-000164,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000559,relation,rl-000165,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000560,relation,rl-000166,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000561,relation,rl-000167,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000562,relation,rl-000168,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000563,relation,rl-000169,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000564,relation,rl-000170,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000565,relation,rl-000171,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000566,relation,rl-000172,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000567,relation,rl-000173,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000568,relation,rl-000174,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000569,relation,rl-000175,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000570,relation,rl-000176,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000571,relation,rl-000177,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000572,relation,rl-000178,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000573,relation,rl-000179,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000574,relation,rl-000180,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000575,relation,rl-000181,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000576,relation,rl-000182,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000577,relation,rl-000183,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000578,relation,rl-000184,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000579,relation,rl-000185,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000580,relation,rl-000186,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000581,relation,rl-000187,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000582,relation,rl-000188,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000583,relation,rl-000189,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000584,relation,rl-000190,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000585,relation,rl-000191,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000586,relation,rl-000192,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000587,relation,rl-000193,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000588,relation,rl-000194,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000589,relation,rl-000195,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000590,relation,rl-000196,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000591,relation,rl-000197,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000592,relation,rl-000198,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000593,relation,rl-000199,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000594,relation,rl-000200,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000595,relation,rl-000201,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000596,relation,rl-000202,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000597,relation,rl-000203,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000598,relation,rl-000204,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000599,relation,rl-000205,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000600,relation,rl-000206,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000601,relation,rl-000207,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000602,relation,rl-000208,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000603,relation,rl-000209,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000604,relation,rl-000210,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000605,relation,rl-000211,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000606,relation,rl-000212,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000607,relation,rl-000213,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000608,relation,rl-000214,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000609,relation,rl-000215,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000610,relation,rl-000216,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000611,relation,rl-000217,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000612,relation,rl-000218,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000613,relation,rl-000219,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000614,relation,rl-000220,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000615,relation,rl-000221,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000616,relation,rl-000222,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000617,relation,rl-000223,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000618,relation,rl-000224,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000619,relation,rl-000225,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000620,relation,rl-000226,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000621,relation,rl-000227,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000622,relation,rl-000228,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000623,relation,rl-000229,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000624,relation,rl-000230,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000625,relation,rl-000231,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000626,relation,rl-000232,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000627,relation,rl-000233,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000628,relation,rl-000234,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000629,relation,rl-000235,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000630,relation,rl-000236,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000631,relation,rl-000237,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000632,relation,rl-000238,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000633,relation,rl-000239,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000634,relation,rl-000240,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000635,relation,rl-000241,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000636,relation,rl-000242,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000637,relation,rl-000243,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000638,relation,rl-000244,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000639,relation,rl-000245,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000640,relation,rl-000246,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000641,relation,rl-000247,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000642,relation,rl-000248,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000643,relation,rl-000249,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000644,relation,rl-000250,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000645,relation,rl-000251,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000646,relation,rl-000252,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000647,relation,rl-000253,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000648,relation,rl-000254,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000649,relation,rl-000255,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000650,relation,rl-000256,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000651,relation,rl-000257,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000652,relation,rl-000258,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000653,relation,rl-000259,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000654,relation,rl-000260,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000655,relation,rl-000261,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000656,relation,rl-000262,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000657,relation,rl-000263,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000658,relation,rl-000264,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1
+ev-000659,relation,rl-000265,authoring,kb-thinking seed v0.1,,,false,,,,LLM-drafted relation; pending expert review,seed-v0.1

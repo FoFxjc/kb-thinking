@@ -48,19 +48,19 @@ flowchart LR
 | 适当性 | 风险承受能力、投资期限、流动性需求、投资者分类 |
 | 行为金融 | 损失厌恶、羊群效应、过度自信 |
 
-MVP 种子范围建议：约 **400 个概念**，覆盖前 6 类。
+MVP 种子范围建议：约 **400 个概念**。已完成的种子 v0.1 有 197 个概念、9 个分类（另增 `market` 市场与交易），见 [08](08-concept-graph-seed.md)。
 
 ### 3.2 关系类型（固定集合）
 
 | 关系 | 含义 | 示例 |
 |---|---|---|
 | `is_a` | 上下位 | 利率风险 is_a 市场风险 |
-| `part_of` | 组成 | 久期 part_of 债券分析 |
+| `part_of` | 组成 | 再平衡 part_of 资产配置 |
 | `measures` | 度量 | 久期 measures 利率风险 |
 | `affects` | 影响（带正负方向） | 利率 affects(−) 债券价格 |
 | `mitigates` | 缓释 | 分散化 mitigates 非系统性风险 |
-| `applies_to` | 适用对象 | 利率风险 applies_to 固定收益 |
-| `suitable_for` | 适当性匹配 | 低波动产品 suitable_for 保守型投资者 |
+| `exposed_to` | 资产 / 工具承担某种风险 | 固定收益 exposed_to 利率风险 |
+| `suitable_for` | 适当性匹配（仅示意） | 货币基金 suitable_for 保守型投资者 |
 | `opposite_of` | 相对概念 | 主动管理 opposite_of 被动管理 |
 | `related` | 弱关联 | DV01 related 久期 |
 
@@ -75,7 +75,7 @@ MVP 种子范围建议：约 **400 个概念**，覆盖前 6 类。
 
 ### 3.4 多语言与别名
 
-每个概念有中英文首选名、别名、缩写，例如"夏普 / Sharpe / SR"指向同一概念，用于术语识别与检索扩展。
+每个概念有中英文首选名、别名、缩写，例如"夏普 / Sharpe"指向同一概念，用于术语识别与检索扩展。
 
 ## 4. 递增层（MVP 之后）
 
@@ -85,52 +85,12 @@ MVP 种子范围建议：约 **400 个概念**，覆盖前 6 类。
 2. **审核**：在 Hub console 中由概念负责人确认 / 驳回
 3. **冲突处理**：与基础层矛盾时生成冲突记录，不覆盖
 
-## 5. 数据模型（Postgres，草案）
+## 5. 数据模型（Postgres）
 
-```sql
--- 逻辑模型草案，仅用于架构说明
-CREATE TABLE kg.concepts (
-  concept_id     text PRIMARY KEY,
-  scheme         text,        -- asset_class / instrument / risk / metric / strategy / macro / suitability / behavioral
-  pref_zh        text,
-  pref_en        text,
-  definition_zh  text,
-  definition_en  text,
-  layer          text,        -- base / doc
-  status         text,        -- confirmed / pending / rejected
-  version        int
-);
+五张表：`concept`、`label`、`relation`、`evidence`、`call_audit`。完整 DDL 见 [`kg/schema.sql`](../kg/schema.sql)，字段说明与种子数据见 [08 · 概念图谱种子](08-concept-graph-seed.md#2-数据模型五张表)。
 
-CREATE TABLE kg.labels (       -- 同义词、缩写，用于术语识别
-  concept_id  text REFERENCES kg.concepts,
-  label       text,
-  lang        text,            -- zh / en
-  kind        text             -- pref / alt / abbr
-);
--- 模糊匹配：pg_trgm 的 GIN 索引
-
-CREATE TABLE kg.relations (
-  src         text,
-  rel         text,            -- 固定关系集合
-  dst         text,
-  direction   smallint,        -- affects 的正负：+1 / -1
-  layer       text,
-  confidence  real,
-  status      text,
-  PRIMARY KEY (src, rel, dst)
-);
-
-CREATE TABLE kg.evidence (     -- 递增层的出处
-  concept_id  text,
-  src text, rel text, dst text,
-  doc_id      text,
-  chunk_id    text,
-  quote       text,
-  job_id      text
-);
-```
-
-- 遍历使用普通表 + 递归 CTE（1–3 跳足够）；MVP 不引入 Apache AGE。
+- 遍历使用普通表 + 递归 CTE（1–3 跳足够）；MVP 不引入 Apache AGE。参考查询见 [`kg/queries.sql`](../kg/queries.sql)。
+- 中文术语识别在标注器端用词典匹配完成；`pg_trgm` 对中文两字词基本无效（见 [08 §4](08-concept-graph-seed.md#4-验证结果)）。
 - 概念图谱与 Hub DB 可以同属一个 Postgres 集群，但分开 database。
 
 ## 6. Agent 如何使用
